@@ -1,14 +1,19 @@
+
 # Sublime utilidades
 
-##  corretor ortográfico em português - instalar e ativar 
+##  Corretor ortográfico em português - instalar e ativar
 
 1. na tela de edição, digitar 'Ctrl + Shift + P';
 
 2. quando abrir a caixa de seleção, digitar 'Package Control: Install Packages' e tecle enter;
 
-3. digitar 'Portuguese', vai aparecer uma opção de dicionário em português para baixar (Cucumber)
+![](static/sublime1.png)
 
-4. na opção 'view' da barra de ferramentas - marcar 'spell check'
+3. uma nova caixa de seleção será aberta, digitar 'Portuguese', vai aparecer uma opção de dicionário em português para baixar (Cucumber)
+
+![](static/sublime2.png)
+
+4. na opção 'view' da barra de ferramentas - marcar 'spell check' ou utilize a tecla de atalho F6
 
 5. ainda na opção 'view' - acessar 'dictionary' ao final da lista e trocar para 'português'
 
@@ -19,7 +24,7 @@
 
 2. quando abrir a caixa de seleção, digitar 'Package Control: Install Packages' e tecle enter;
 
-3. digitar 'Markdown preview', baixar o pacote;
+3. uma nova caixa de seleção será aberta, digitar 'Markdown preview', baixar o pacote;
 
 4. na opção 'preferences' da barra de ferramentas, acessar 'key bindings'
 
@@ -27,7 +32,10 @@
 
 ````
 {
-        "keys": ["ctrl+shift+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"pandoc"} 
+        "keys": ["ctrl+shift+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"pandoc"}
     }
 ````
-6. para acessar o markdown clique "ctrl+shift+m". O markdown será exibido no browser.
+
+![](static/sublime3.png)
+
+6. para acessar o preview clique 'ctrl+shift+m'. O preview será exibido no browser do navegador.
