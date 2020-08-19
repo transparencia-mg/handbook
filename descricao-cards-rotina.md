@@ -1,31 +1,26 @@
 
 # Cards Rotina
 
-As atividades de rotina da DTA estão elencadas no board [DTA_word](https://trello.com/b/NvJ4SU6b/dtawork) na lista **Rotina** em forma de cards.
+As atividades de rotina da DTA estão elencadas no board [DTA_word](https://trello.com/b/NvJ4SU6b/dtawork), na lista **Rotina**, em forma de cards.
 
-Considerando a periodicidade de cada atividade o card é enviado à lista Planejadas para que a atividade seja executada. A periodicidade das atividades é:
+Considerando a periodicidade de cada atividade, o card é enviado à lista Planejadas, para que a atividade seja executada. A listagem das atividades por periodicidade é:
 
-* Diária
-* Mensal
-* Bimestral
-* Anual
-* Sob demanda
+* Mensal: [Relatórios Google Analytics](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#relat%C3%B3rios-google-analytics), [Planilha de Remuneração](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#planilha-de-remunera%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Voos do Governador](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#voos-do-governador---atualiza%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios)
+
+* Bimestral: [PPAG - monitoramento](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---monitoramento-bimestral)
+
+* Trimestral: [Termos de Parceria e Contratos de Gestão](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-dataset-termos-de-parceria-e-contratos-de-gest%C3%A3o)
+
+* Anual: [Remuneração - 13º salário](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#remunera%C3%A7%C3%A3o---13%C2%BA-sal%C3%A1rio-at%C3%A9-3001), [PPAG - carga inicial](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---carga-inicial), [Proposta orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#proposta-or%C3%A7ament%C3%A1ria), [Emenda Orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#emenda-or%C3%A7ament%C3%A1ria), [Consulta de Obras](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#consulta-de-obras)
+
+* Sob demanda: [Fale Conosco](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#fale-conosco), [Contratações por dispensa - Coronavírus](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-de-contrata%C3%A7%C3%B5es-por-dispensa---coronav%C3%ADrus), [Upload do arquivo de contratações emergenciais](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais), [Doações ao Estado](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-dataset-doa%C3%A7%C3%B5es-ao-estado)
 
 Abaixo segue o texto descritivo de cada atividade:
-
-## Diária
-<a href="#top">(inicio)</a>
-
-##### [Upload diário ÓBITOS confirmados COVID-19](https://trello.com/c/Fp1TXYcl/438)
-
-* Utilizar e atualizar [script próprio no repositório](https://github.com/transparencia-mg/inventario-de-dados/tree/master/obitos-covid19)
-* Atualizar [conjunto de dados no CKAN](http://www.transparencia.dadosabertos.mg.gov.br/dataset/obitos-confirmados-coronavirus)
-* [Card referência](https://trello.com/c/xvPjj3tN)
 
 ## Mensal
 <a href="#top">(inicio)</a>
 
-##### [Relatórios Google Analytics](https://trello.com/c/6CFT6l0A/4-at%C3%A9-5-dia-%C3%BAtil-relat%C3%B3rios-google-analytics)
+#### [Relatórios Google Analytics](https://trello.com/c/6CFT6l0A/4-at%C3%A9-5-dia-%C3%BAtil-relat%C3%B3rios-google-analytics)
 
 O monitoramento de acessos ao Portal da Transparência é feito por meio da ferramenta [_“Google Analytics”,_](https://analytics.google.com/analytics/web/?authuser=1#/report-home/a64127876w99948559p103863874) capaz de identificar o número de acessos ao Portal, a quantidade de usuários novos ou recorrentes, bem como a localização geográfica desses, o sistema operacional e o navegador utilizados durante as consultas, dentre outros. As informações podem ser verificadas em períodos diários, semanais, mensais e/ou anuais.
 
@@ -82,7 +77,7 @@ A CGE publicará as informações recebidas no Portal da Transparência do Estad
 
 ##### [Workshops Alfabetização de Dados](https://trello.com/c/VvkNEV0P/195-workshops-alfabetiza%C3%A7%C3%A3o-de-dados)
 
-##### [Transferência de Impostos a Municípios](https://trello.com/c/aEIi8kxk/13-transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs)
+#### [Transferência de Impostos a Municípios](https://trello.com/c/aEIi8kxk/13-transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs)
 
 Consulta - [Transferência de Impostos a Municípios](http://transparencia.mg.gov.br/transferencia-de-impostos-a-municipios)
 --
@@ -99,14 +94,14 @@ Informações de junho devem ser disponibilizadas pela SEF até 31/07 (caso seja
 ## Bimestral
 <a href="#top">(inicio)</a>
 
-##### [PPAG - Monitoramento Bimestral](https://trello.com/c/FbJ5NSXL/12-ppag-monitoramento-bimestral)                      
+#### [PPAG - Monitoramento Bimestral](https://trello.com/c/FbJ5NSXL/12-ppag-monitoramento-bimestral)                      
 
 **Consultas Portal da Transparência**:                         
 
 => [Consulta PPAG  por programa](http://transparencia.mg.gov.br/planejamento-e-resultados/planejamento-e-monitoramento/programacao-execucao-ppag-programa/ppagprograma-programas/4/2019/0/0)  
 => [Consulta PPAG consolidado](http://transparencia.mg.gov.br/planejamento-e-resultados/planejamento-e-monitoramento/programacao-execucao-consolidado)
 
-### Regras para conferência
+##### Regras para conferência
 
 **1**. As consultas se baseiam nas informações extraídas no SIGPLAN e focará nas informações consolidadas do PPAG por programa, por unidade orçamentária responsável, função, território e ação orçamentária.
 
@@ -145,10 +140,30 @@ Telefone: 3915-0693
  luiz.moreira@prodemge.gov.br
  Telefone: 3915 -
 
+## Trimestral
+<a href="#top">(inicio)</a>
+
+#### [Termos de Parceria e Contratos de Gestão](https://trello.com/c/ok8tLlTp/453-atualiza%C3%A7%C3%A3o-dataset-termos-de-parceria-e-contratos-de-gest%C3%A3o)
+* [Repositório dados.mg github](https://github.com/dados-mg/termos-parceria-contratos-gestao)
+* [Conjunto de dados no CKAN](http://dados.mg.gov.br/dataset/termos-parceria-contratos-gestao)
+
+* Fonte intermediária das informações - [página SEPLAG](http://planejamento.mg.gov.br/documento/informacoes-dos-termos-de-parceria-e-contratos-de-gestao), caminho: Página inicial / Planejamento e Orçamento/OSCIP, OS, Organizações Sociais
+
+* Fontes durante o teletrabalho:
+
+      * para conferência, ver histórico: Backup [One Drive](https://onedrive.live.com/?id=8686837A27156968%2131139&cid=8686837A27156968)
+      * para produção: [Google drive](https://drive.google.com/drive/folders/1dhg1PB12TyaJ6xiqOdLaNbVJZ9crt25o)
+
+* contato:
+
+> Gustavo Henrique Ribeiro Santos
+> email: gustavo.ribeiro@planejamento.mg.gov.br
+> telefone: 3915-0452
+
 ## Anual
 <a href="#top">(inicio)</a>
 
-##### [Remuneração - 13º salário (até 30/01)](https://trello.com/c/dIjx4x4o/11-remunera%C3%A7%C3%A3o-13-sal%C3%A1rio-at%C3%A9-30-01)
+#### [Remuneração - 13º salário (até 30/01)](https://trello.com/c/dIjx4x4o/11-remunera%C3%A7%C3%A3o-13-sal%C3%A1rio-at%C3%A9-30-01)
 Enquanto ocorrer o parcelamento do 13º salário do servidor estadual, ao realizar a carga da planilha de Dezembro no Portal da Transparência deverá ser inserida a mensagem esclarecendo sobre a divulgação do pagamento integral do 13º salário no Portal da Transparência, mesmo sendo pago de forma parcelada.
 
 - **Prazo para realização da atividade:** até o dia 30 de janeiro
@@ -160,7 +175,7 @@ Enquanto ocorrer o parcelamento do 13º salário do servidor estadual, ao realiz
 
 
 
-##### [PPAG - Carga Inicial](https://trello.com/c/zvyBPBcJ/458-ppag-carga-inicial)
+#### [PPAG - Carga Inicial](https://trello.com/c/zvyBPBcJ/458-ppag-carga-inicial)
 
 **Consultas Portal da Transparência**
 
@@ -171,14 +186,13 @@ Atualmente o prazo para realizar a carga dos dados do SIGPLAN para o Portal da T
 
 Para um melhor acompanhamento da sociedade a partir do ano de 2021 deverá ser realizada a carga no Portal a partir da divulgação do PPAG sem os dados de monitoramento.
 
-### Regras para conferência
+##### Regras para conferência
 
 **1**. Os procedimentos para conferência estão descritos:
 
 [PPAG  por programa](https://github.com/transparencia-mg/campos-bo/blob/master/planejamento/campos_bo_planejamento_programa.md)
 
 [PPAG consolidado](https://github.com/transparencia-mg/campos-bo/blob/master/planejamento/campos_bo_planejamento_consolidado.md)
-
 
 **2**. Responsáveis pelas informações:
 
@@ -197,7 +211,7 @@ Telefone: 3915-0693
  luiz.moreira@prodemge.gov.br
  Telefone: 3915 -
 
-##### [Proposta Orçamentária](https://trello.com/c/vv7UjR4E/277-proposta-or%C3%A7ament%C3%A1ria)
+#### [Proposta Orçamentária](https://trello.com/c/vv7UjR4E/277-proposta-or%C3%A7ament%C3%A1ria)
 * Solicitar a SEPLAG a autorização para divulgação dos dados da Proposta Orçamentária (fase 1).
 
 Exemplo de e-mail:
@@ -218,7 +232,7 @@ Secretaria de Estado de Planejamento e Gestão - SEPLAG
 __Após a disponibilização dos dados no Portal de Transparência, solicitar o Nivaldo (PRODEMGE) a planilha para conferência dos dados.__
 
 
-##### [Emenda Orçamentária](https://trello.com/c/a74crmOf/278-emenda-or%C3%A7ament%C3%A1ria)
+#### [Emenda Orçamentária](https://trello.com/c/a74crmOf/278-emenda-or%C3%A7ament%C3%A1ria)
 As consultas se baseiam nas informações extraídas no SISOR, tabela SISOR de EMENDAS e enviadas pela Secretaria de Estado de Planejamento e Gestão, para conferência.
 
 A atualização da consulta de Emendas é realizada anualmente e deverá ser solicitada o envio da planilha no mês de __DEZEMBRO__ para conferência.
@@ -246,7 +260,7 @@ __Após a disponibilização dos dados no Portal de Transparência, solicitar o 
 
 `S:\SCT\Diretoria_Transparencia_Ativa_DTA\Portal_Transparencia\Consultas\Orcamento\Emenda_orcamentaria\Especificacoes\Campos_emenda`
 
-##### [Consulta de Obras](https://trello.com/c/vwVaKAA3/279-consulta-de-obras)
+#### [Consulta de Obras](https://trello.com/c/vwVaKAA3/279-consulta-de-obras)
 As consultas se baseiam nas informações extraídas no SISOR, tabela de detalhamento obras e enviadas pela Secretaria de Estado de Planejamento e Gestão, para conferência.
 Responsável pela autorização para envio das informações - SEPLAG:
 	Sarah Cristina de Sales Mourão
@@ -266,7 +280,7 @@ Campos para conferência da consulta:
 ## Sob demanda
 <a href="#top">(inicio)</a>
 
-##### [FALE CONOSCO](https://trello.com/c/2z0QvpuQ/15-fale-conosco)
+#### [FALE CONOSCO](https://trello.com/c/2z0QvpuQ/15-fale-conosco)
 O Fale Conosco é uma ferramenta utilizada pela sociedade para dúvidas sobre a prestação de serviços e ações do governo.
 A dúvidas relacionadas ao Portal da Transparência são encaminhadas pela Diretora de Transparência Passiva e deverão ser respondidas pela equipe da DTA dentro do prazo legal:
 - *Prazo de envio da resposta a DTP:* 2 dias úteis contados do recebimento da dúvida;
@@ -276,7 +290,7 @@ A dúvidas relacionadas ao Portal da Transparência são encaminhadas pela Diret
 3. Preencher a planilha de respostas do Fale Conosco: S:\SCT\Diretoria_Transparencia_Ativa_DTA\Respostas_Faleconosco_Esic
 4. Enviar e-mail a DTP com a resposta.
 
-##### [Atualização de contratações por dispensa - Coronavírus](https://trello.com/c/0Minkitf/429-atualiza%C3%A7%C3%A3o-de-contrata%C3%A7%C3%B5es-por-dispensa-coronav%C3%ADrus)
+#### [Contratações por dispensa - Coronavírus](https://trello.com/c/0Minkitf/429-atualiza%C3%A7%C3%A3o-de-contrata%C3%A7%C3%B5es-por-dispensa-coronav%C3%ADrus)
 * Lei Federal nº 13.979/2020 - art. 4º
 * Publicação no Portal de Dados Abertos
 
@@ -310,46 +324,30 @@ Pegar os processos na pasta e realizar os seguintes procedimentos:
 - Caso o processo não apareça nas consultas realizadas no item 3, realize o mesmo procedimento nos dias seguintes.
 - Caso o processo não se enquadre entre os processos de dispensa de licitação, enviar e-mail ao órgão ou entidade informando sobre a situação encontrada.
 
-##### [Upload do arquivo de contratações emergenciais](https://trello.com/c/3eeLag48/419-upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais)
+#### [Upload do arquivo de contratações emergenciais](https://trello.com/c/3eeLag48/419-upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais)
 - Consulta do armazém BO: compras_contratos_orgaos_dispensa
 (http://www.bicorporativo.mg.gov.br/BOE/BI)
 - Orientações: (https://trello.com/c/0Minkitf)
 
-##### [Atualização dataset Doações ao Estado](https://trello.com/c/1ZTbKxrN/452-atualiza%C3%A7%C3%A3o-dataset-doa%C3%A7%C3%B5es-ao-estado)
-* [Conjunto de dados no CKAN](http://www.transparencia.dadosabertos.mg.gov.br/dataset/doacoes-ao-governo)
+#### [Doações ao Estado](https://trello.com/c/1ZTbKxrN/452-atualiza%C3%A7%C3%A3o-dataset-doa%C3%A7%C3%B5es-ao-estado)
+* [Repositório dados.mg github](https://github.com/dados-mg/termos-parceria-contratos-gestao)
+* [Conjunto de dados no CKAN](http://dados.mg.gov.br/dataset/doacoes-comodatos-amigo-estado-mg)
 
 * Fonte intermediária das informações (links dos termos na íntegra) - [página SEPLAG](http://www.seplag.mg.gov.br/pagina/logistica/doacoes-ao-governo/doacoes-ao-governo)
 
-##### Fontes durante o teletrabalho:
+* Fontes durante o teletrabalho:
 
-* para conferência, ver histórico: Backup [One Drive](https://onedrive.live.com/?id=8686837A27156968%2131138&cid=8686837A27156968)
+      * para conferência, ver histórico: Backup [One Drive](https://onedrive.live.com/?id=8686837A27156968%2131138&cid=8686837A27156968)
 
-* para produção: [Google drive](https://drive.google.com/drive/folders/1JOzsGxT66F4GFUEdpVaPpwDIyKw5Gzdv)
+      * para produção: [Google drive](https://drive.google.com/drive/folders/1QKY-pIOO51seCDuJYb3uHB0uiSEBes9_)
 
-#### **Frequência de atualização: por evento de publicação**,
+* **Frequência de atualização: por evento de publicação**, sujeito a consolidação e envio de notificação por email da Central de Compras na SEPLAG, 
 
-sujeito a consolidação e envio de notificação por email da Central de Compras na SEPLAG, contato:
+* contato:
 
 > Wendel José dos Santos
 > email: amigodoestado@planejamento.mg.gov.br
 > telefone: 3916-0894
 
-##### [Atualização dataset Termos de Parceria e Contratos de Gestão](https://trello.com/c/ok8tLlTp/453-atualiza%C3%A7%C3%A3o-dataset-termos-de-parceria-e-contratos-de-gest%C3%A3o)
-* [Conjunto de dados no CKAN](http://www.transparencia.dadosabertos.mg.gov.br/dataset/termos-de-parceria-e-contratos-de-gestao)
 
-* Fonte intermediária das informações - [página SEPLAG](http://planejamento.mg.gov.br/documento/informacoes-dos-termos-de-parceria-e-contratos-de-gestao), caminho: Página inicial / Planejamento e Orçamento/OSCIP, OS, Organizações Sociais
-
-#### Fontes durante o teletrabalho:
-
-* para conferência, ver histórico: Backup [One Drive](https://onedrive.live.com/?id=8686837A27156968%2131139&cid=8686837A27156968)
-
-* para produção: [Google drive](https://drive.google.com/drive/folders/1JOzsGxT66F4GFUEdpVaPpwDIyKw5Gzdv)
-
-**Frequência de atualização: TRIMESTRAL**,
-
-sujeito a consolidação e envio de notificação por email da Diretoria Central de Termos de Parceria na SEPLAG, contato:
-
-> Gustavo Henrique Ribeiro Santos
-> email: gustavo.ribeiro@planejamento.mg.gov.br
-> telefone: 3915-0452
 ####
