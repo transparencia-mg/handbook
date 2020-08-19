@@ -2,9 +2,9 @@
 
 ##  corretor ortográfico em português - instalar e ativar 
 
-1. na tela de edição, digitar 'Ctrl + Shift + P'
+1. na tela de edição, digitar 'Ctrl + Shift + P';
 
-2. quando abrir a caixa de seleção, marcar 'Package Control: Install Packages'
+2. quando abrir a caixa de seleção, digitar 'Package Control: Install Packages' e tecle enter;
 
 3. digitar 'Portuguese', vai aparecer uma opção de dicionário em português para baixar (Cucumber)
 
@@ -15,11 +15,11 @@
 
 ## preview - instalar e configurar atalho
 
-1. na tela de edição, digitar 'Ctrl + Shift + 'P'
+1. na tela de edição, digitar 'Ctrl + Shift + P';
 
-2. quando abrir a caixa de seleção, digitar 'Package Control: Install Packages'
+2. quando abrir a caixa de seleção, digitar 'Package Control: Install Packages' e tecle enter;
 
-3. digitar 'Markdown preview', baixar o pacote
+3. digitar 'Markdown preview', baixar o pacote;
 
 4. na opção 'preferences' da barra de ferramentas, acessar 'key bindings'
 
@@ -30,3 +30,4 @@
         "keys": ["ctrl+shift+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"pandoc"} 
     }
 ````
+6. para acessar o markdown clique "ctrl+shift+m". O markdown será exibido no browser.
