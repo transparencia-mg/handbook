@@ -9,11 +9,11 @@ Considerando a periodicidade de cada atividade, o card é enviado à lista Plane
 
 * Bimestral: [PPAG - monitoramento](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---monitoramento-bimestral)
 
-* Trimestral: [Termos de Parceria e Contratos de Gestão](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-dataset-termos-de-parceria-e-contratos-de-gest%C3%A3o)
+* Trimestral: [Termos de Parceria e Contratos de Gestão](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#trimestral)
 
 * Anual: [Remuneração - 13º salário](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#remunera%C3%A7%C3%A3o---13%C2%BA-sal%C3%A1rio-at%C3%A9-3001), [PPAG - carga inicial](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---carga-inicial), [Proposta orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#proposta-or%C3%A7ament%C3%A1ria), [Emenda Orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#emenda-or%C3%A7ament%C3%A1ria), [Consulta de Obras](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#consulta-de-obras)
 
-* Sob demanda: [Fale Conosco](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#fale-conosco), [Contratações por dispensa - Coronavírus](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-de-contrata%C3%A7%C3%B5es-por-dispensa---coronav%C3%ADrus), [Upload do arquivo de contratações emergenciais](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais), [Doações ao Estado](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#atualiza%C3%A7%C3%A3o-dataset-doa%C3%A7%C3%B5es-ao-estado)
+* Sob demanda: [Fale Conosco](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#fale-conosco), [Contratações por dispensa - Coronavírus](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#contrata%C3%A7%C3%B5es-por-dispensa---coronav%C3%ADrus), [Upload do arquivo de contratações emergenciais](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais), [Doações ao Estado](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#doa%C3%A7%C3%B5es-ao-estado)
 
 Abaixo segue o texto descritivo de cada atividade:
 
