@@ -2,16 +2,20 @@
 - Faça backup do sistema utilizando Timeshift (garantir restaruação caso algo de errado)
 
 - [Video YouTube de Referência para instalar Python3](https://www.youtube.com/watch?v=z3Hdewxuuoo)
+- [Video YouTube de Referência para instalar Python3.9](https://www.youtube.com/watch?v=-TZfH7r33CQ)
 ```
 $ cd             # HOME DIRECTORY
 $ python3        # VISUALIZAR SE ESTÁ INSTALADO 
 $ sudo apt install python3 # INSTALA python3
+$ sudo apt install python3.9 # INSTALA python3.9
+$ which python<versao> # MOSTRA AONDE ESTÁ INSTALADO
 $ sudo apt install python3-pip # INSTALA pip
 $ pip3                   #CHECA INSTALAÇÃO
 $ pip3 install <nome_pacote>  # INSTALA PACOTE
 ```
 - [Vídeo YouTube de Referência para gestão de ambientes (env) com Python](https://www.youtube.com/watch?v=Kg1Yvry_Ydk&t=5s)
     - Comandos pip3 e python3 para trabalhar com global e pip e python para trabalhar no local
+        - [Vídeo YouTube de Referência para gestão de ambiente utilizando Pipenv](https://www.youtube.com/watch?v=zDYL22QNiWk&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=3)
 
 ```
 # REQUISITOS: Python 3.3 ou maior
@@ -49,9 +53,9 @@ $ which python
 # SALVAR TODOS OS PACOTES INSTALADOS EM DETERMINADO AMBIENTE
 $ pip freeze
 # SALVAR TODOS OS PACOTES INSTALADOS EM DETERMINADO AMBIENTE E CRIAR UM ARQUIVO txt PARA ARMAZENAR
-$ pip freeze > requerement.txt 
+$ pip freeze > requirement.txt 
 # INSTALA TODOS OS PACOTES PRESENTES NO ARQUIVO .TXT (IGUALAR AMBIENTES)
-$ pip install -r requerements.txt
+$ pip install -r requirements.txt
 
 
 # DESATIVA A VERSÃO
