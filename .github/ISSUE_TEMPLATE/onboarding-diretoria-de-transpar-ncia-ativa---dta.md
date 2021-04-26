@@ -16,31 +16,31 @@ Algumas organizações, como por exemplo o [Gitlab](https://gitlab.com/gitlab-da
 Neste sentido, como auxílio inicial, elencamos, além de informações relevantes, uma séria de tarefas no formato check-list visando facilitar o "caminho das pedras" para nossos novos membros. Esses recursos serão muito úteis e servirão como um excelente material de referência à medida que você se adapte ao novo ambiente e aprende a resolver problemas, mesclando-os com as solicitações dos primeiros 90 dias.
 
 ## Solicitações de acesso
-[] Trello 
-[] Slack
-[] Google Drive
-[] One Drive
-[] E-mail institucional
-[] Intranet 
-[] Ponto Digital (https://www.pontodigital.mg.gov.br/Publica/index)
-[] [Repositório GitHub Transparência MG](https://github.com/transparencia-mg/)
-[] [Repositório GitHub Dados MG](https://github.com/dados-mg)
+[ ] Trello 
+[ ] Slack
+[ ] Google Drive
+[ ] One Drive
+[ ] E-mail institucional
+[ ] Intranet 
+[ ] Ponto Digital (https://www.pontodigital.mg.gov.br/Publica/index)
+[ ] [Repositório GitHub Transparência MG](https://github.com/transparencia-mg/)
+[ ] [Repositório GitHub Dados MG](https://github.com/dados-mg)
 
 ## Leituras iniciais
 ### Repositórios
-[] [Orientações sobre funcionamento equipe DTA](https://github.com/transparencia-mg/handbook)
+[ ] [Orientações sobre funcionamento equipe DTA](https://github.com/transparencia-mg/handbook)
 ### Legislações
-[] [Lei 12.527/2011 - Acesso à Informação](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
-[] [Guia de Transparência ativa](https://www.cge.mg.gov.br/noticias-artigos/777-participe-da-consulta-publica-sobre-o-guia-de-transparencia-ativa)
-[] [Lei Código Aberto na Administração Públicas](
+[ ] [Lei 12.527/2011 - Acesso à Informação](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
+[ ] [Guia de Transparência ativa](https://www.cge.mg.gov.br/noticias-artigos/777-participe-da-consulta-publica-sobre-o-guia-de-transparencia-ativa)
+[ ] [Lei Código Aberto na Administração Públicas](
 https://www.in.gov.br/en/web/dou/-/lei-n-14.063-de-23-de-setembro-de-2020-279185931)
 [Discussão Código Aberto na Adminstração Pública](https://forum.softwarepublico.org/t/medida-provisoria-determina-que-softwares-no-governo-usem-licencas-de-codigo-aberto/96)
 ### Livros
-[] [Livro Publicadores de Dados](https://www.ok.org.br/publicacoes/)
+[ ] [Livro Publicadores de Dados](https://www.ok.org.br/publicacoes/)
 ### Cursos
-[] [YouTube - Curso Transparência e Direito de Acesso à Informação](https://www.youtube.com/playlist?list=PLU90JTu_sKGP21EaupyOOswkfu2BWkXQD)
-[] [Governo Aberto](https://www.escolavirtual.gov.br/curso/140)
-[] [Governança de Dados](https://www.escolavirtual.gov.br/curso/270)
+[ ] [YouTube - Curso Transparência e Direito de Acesso à Informação](https://www.youtube.com/playlist?list=PLU90JTu_sKGP21EaupyOOswkfu2BWkXQD)
+[ ] [Governo Aberto](https://www.escolavirtual.gov.br/curso/140)
+[ ] [Governança de Dados](https://www.escolavirtual.gov.br/curso/270)
 
 
 ## Linkds Institucionais
