@@ -25,8 +25,8 @@ Neste sentido, como auxílio inicial, elencamos, além de informações relevant
 - [ ] Ponto Digital (https://www.pontodigital.mg.gov.br/Publica/index)
 - [ ] [Repositório GitHub Transparência MG](https://github.com/transparencia-mg/)
 - [ ] [Repositório GitHub Dados MG](https://github.com/dados-mg)
-- [ ] Joomla
-- [ ] Mantis
+- [ ] [Joomla](http://transparencia.mg.gov.br/administrator/index.php)
+- [ ] [Mantis](https://www.mantis.prodemge.gov.br/login_page.php)
 - [ ] Fale Conosco
 - [ ] Armazém B.O.
 
