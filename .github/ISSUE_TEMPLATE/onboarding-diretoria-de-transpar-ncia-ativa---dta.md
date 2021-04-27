@@ -27,8 +27,8 @@ Neste sentido, como auxílio inicial, elencamos, além de informações relevant
 - [ ] [Repositório GitHub Dados MG](https://github.com/dados-mg)
 - [ ] [Joomla](http://transparencia.mg.gov.br/administrator/index.php)
 - [ ] [Mantis](https://www.mantis.prodemge.gov.br/login_page.php)
-- [ ] Fale Conosco
-- [ ] Armazém B.O.
+- [ ] [Fale Conosco](https://bpms.mg.gov.br/ligminas-bpms-frontend/area-restrita/)
+- [ ] [Armazém B.O.](http://www.bicorporativo.mg.gov.br/BOE/BI)
 
 ## Leituras iniciais
 ### Repositórios
