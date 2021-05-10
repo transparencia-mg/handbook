@@ -15,5 +15,5 @@
     - Incluir o maior número de Commits possíveis dentro da branch, quebrando o desenvolvimento em pedaços pequenos fáceis de se analisar, devendo as mensagens dos mesmos seguir o formato "[#issue_numero] - Mensagem do Commit"
         - [#issue_numbero] lincará o issue ou problema que está sendo resolvido com a sua resolução de fato
 
-    - Fazer constar na mensagem de fechamento do Pull Request deverá "close #issue_number". Desta forma issue será fechado automaticamente
+    - [Fazer constar na mensagem de fechamento do Pull Request](https://docs.github.com/pt/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) deverá "close #issue_number". Desta forma issue será fechado automaticamente
 
