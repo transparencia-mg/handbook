@@ -14,8 +14,9 @@
 ![](static/sublime2.png)
 
 4. na opção 'view' da barra de ferramentas - marcar 'spell check' ou utilize a tecla de atalho F6
-
+    
 5. ainda na opção 'view' - acessar 'dictionary' ao final da lista e trocar para 'português'
+    - Caso portugês não esteja disponível intale o [pacote](https://packagecontrol.io/packages/LanguagePortuguese) "Language - Portuguese - Português" 
 
 
 ## preview - instalar e configurar atalho
