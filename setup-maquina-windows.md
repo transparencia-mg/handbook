@@ -72,3 +72,10 @@ Python 3.9.6
 - [ ] Instalar [R](https://vps.fmvz.usp.br/CRAN/)
 - [ ] Instalar Make
  - [Vídeo de Referência](https://www.youtube.com/watch?v=taCJhnBXG_w) - Não consegui fazer o comando make funcionar isoladamente, conforme explicado no final do vídeo. Por enquanto somente  mingw32-make
+- Realizar login no [Portal de Dados Abertos - Produção](https://dados.mg.gov.br)
+- Realizar login no [Portal de Dados Abertos - Homologação](https://homologa.cge.mg.gov.br)
+- Realizar cadastro de [variáveis de ambiente Windows](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/) para publicação de recursos nos ambientes de produção e homologação:
+ - Produção:
+  - CKAN_HOST_PRODUCAO e CKAN_KEY_PRODUCAO
+ - Homologação:
+  - CKAN_HOST e CKAN_KEY
