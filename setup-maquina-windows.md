@@ -16,6 +16,7 @@
    - Salve e reinicie o prompt de comando.
  - Obs.: Selecione o caminho de instalação da sua máquina e não copie e cole o que os tutorais sugerem, pois poderá haver divergência.
  - Utilização: Navegando até a pasta desejada digite "subl ."
+- [ ] Configurar atalho [Sublime auto-save](https://lucybain.com/resources/setting-up-sublime-autosave/).
 - [ ] Instalar [git](https://git-scm.com/).
   -  Apenas a título de sugestão, visto que isso não atrapalhará em nada a instalação, como utilizaremos muito github, seguir com as opções padrão até "Adjusting the name of the initial branch in new repositories" e selecionar a opção "Override the default branch name for new repositories" com "main" na caixa de diálogo aberta para inserção da sua branch padrão. 
   -  Em "Configuring the terminal emulator to use with Git Bash" selecione "Use Windows' default console window"
