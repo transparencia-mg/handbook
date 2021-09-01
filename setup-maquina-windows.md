@@ -79,3 +79,4 @@ Python 3.9.6
   - CKAN_HOST_PRODUCAO e CKAN_KEY_PRODUCAO
  - Homologação:
   - CKAN_HOST e CKAN_KEY
+- [Configurar proxy para instalar pacotes python](https://leifengblog.net/blog/how-to-use-pip-behind-a-proxy/)
