@@ -54,6 +54,10 @@ git lfs install
 $ git lfs --version
 git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
 ```
+- [ ] Fixar a senha no git para possibilitar todas as operações de clone, pull e push sem precisar digitar as credenciais em cada operação - digitar na bash:
+````
+$ git config --global credential.helper wincred
+````
 
 - [ ] Instalar Python 3.9
  - [Baixar e instalar Python 3.9](https://www.python.org/downloads/).
