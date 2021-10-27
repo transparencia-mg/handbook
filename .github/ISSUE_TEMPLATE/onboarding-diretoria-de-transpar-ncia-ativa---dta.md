@@ -30,6 +30,9 @@ Neste sentido, como auxílio inicial, elencamos, além de informações relevant
 - [ ] [Fale Conosco](https://bpms.mg.gov.br/ligminas-bpms-frontend/area-restrita/)
 - [ ] [Armazém B.O.](http://www.bicorporativo.mg.gov.br/BOE/BI)
 
+## Computador
+- [ ] Issue template "Setup de nova máquina Windows" com passos a serem seguidos durante configuração máquina Windows
+
 ## Leituras iniciais
 ### Repositórios
 - [ ] [Orientações sobre funcionamento equipe DTA](https://github.com/transparencia-mg/handbook)
@@ -45,7 +48,6 @@ https://www.in.gov.br/en/web/dou/-/lei-n-14.063-de-23-de-setembro-de-2020-279185
 - [ ] [YouTube - Curso Transparência e Direito de Acesso à Informação](https://www.youtube.com/playlist?list=PLU90JTu_sKGP21EaupyOOswkfu2BWkXQD)
 - [ ] [Governo Aberto](https://www.escolavirtual.gov.br/curso/140)
 - [ ] [Governança de Dados](https://www.escolavirtual.gov.br/curso/270)
-
 
 ## Linkds Institucionais
 * [CGE](https://www.cge.mg.gov.br/)
