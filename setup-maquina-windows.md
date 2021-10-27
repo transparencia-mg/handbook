@@ -80,6 +80,13 @@ $ python --version
 
 # Tipo de resposta esperada, podendo a versão ser diferente devido à data de instalação
 Python 3.9.6
+
+# Criação e Ativação ambiente python Windows
+# Criação
+$ python -m venv venv
+
+# Ativação
+$ source venv/Scripts/activate
 ```
 - [ ] Instalar [R](https://vps.fmvz.usp.br/CRAN/)
 - [ ] Instalar Make
