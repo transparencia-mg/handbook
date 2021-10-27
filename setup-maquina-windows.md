@@ -50,6 +50,7 @@ $ git config --global http.proxy http://USER:PASSWORD@PROXYADDRESS:PORT
 $ git config --global http.proxy http://m123456:123456@proxycamg.prodemge.gov.br:8080
 ```
 - [ ] (Opcional) Instalar [Sublime ZK](https://github.com/renerocksai/sublime_zk), caso sublime tenha sido escolhido como editor de sua preferência.
+  - [ ] [Instalar Silver Searcher](https://github.com/renerocksai/sublime_zk#installing-the-silver-searcher): Necessário para fazer funcionamento da busca por tags
 - [ ] Instalação [git large files - glf](https://git-lfs.github.com/)
   - [ ] Download e instalação de executável para Windows.
   - [ ] Finalização da instalação via terminal e conferência 
