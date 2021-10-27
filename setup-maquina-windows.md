@@ -1,4 +1,11 @@
 - [ ] Autorizar usuário como administrador da máquina pois algumas instalações necessitam deste privilégio.
+- [ ] Configurar proxy nas variáveis de ambiente
+  - Abra o prompt de comando e digite "sysdm.cpl".
+  - Na aba "Advanced" selecione "Environment variables".
+  - Na "system variables" clique em "new".
+  - O padrão da variável a ser criada é `http://USER:PASSWORD@PROXYADDRESS:PORT`
+  - Crie variável de nome http_proxy e valor http://m123456:123456@proxycamg.prodemge.gov.br:8080 (substitua m123456 por seu login de rede e 123456 por sua senha)
+  - Crie variável de nome https_proxy e valor http://m123456:123456@proxycamg.prodemge.gov.br:8080 (substitua m123456 por seu login de rede e 123456 por sua senha)
 - [ ] Instalar editor de Texto de sua preferência.
   * Indicação: Sublime.
   * Pesquisar no google "sublime download for windows".
