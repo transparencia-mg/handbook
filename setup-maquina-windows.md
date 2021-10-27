@@ -51,8 +51,8 @@ $ git config --global http.proxy http://m123456:123456@proxycamg.prodemge.gov.br
 ```
 - [ ] (Opcional) Instalar [Sublime ZK](https://github.com/renerocksai/sublime_zk), caso sublime tenha sido escolhido como editor de sua preferência.
 - [ ] Instalação [git large files - glf](https://git-lfs.github.com/)
- - [ ] Download e instalação de executável para Windows.
- - [ ] Finalização da instalação via terminal e conferência 
+  - [ ] Download e instalação de executável para Windows.
+  - [ ] Finalização da instalação via terminal e conferência 
 
 ```Git Bash Terminal
 # Instalação
