@@ -1,5 +1,6 @@
 - [ ] Autorizar usuário como administrador da máquina pois algumas instalações necessitam deste privilégio.
-- [ ] Configurar proxy nas variáveis de ambiente
+- [ ] Configurar proxy nas variáveis de ambiente.
+  - [Link de referência](https://docs.cloudfoundry.org/cf-cli/http-proxy.html) 
   - Abra o prompt de comando e digite "sysdm.cpl".
   - Na aba "Advanced" selecione "Environment variables".
   - Na "system variables" clique em "new".
