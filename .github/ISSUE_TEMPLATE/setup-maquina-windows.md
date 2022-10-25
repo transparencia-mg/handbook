@@ -4,7 +4,8 @@ about: O objetivo principal deste issue template é auxiliar integrantes da DTA 
 title: ''
 labels: ''
 assignees: ''
-
+project:
+  - @work-dta
 ---
 
 - [ ] Autorizar usuário como administrador da máquina pois algumas instalações necessitam deste privilégio.
