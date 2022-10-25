@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 projects:
   - @work-dta
+  
 ---
 
 - [ ] Autorizar usuário como administrador da máquina pois algumas instalações necessitam deste privilégio.
