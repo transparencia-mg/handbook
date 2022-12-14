@@ -1,0 +1,35 @@
+name: Publish Documentation
+
+on: push
+
+jobs:
+  publish_documentation:
+    runs-on: Ubuntu-20.04
+    steps:
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.2
+
+      - name: Check out repository
+        uses: actions/checkout@v2
+        with:  
+          fetch-depth: 0
+
+      - name: Install pdf converter
+        run: sudo apt install poppler-utils
+
+      - name: Convert pdf
+        run: make convert-pdf
+
+      - name: Create venv
+        run: make venv
+
+      - name: Install packages
+        run: make install
+
+      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Publish Documentation
+        run: make gh-deploy-mike
