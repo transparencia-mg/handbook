@@ -104,4 +104,4 @@ plugins:
   - mike:
       version_selector: true
   - tags:
-      tags_file: tags.md
+      tags_file: posts/20221213_tags.md
