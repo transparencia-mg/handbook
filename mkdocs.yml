@@ -103,3 +103,5 @@ plugins:
       enable_creation_date: true
   - mike:
       version_selector: true
+  - tags:
+      tags_file: tags.md
