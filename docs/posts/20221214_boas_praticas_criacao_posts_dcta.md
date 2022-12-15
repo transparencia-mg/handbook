@@ -12,3 +12,11 @@ tags:
 - Nenhum post deverá ser mergiado diretamente na main. Todo post criado deverá ser mergiado via PR. Criador do post deverá solicitar revisão para algum(s) membro(s) da equipe.
 - Tópicos para criação de posts (criar target makefile para criar posts automaticamente)
 - criar target makefile para criar ata de reuniao automatica
+- Não incluir informações sensíveis
+- Imagens sempre no imgur (escrever post sobre)
+
+
+TODO:
+
+- PODEMOS JOGAR FORA OLD_CONTENT/configurar-login-script-publishR.md?
+- PODEMOS JOGAR FORA OLD_CONTENT/desativar-sessao-R.md?
