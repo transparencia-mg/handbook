@@ -18,7 +18,7 @@ Testei a instalação para divsersas situações, explicadas abaixo:
 
 ## Instalação tag ckan-2.9.5
 
-- Fork do repositório [ckan](https://github.com/ckan/ckan) na organização [gabrielbdornas](https://github.com/gabrielbdornas/ckan)
+- Fork do repositório [ckan](https://github.com/ckan/ckan) na organização [gabrielbdornas](https://github.com/gabrielbdornas/ckan). **Não selecionar a opção de copiar apenas a branch master**.
 
 - Dentro do fork do repositório selecionar a tag `ckan-2.9.5`:
 
@@ -44,8 +44,22 @@ Testei a instalação para divsersas situações, explicadas abaixo:
 
 ![codespaces active](https://imgur.com/6S4PHKC.png)
 
-## Instalação branch ckan-2.9.5
+## Instalação versão dev 2.10
 
-- Fork do repositório ckan na organização [gabrielbdornas](https://github.com/gabrielbdornas/ckan)
+- Fork do repositório [ckan-docker](https://github.com/ckan/ckan-docker) na organização [gabrielbdornas](https://github.com/gabrielbdornas/ckan-docker).**Não selecionar a opção de copiar apenas a branch master**.
 
-- Dentro do fork do repositório selecionar a branch `dev-v2.10`
+- Adiciona Codespaces com a opção `New with options...`:
+
+![new codespaces](https://imgur.com/BJaHjtB.png)
+
+- Muda apenas configuração `Machine type`, selecionando a opção `8-core`:
+
+![codespace machine type](https://imgur.com/KLm3l0n.png)
+
+- Vs-code dev será aberto (código e terminal).
+
+- Rodar os comandos `docker-compose build` e `docker-compose up` e aguardar o final da instalação, conforme [documentação](https://github.com/ckan/ckan-docker#quick-start). **Não será necessário criar arquivo `.env` pois o mesmo já existia na raiz do repositório**.
+
+- Instalação realizada com sucesso e disponível [em link próprio](https://gabrielbdornas-psychic-rotary-phone-rpvjgwvpg97hpx66-5000.preview.app.github.dev/) quando máquina encontra-se com estado `Active`:
+
+![codespaces active](https://imgur.com/msZM5xj.png)
