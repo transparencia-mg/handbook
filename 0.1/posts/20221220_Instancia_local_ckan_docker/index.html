@@ -13,7 +13,7 @@
     
     
       
-        <title>Git e Github Cheat Sheet - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Instalando instâncias CKAN local utilizando Docker - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git-e-github-cheat-sheet" class="md-skip">
+        <a href="#instalando-instancias-ckan-local-utilizando-docker" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Git e Github Cheat Sheet
+              Instalando instâncias CKAN local utilizando Docker
             
           </span>
         </div>
@@ -477,6 +477,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../20221215_git_and_github/" class="md-nav__link">
+        Git e Github Cheat Sheet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -489,23 +503,9 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Git e Github Cheat Sheet
-      </a>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../20221220_Instancia_local_ckan_docker/" class="md-nav__link">
         Instalando instâncias CKAN local utilizando Docker
       </a>
+      
     </li>
   
 
@@ -568,72 +568,43 @@
     
       
       
-        <a href="../20221213_tags/#git" class="md-tag">Git</a>
-      
-    
-      
-      
-        <a href="../20221213_tags/#github" class="md-tag">GitHub</a>
+        <a href="../20221213_tags/#ckan" class="md-tag">CKAN</a>
       
     
   </nav>
 
 
 
-  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221215_git_and_github.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221220_Instancia_local_ckan_docker.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="git-e-github-cheat-sheet">Git e Github Cheat Sheet<a class="headerlink" href="#git-e-github-cheat-sheet" title="Permanent link">⚓︎</a></h1>
-<p>Materiais de referência:</p>
+<h1 id="instalando-instancias-ckan-local-utilizando-docker">Instalando instâncias CKAN local utilizando Docker<a class="headerlink" href="#instalando-instancias-ckan-local-utilizando-docker" title="Permanent link">⚓︎</a></h1>
+<p>Referências</p>
 <ul>
-<li><a href="https://medium.com/@annamedyukh/the-only-git-cheat-sheet-you-need-9dce3ccc4036">The only git cheat sheet you need</a></li>
-<li><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--Zib71Fgv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n082uxea33j6zq3mca7u.png">Git Infográfico</a></li>
+<li>
+<p><a href="https://github.com/ckan/ckan-demo-data">ckan-demo-data</a></p>
+</li>
+<li>
+<p><a href="https://github.com/ckan/ckan-docker">ckan-docker</a></p>
+</li>
+<li>
+<p><a href="https://herrmann.tech/en/blog/2020/09/30/how-to-install-and-configure-ckan-2-9-0-using-docker.html">Instalação Augusto Herrmann</a></p>
+</li>
 </ul>
-<p>Fluxo sugerido</p>
-<div class="mermaid">graph TD;
-    1((Início))--&gt;2;
-    2{git iniciado no projeto?}
-    2 --&gt; |não| 3[git init]
-    3 --&gt; 11[Cria repositório Github]
-    11 --&gt; 12[git remote add &lt;nome_remote&gt; &lt;endereço_remote&gt;]
-    12 --&gt; 4
-    2 --&gt; |sim| 4[git status]
-    4 --&gt; 5{Commitar na branch main?}
-    5 --&gt; |sim| 6[git add &lt;file_name&gt;]
-    6 --&gt; 7[git commit -m &lt;commit_message_entre_aspas&gt;]
-    7 --&gt; 5
-    5 --&gt; |não| 8{Criar nova branch?}
-    8 --&gt; |sim| 9[git pull origin main]
-    8 --&gt; |não| 16((Fim))
-    9 --&gt; 10[git checkout -b &lt;nova_branch_nome&gt;]
-    10 --&gt; 13{Commitar?}
-    13 --&gt; |sim| 14[git add &lt;file_name&gt;]
-    14 --&gt; 15[git commit -m &lt;commit_message_entre_aspas&gt;]
-    13 --&gt; |não| 17{Abrir PR Github?}
-    15 --&gt; 13
-    17 --&gt; |sim| 18[git push &lt;nome_remote&gt; &lt;nova_branch_nome&gt;]
-    17 --&gt; |não| 16
-    18 --&gt; 20[Abrir/aprovar PR Github]
-    20 --&gt; 21[git checkout main]
-    21 --&gt; 22[git pull origin main]
-    22 --&gt; 23{Deletar &lt;nova_branch_nome&gt; já mergiada?}
-    23 --&gt; |sim| 24[git branch -d &lt;nova_branch_nome&gt;]
-    23 --&gt; |não| 5
-    24 --&gt; 5</div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 14, 2022 16:17:35</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 22:53:45</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 14, 2022 12:34:29</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 22:53:45</span>
       
     
   </small>
@@ -663,7 +634,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../20221215_descricao_cards_trello_rotina/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cards Rotina" rel="prev">
+        <a href="../20221215_git_and_github/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Git e Github Cheat Sheet" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -672,20 +643,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Cards Rotina
+              Git e Github Cheat Sheet
             </div>
           </div>
         </a>
       
       
         
-        <a href="../20221220_Instancia_local_ckan_docker/" class="md-footer__link md-footer__link--next" aria-label="Next: Instalando instâncias CKAN local utilizando Docker" rel="next">
+        <a href="../20221220_ckan_in_github_codespaces/" class="md-footer__link md-footer__link--next" aria-label="Next: Instalando instâncias CKAN no novo GitHub Codespaces" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Instalando instâncias CKAN local utilizando Docker
+              Instalando instâncias CKAN no novo GitHub Codespaces
             </div>
           </div>
           <div class="md-footer__button md-icon">
