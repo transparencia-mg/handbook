@@ -13,7 +13,7 @@
     
     
       
-        <title>Agendamento Férias DCTA - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Instalando instâncias CKAN no novo GitHub Codespaces - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agendamento-ferias-dcta" class="md-skip">
+        <a href="#instalando-instancias-ckan-no-novo-github-codespaces" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agendamento Férias DCTA
+              Instalando instâncias CKAN no novo GitHub Codespaces
             
           </span>
         </div>
@@ -447,21 +447,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../20221215_agendamento_ferias/" class="md-nav__link">
         Agendamento Férias DCTA
       </a>
-      
     </li>
   
 
@@ -499,11 +489,59 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../20221220_ckan_in_github_codespaces/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Instalando instâncias CKAN no novo GitHub Codespaces
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Instalando instâncias CKAN no novo GitHub Codespaces
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-tag-ckan-295" class="md-nav__link">
+    Instalação tag ckan-2.9.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-branch-ckan-295" class="md-nav__link">
+    Instalação branch ckan-2.9.5
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -535,6 +573,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-tag-ckan-295" class="md-nav__link">
+    Instalação tag ckan-2.9.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-branch-ckan-295" class="md-nav__link">
+    Instalação branch ckan-2.9.5
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -552,33 +612,77 @@
     
       
       
-        <a href="../20221213_tags/#fluxo-de-trabalho-dcta" class="md-tag">Fluxo de Trabalho DCTA</a>
+        <a href="../20221213_tags/#ckan" class="md-tag">CKAN</a>
+      
+    
+      
+      
+        <a href="../20221213_tags/#github" class="md-tag">GitHub</a>
       
     
   </nav>
 
 
 
-  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221215_agendamento_ferias.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221220_ckan_in_github_codespaces.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="agendamento-ferias-dcta">Agendamento Férias DCTA<a class="headerlink" href="#agendamento-ferias-dcta" title="Permanent link">⚓︎</a></h1>
-<p>O agendamento de férias da DCTA ocorrerá via preenchimento:</p>
+<h1 id="instalando-instancias-ckan-no-novo-github-codespaces">Instalando instâncias CKAN no novo GitHub Codespaces<a class="headerlink" href="#instalando-instancias-ckan-no-novo-github-codespaces" title="Permanent link">⚓︎</a></h1>
+<p>Resolvi testar o <a href="https://github.com/features/codespaces">GitHub Codespaces</a> como uma das formas de criarmos uma instância do CKAN utilizando <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#installing-ckan-with-docker-compose">docker</a>.
+Esta opção facilitará os testes do novo pacote <a href="https://github.com/transparencia-mg/ckanext-datapackage-creator">ckanext-datapackage-creator</a> desenvolvido pela <a href="https://transparencia-mg.github.io/work-stefanini/">empresa stefanini</a>.
+GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.com/settings/billing/plans#:~:text=GitHub%20Codespaces-,Spin,-up%20fully%20configured">free</a>:</p>
+<blockquote>
+<p>A "core hour" is a measure used for included compute usage. On a 2-core machine, you would get 60 hours free. On a 4-core machine, you would get 30 hours free, etc...</p>
+</blockquote>
+<p>Valores de Horas adicionais podem ser visualizadas na <a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#:~:text=2%2Dcore%20machine.-,Component,-Machine%20type">documentação GitHub</a>.</p>
+<p>Testei a instalação para divsersas situações, explicadas abaixo:</p>
+<h2 id="instalacao-tag-ckan-295">Instalação tag ckan-2.9.5<a class="headerlink" href="#instalacao-tag-ckan-295" title="Permanent link">⚓︎</a></h2>
 <ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1pVhaIvIM8TBFooUAFquOXxSFW1Ak9SqYGrom6uqUdcI/edit#gid=578446767">Planilha de Férias</a></li>
-<li>Obs.: Caso não tenha acesso solicite. No primeiro acesso deverá ser incluída uma coluna com o nome do servidor.</li>
-<li>O preenchimento deverá ser realizado na aba "dados".</li>
-<li>FR ou FE deverão ser lançados nos dias de férias do servidor</li>
 <li>
-<p>FC deverá ser lançado nos dias de folga compensativa</p>
+<p>Fork do repositório <a href="https://github.com/ckan/ckan">ckan</a> na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a></p>
 </li>
 <li>
-<p><a href="https://www.pontodigital.mg.gov.br/Publica">Ponto Digital</a></p>
+<p>Dentro do fork do repositório selecionar a tag <code>ckan-2.9.5</code>:</p>
 </li>
-<li>Conforme orientações de uso contidas <a href="https://github.com/transparencia-mg/handbook/blob/master/ponto-digital.md">aqui</a> </li>
+</ul>
+<p><img alt="seleciona tag" src="https://imgur.com/g5KXuQx.png" /></p>
+<ul>
+<li>Adiciona Codespaces com a opção <code>New with options...</code>:</li>
+</ul>
+<p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
+<ul>
+<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>:</li>
+</ul>
+<p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
+<ul>
+<li>
+<p>Vs-code dev será aberto (código e terminal).</p>
+</li>
+<li>
+<p>Navegar para pasta <code>contrib/docker/</code> com o comando <code>cd contrib/docker/</code>.</p>
+</li>
+<li>
+<p>Copiar arquivo <code>.env.template</code> para arquivo <code>.env</code> com o comando <code>cp .env.template .env</code>. <strong>Descobri que via tags não é possível adicionar arquivo(s) na interface gráfica do GitHub</strong>.</p>
+</li>
+<li>
+<p>Rodar o comando <code>docker-compose up</code> e aguardar o final da instalação.</p>
+</li>
+<li>
+<p>Instalação realizada com sucesso e disponível <a href="https://gabrielbdornas-opulent-carnival-647jgw74g6639xv-5000.preview.app.github.dev/">em link próprio</a> quando máquina encontra-se com estado <code>Active</code>:</p>
+</li>
+</ul>
+<p><img alt="codespaces active" src="https://imgur.com/6S4PHKC.png" /></p>
+<h2 id="instalacao-branch-ckan-295">Instalação branch ckan-2.9.5<a class="headerlink" href="#instalacao-branch-ckan-295" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>
+<p>Fork do repositório ckan na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a></p>
+</li>
+<li>
+<p>Dentro do fork do repositório selecionar a branch <code>dev-v2.10</code></p>
+</li>
 </ul>
 
   <hr>
@@ -586,11 +690,11 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 14, 2022 16:18:21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:02:02</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 19, 2021 12:33:40</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:02:02</span>
       
     
   </small>
@@ -620,7 +724,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../20221214_boas_praticas_criacao_posts_dcta/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Boas Práticas Para Criação de Posts" rel="prev">
+        <a href="../20221215_git_and_github/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Git e Github Cheat Sheet" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -629,26 +733,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Boas Práticas Para Criação de Posts
+              Git e Github Cheat Sheet
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../20221215_descricao_cards_trello_rotina/" class="md-footer__link md-footer__link--next" aria-label="Next: Cards Rotina" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Cards Rotina
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
