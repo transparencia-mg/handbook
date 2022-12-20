@@ -532,8 +532,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-branch-ckan-295" class="md-nav__link">
-    Instalação branch ckan-2.9.5
+  <a href="#instalacao-versao-dev-210" class="md-nav__link">
+    Instalação versão dev 2.10
   </a>
   
 </li>
@@ -587,8 +587,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-branch-ckan-295" class="md-nav__link">
-    Instalação branch ckan-2.9.5
+  <a href="#instalacao-versao-dev-210" class="md-nav__link">
+    Instalação versão dev 2.10
   </a>
   
 </li>
@@ -642,7 +642,7 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 <h2 id="instalacao-tag-ckan-295">Instalação tag ckan-2.9.5<a class="headerlink" href="#instalacao-tag-ckan-295" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li>
-<p>Fork do repositório <a href="https://github.com/ckan/ckan">ckan</a> na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a></p>
+<p>Fork do repositório <a href="https://github.com/ckan/ckan">ckan</a> na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a>. <strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
 </li>
 <li>
 <p>Dentro do fork do repositório selecionar a tag <code>ckan-2.9.5</code>:</p>
@@ -675,22 +675,39 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 </li>
 </ul>
 <p><img alt="codespaces active" src="https://imgur.com/6S4PHKC.png" /></p>
-<h2 id="instalacao-branch-ckan-295">Instalação branch ckan-2.9.5<a class="headerlink" href="#instalacao-branch-ckan-295" title="Permanent link">⚓︎</a></h2>
+<h2 id="instalacao-versao-dev-210">Instalação versão dev 2.10<a class="headerlink" href="#instalacao-versao-dev-210" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li>
-<p>Fork do repositório ckan na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a></p>
+<p>Fork do repositório <a href="https://github.com/ckan/ckan-docker">ckan-docker</a> na organização <a href="https://github.com/gabrielbdornas/ckan-docker">gabrielbdornas</a>.<strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
 </li>
 <li>
-<p>Dentro do fork do repositório selecionar a branch <code>dev-v2.10</code></p>
+<p>Adiciona Codespaces com a opção <code>New with options...</code>:</p>
 </li>
 </ul>
+<p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
+<ul>
+<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>:</li>
+</ul>
+<p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
+<ul>
+<li>
+<p>Vs-code dev será aberto (código e terminal).</p>
+</li>
+<li>
+<p>Rodar os comandos <code>docker-compose build</code> e <code>docker-compose up</code> e aguardar o final da instalação, conforme <a href="https://github.com/ckan/ckan-docker#quick-start">documentação</a>. <strong>Não será necessário criar arquivo <code>.env</code> pois o mesmo já existia na raiz do repositório</strong>.</p>
+</li>
+<li>
+<p>Instalação realizada com sucesso e disponível <a href="https://gabrielbdornas-psychic-rotary-phone-rpvjgwvpg97hpx66-5000.preview.app.github.dev/">em link próprio</a> quando máquina encontra-se com estado <code>Active</code>:</p>
+</li>
+</ul>
+<p><img alt="codespaces active" src="https://imgur.com/msZM5xj.png" /></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:02:02</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:11:17</span>
       
         <br>
         Created:
