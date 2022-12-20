@@ -538,6 +538,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#configuracoes-adicionais" class="md-nav__link">
+    Configurações Adicionais
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -589,6 +596,13 @@
         <li class="md-nav__item">
   <a href="#instalacao-versao-dev-210" class="md-nav__link">
     Instalação versão dev 2.10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracoes-adicionais" class="md-nav__link">
+    Configurações Adicionais
   </a>
   
 </li>
@@ -654,7 +668,7 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 </ul>
 <p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
 <ul>
-<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>:</li>
+<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code> (Funciona com <code>2-core</code> mas ficará menos performático):</li>
 </ul>
 <p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
 <ul>
@@ -678,7 +692,7 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 <h2 id="instalacao-versao-dev-210">Instalação versão dev 2.10<a class="headerlink" href="#instalacao-versao-dev-210" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li>
-<p>Fork do repositório <a href="https://github.com/ckan/ckan-docker">ckan-docker</a> na organização <a href="https://github.com/gabrielbdornas/ckan-docker">gabrielbdornas</a>.<strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
+<p>Fork do repositório <a href="https://github.com/ckan/ckan-docker">ckan-docker</a> na organização <a href="https://github.com/gabrielbdornas/ckan-docker">gabrielbdornas</a>. <strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
 </li>
 <li>
 <p>Adiciona Codespaces com a opção <code>New with options...</code>:</p>
@@ -686,7 +700,7 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 </ul>
 <p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
 <ul>
-<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>:</li>
+<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>(Funciona com <code>2-core</code> mas ficará menos performático):</li>
 </ul>
 <p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
 <ul>
@@ -701,13 +715,36 @@ GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.c
 </li>
 </ul>
 <p><img alt="codespaces active" src="https://imgur.com/msZM5xj.png" /></p>
+<h2 id="configuracoes-adicionais">Configurações Adicionais<a class="headerlink" href="#configuracoes-adicionais" title="Permanent link">⚓︎</a></h2>
+<p>Realizei as <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#installing-ckan-with-docker-compose:~:text=CKAN%20Datapusher%20image.-,There%20should,-be%20four%20named">configurações abaixo</a> apenas na instância dev 2.10 (2-core):</p>
+<ul>
+<li>Listar volumes com o comando <code>docker volume ls | grep docker</code> e configurar variáveis de ambiente:</li>
+</ul>
+<div class="highlight"><pre><span></span><code># Resultado
+local     ckan-docker_ckan_config
+local     ckan-docker_ckan_home
+local     ckan-docker_ckan_storage
+local     ckan-docker_pg_data
+local     ckan-docker_solr_data
+
+# Configurar variáveis de ambiente
+
+export VOL_CKAN_HOME=`docker volume inspect ckan-docker_ckan_home | jq -r -c &#39;.[] | .Mountpoint&#39;`
+
+export VOL_CKAN_CONFIG=`docker volume inspect ckan-docker_ckan_config | jq -r -c &#39;.[] | .Mountpoint&#39;`
+
+export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r -c &#39;.[] | .Mountpoint&#39;`
+</code></pre></div>
+<ul>
+<li>A configuração <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher">Datastore and datapusher</a> não funcionou.</li>
+</ul>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:11:17</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 22:19:20</span>
       
         <br>
         Created:
