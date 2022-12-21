@@ -13,7 +13,7 @@
     
     
       
-        <title>Instalando instâncias CKAN no novo GitHub Codespaces - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Licenças em dados abertos: background e representação - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instalando-instancias-ckan-no-novo-github-codespaces" class="md-skip">
+        <a href="#licencas-em-dados-abertos-background-e-representacao" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instalando instâncias CKAN no novo GitHub Codespaces
+              Licenças em dados abertos: background e representação
             
           </span>
         </div>
@@ -507,6 +507,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../20221220_ckan_in_github_codespaces/" class="md-nav__link">
+        Instalando instâncias CKAN no novo GitHub Codespaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -519,12 +533,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Instalando instâncias CKAN no novo GitHub Codespaces
+          Licenças em dados abertos: background e representação
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Instalando instâncias CKAN no novo GitHub Codespaces
+        Licenças em dados abertos: background e representação
       </a>
       
         
@@ -543,22 +557,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#instalacao-tag-ckan-295" class="md-nav__link">
-    Instalação tag ckan-2.9.5
+  <a href="#background" class="md-nav__link">
+    Background
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-versao-dev-210" class="md-nav__link">
-    Instalação versão dev 2.10
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuracoes-adicionais" class="md-nav__link">
-    Configurações Adicionais
+  <a href="#representacao" class="md-nav__link">
+    Representação
   </a>
   
 </li>
@@ -567,20 +574,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../20221221_campo_licen%C3%A7a_sem_hiperlink/" class="md-nav__link">
-        Licenças em dados abertos: background e representação
-      </a>
     </li>
   
 
@@ -619,22 +612,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#instalacao-tag-ckan-295" class="md-nav__link">
-    Instalação tag ckan-2.9.5
+  <a href="#background" class="md-nav__link">
+    Background
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#instalacao-versao-dev-210" class="md-nav__link">
-    Instalação versão dev 2.10
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuracoes-adicionais" class="md-nav__link">
-    Configurações Adicionais
+  <a href="#representacao" class="md-nav__link">
+    Representação
   </a>
   
 </li>
@@ -661,126 +647,70 @@
         <a href="../20221213_tags/#ckan" class="md-tag">CKAN</a>
       
     
-      
-      
-        <a href="../20221213_tags/#github" class="md-tag">GitHub</a>
-      
-    
   </nav>
 
 
 
-  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221220_ckan_in_github_codespaces.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221221_campo_licença_sem_hiperlink.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="instalando-instancias-ckan-no-novo-github-codespaces">Instalando instâncias CKAN no novo GitHub Codespaces<a class="headerlink" href="#instalando-instancias-ckan-no-novo-github-codespaces" title="Permanent link">⚓︎</a></h1>
-<p>Resolvi testar o <a href="https://github.com/features/codespaces">GitHub Codespaces</a> como uma das formas de criarmos uma instância do CKAN utilizando <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#installing-ckan-with-docker-compose">docker</a>.
-Esta opção facilitará os testes do novo pacote <a href="https://github.com/transparencia-mg/ckanext-datapackage-creator">ckanext-datapackage-creator</a> desenvolvido pela <a href="https://transparencia-mg.github.io/work-stefanini/">empresa stefanini</a>.
-GitHub disponibiliza 15 horas/mês grátis para planos <a href="https://github.com/settings/billing/plans#:~:text=GitHub%20Codespaces-,Spin,-up%20fully%20configured">free</a>:</p>
-<blockquote>
-<p>A "core hour" is a measure used for included compute usage. On a 2-core machine, you would get 60 hours free. On a 4-core machine, you would get 30 hours free, etc...</p>
-</blockquote>
-<p>Valores de Horas adicionais podem ser visualizadas na <a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#:~:text=2%2Dcore%20machine.-,Component,-Machine%20type">documentação GitHub</a>.</p>
-<p>Testei a instalação para divsersas situações, explicadas abaixo:</p>
-<h2 id="instalacao-tag-ckan-295">Instalação tag ckan-2.9.5<a class="headerlink" href="#instalacao-tag-ckan-295" title="Permanent link">⚓︎</a></h2>
+<h1 id="licencas-em-dados-abertos-background-e-representacao">Licenças em dados abertos: background e representação<a class="headerlink" href="#licencas-em-dados-abertos-background-e-representacao" title="Permanent link">⚓︎</a></h1>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">⚓︎</a></h2>
+<p>O campo de licenças é um metadado obrigatório:</p>
+<ul>
+<li>para o Portal Federal de Dados Abertos, regulamentado no Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na <a href="https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes/resolucao-n-o-3-de-13-de-outubro-de-2017">resolução CGINDA de 2017</a>:</li>
+</ul>
+<blockquote></blockquote>
+<ul>
+<li>para o <a href="https://create.frictionlessdata.io/">datapackage creator da Frictionless</a>, que contém uma lista predefinidas de possíveis licenças:</li>
+</ul>
+<p><img alt="" src="../static/licences-datapackage-creator.png" /></p>
 <ul>
 <li>
-<p>Fork do repositório <a href="https://github.com/ckan/ckan">ckan</a> na organização <a href="https://github.com/gabrielbdornas/ckan">gabrielbdornas</a>. <strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
+<p>está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: https://github.com/transparencia-mg/work-stefanini/issues/69</p>
 </li>
 <li>
-<p>Dentro do fork do repositório selecionar a tag <code>ckan-2.9.5</code>:</p>
+<p>e será incluído como metadado obrigatório no <a href="https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais">Manual de Dados Abertos de MG</a></p>
 </li>
 </ul>
-<p><img alt="seleciona tag" src="https://imgur.com/g5KXuQx.png" /></p>
-<ul>
-<li>Adiciona Codespaces com a opção <code>New with options...</code>:</li>
-</ul>
-<p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
-<ul>
-<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code> (Funciona com <code>2-core</code> mas ficará menos performático):</li>
-</ul>
-<p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
-<ul>
-<li>
-<p>Vs-code dev será aberto (código e terminal).</p>
-</li>
-<li>
-<p>Navegar para pasta <code>contrib/docker/</code> com o comando <code>cd contrib/docker/</code>.</p>
-</li>
-<li>
-<p>Copiar arquivo <code>.env.template</code> para arquivo <code>.env</code> com o comando <code>cp .env.template .env</code>. <strong>Descobri que via tags não é possível adicionar arquivo(s) na interface gráfica do GitHub</strong>.</p>
-</li>
-<li>
-<p>Rodar o comando <code>docker-compose up</code> e aguardar o final da instalação.</p>
-</li>
-<li>
-<p>Instalação realizada com sucesso e disponível <a href="https://gabrielbdornas-opulent-carnival-647jgw74g6639xv-5000.preview.app.github.dev/">em link próprio</a> quando máquina encontra-se com estado <code>Active</code>:</p>
-</li>
-</ul>
-<p><img alt="codespaces active" src="https://imgur.com/6S4PHKC.png" /></p>
-<h2 id="instalacao-versao-dev-210">Instalação versão dev 2.10<a class="headerlink" href="#instalacao-versao-dev-210" title="Permanent link">⚓︎</a></h2>
-<ul>
-<li>
-<p>Fork do repositório <a href="https://github.com/ckan/ckan-docker">ckan-docker</a> na organização <a href="https://github.com/gabrielbdornas/ckan-docker">gabrielbdornas</a>. <strong>Não selecionar a opção de copiar apenas a branch master</strong>.</p>
-</li>
-<li>
-<p>Adiciona Codespaces com a opção <code>New with options...</code>:</p>
-</li>
-</ul>
-<p><img alt="new codespaces" src="https://imgur.com/BJaHjtB.png" /></p>
-<ul>
-<li>Muda apenas configuração <code>Machine type</code>, selecionando a opção <code>8-core</code>(Funciona com <code>2-core</code> mas ficará menos performático):</li>
-</ul>
-<p><img alt="codespace machine type" src="https://imgur.com/KLm3l0n.png" /></p>
-<ul>
-<li>
-<p>Vs-code dev será aberto (código e terminal).</p>
-</li>
-<li>
-<p>Rodar os comandos <code>docker-compose build</code> e <code>docker-compose up</code> e aguardar o final da instalação, conforme <a href="https://github.com/ckan/ckan-docker#quick-start">documentação</a>. <strong>Não será necessário criar arquivo <code>.env</code> pois o mesmo já existia na raiz do repositório</strong>.</p>
-</li>
-<li>
-<p>Instalação realizada com sucesso e disponível <a href="https://gabrielbdornas-psychic-rotary-phone-rpvjgwvpg97hpx66-5000.preview.app.github.dev/">em link próprio</a> quando máquina encontra-se com estado <code>Active</code>:</p>
-</li>
-</ul>
-<p><img alt="codespaces active" src="https://imgur.com/msZM5xj.png" /></p>
-<h2 id="configuracoes-adicionais">Configurações Adicionais<a class="headerlink" href="#configuracoes-adicionais" title="Permanent link">⚓︎</a></h2>
-<p>Realizei as <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#installing-ckan-with-docker-compose:~:text=CKAN%20Datapusher%20image.-,There%20should,-be%20four%20named">configurações abaixo</a> apenas na instância dev 2.10 (2-core):</p>
-<ul>
-<li>Listar volumes com o comando <code>docker volume ls | grep docker</code> e configurar variáveis de ambiente:</li>
-</ul>
-<div class="highlight"><pre><span></span><code># Resultado
-local     ckan-docker_ckan_config
-local     ckan-docker_ckan_home
-local     ckan-docker_ckan_storage
-local     ckan-docker_pg_data
-local     ckan-docker_solr_data
-
-# Configurar variáveis de ambiente
-
-export VOL_CKAN_HOME=`docker volume inspect ckan-docker_ckan_home | jq -r -c &#39;.[] | .Mountpoint&#39;`
-
-export VOL_CKAN_CONFIG=`docker volume inspect ckan-docker_ckan_config | jq -r -c &#39;.[] | .Mountpoint&#39;`
-
-export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r -c &#39;.[] | .Mountpoint&#39;`
+<p>A discussão interna que fundamenta a escolha do tipo de licença está <a href="https://trello.com/c/OQVjhGeM/877-escolher-licen%C3%A7a-aberta-para-dados-de-interesse-coletivo-e-geral">neste card</a>, que foi originado da demanda registrada <a href="https://trello.com/c/auyl56pH/91-licenciamento-de-uso-de-dados-3-artefatos">nesse outro card</a>.</p>
+<h2 id="representacao">Representação<a class="headerlink" href="#representacao" title="Permanent link">⚓︎</a></h2>
+<p>Como utilizamos as especificações da Frictionless para documentar nossos conjuntos, os valores e hiperlinks da licença que <a href="https://trello.com/c/OQVjhGeM/877-escolher-licen%C3%A7a-aberta-para-dados-de-interesse-coletivo-e-geral#comment-610ab3589a7b7e1ec9a1c564">convencionamos utilizar no ano passado</a> são representados pelos valores da lista de dicionários conforme abaixo:</p>
+<p><div class="highlight"><pre><span></span><code>  &quot;licenses&quot;: [
+    {
+      &quot;name&quot;: &quot;CC-BY-SA-4.0&quot;,
+      &quot;title&quot;: &quot;Creative Commons Attribution Share-Alike 4.0&quot;,
+      &quot;path&quot;: &quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;
+    }
+  ]
 </code></pre></div>
-<ul>
-<li>A configuração <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher">Datastore and datapusher</a> não funcionou.</li>
-</ul>
+Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos issues sobre extensão ckanext-schemiing)[*1] </p>
+<p>Assim, o hiperlink da versão 4.0 da licença CC-BY não está aparecendo na GUI (interface gráfica do usuário) do CKAN:</p>
+<p><img alt="" src="../static/licen%C3%A7a-sem-hiperlink.png" /></p>
+<p>Uma maneira transitória é fazer a atribuição da licença via GUI, para fazer demonstrar o hiperlink de forma correta e possibilitar ao usuário acessar a página que descreve as prerrogativas da licença:</p>
+<p><img alt="" src="../static/atrib-licenca-GUI.png" /></p>
+<p><img alt="" src="../static/licenca-com-hiperlink.png" /></p>
+<p>Entretanto, qualquer atualização via CLI (linha de comando) ou dataset-template do conjunto de dados no github vai sobrescrever a atribuição do hiperlink da licença via GUI e retornar somente o texto sem hiperlink, contendo o nome da licença atribuída para aquele conjunto.</p>
+<p>A solução definitiva para esse caso, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, é a adoção de extensões que fazem esse trabalho, como estamos estudando em:</p>
+<ol>
+<li><a href="https://github.com/frictionlessdata/frictionless-ckan-mapper">Frictionless CKAN Mapper</a></li>
+</ol>
+<p>1.</p>
+<p>1.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 22:19:20</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 21, 2022 15:45:31</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 15:02:02</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 21, 2022 15:45:31</span>
       
     
   </small>
@@ -810,7 +740,7 @@ export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r 
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../20221220_Instancia_local_ckan_docker/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Instalando instâncias CKAN local utilizando Docker" rel="prev">
+        <a href="../20221220_ckan_in_github_codespaces/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Instalando instâncias CKAN no novo GitHub Codespaces" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -819,26 +749,11 @@ export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r 
               <span class="md-footer__direction">
                 Previous
               </span>
-              Instalando instâncias CKAN local utilizando Docker
+              Instalando instâncias CKAN no novo GitHub Codespaces
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../20221221_campo_licen%C3%A7a_sem_hiperlink/" class="md-footer__link md-footer__link--next" aria-label="Next: Licenças em dados abertos: background e representação" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Licenças em dados abertos: background e representação
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
