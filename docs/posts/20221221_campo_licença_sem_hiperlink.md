@@ -9,7 +9,7 @@ tags:
 
 O campo de licenças é um metadado obrigatório:
 
-- para o Portal Federal de Dados Abertos, regulamentado no Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA de 2017](https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes/resolucao-n-o-3-de-13-de-outubro-de-2017):
+- para o Portal Federal de Dados Abertos, regulamentado no [Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA de 2017](https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes/resolucao-n-o-3-de-13-de-outubro-de-2017):
 
 >  
 
@@ -36,7 +36,7 @@ Como utilizamos as especificações da Frictionless para documentar nossos conju
     }
   ]
 ````
-Entretanto, o `datapackage.json` é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos issues sobre extensão ckanext-schemiing)[*1] 
+Entretanto, o `datapackage.json` é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos issues sobre extensão ckanext-scheming)[^1] 
 
 Assim, o hiperlink da versão 4.0 da licença CC-BY não está aparecendo na GUI (interface gráfica do usuário) do CKAN:
 
@@ -57,3 +57,5 @@ A solução definitiva para esse caso, dentre outros de falta de correspondênci
 1.
 
 1.
+
+[^1]: Nota
