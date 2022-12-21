@@ -9,15 +9,14 @@ tags:
 
 O campo de licenças é um metadado obrigatório:
 
-- para o Portal Federal de Dados Abertos, regulamentado no [Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA de 2017](https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes/resolucao-n-o-3-de-13-de-outubro-de-2017):
+- para o Portal Federal de Dados Abertos, regulamentado no [Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA 2 de 2017](https://wiki-dados.cgu.gov.br/GetFile.aspx?File=%2fComiteGestor%2fResolu%c3%a7%c3%b5es%2fresolucao-cginda-2-24-3-2017%2cpdf.pdf):
 
->  
 
 - para o [datapackage creator da Frictionless](https://create.frictionlessdata.io/), que contém uma lista predefinidas de possíveis licenças:
 
 ![](static/licences-datapackage-creator.png)
 
-- está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: https://github.com/transparencia-mg/work-stefanini/issues/69
+- está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: [issue descritivo](https://github.com/transparencia-mg/work-stefanini/issues/69)
 
 - e será incluído como metadado obrigatório no [Manual de Dados Abertos de MG](https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais)
 
