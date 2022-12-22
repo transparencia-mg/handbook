@@ -13,9 +13,7 @@ tags:
 
 ## Erro instalação extenções versão dev 2.10
 
-Durante a tentativa de instalação de extensões `docker exec -it ckan bash` recebi o seguinte erro `OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown` que deverá ser investigado.
-
-Resumo: Instância instalada, mas ainda sem saber como instalar extensões.
+Durante a tentativa de instalação de extensões `docker exec -it ckan bash` recebi o seguinte erro `OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown` que deverá ser investigado. Solução encontrada e relatada no post [Erro durante comando `docker exec -it ckan bash`](../20221222_erro_apos_docker_exec_instancia_ckan)
 
 ## Referências
 
