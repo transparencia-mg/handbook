@@ -87,5 +87,7 @@ export VOL_CKAN_CONFIG=`docker volume inspect ckan-docker_ckan_config | jq -r -c
 export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r -c '.[] | .Mountpoint'`
 ```
 
-- A configuração [Datastore and datapusher](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher) não funcionou.
+- A configuração [Datastore and datapusher](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher) não funcionou pois durante a tentativa de instalação de extensões `docker exec -it ckan bash` recebi o seguinte erro `OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown` que deverá ser investigado.
+
+Resumo: Instância instalada, mas ainda sem saber como instalar extensões.
 
