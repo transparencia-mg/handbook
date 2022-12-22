@@ -1,6 +1,7 @@
 ---
 tags:
   - CKAN
+  - Erros
 ---
 
 # Erro durante comando `docker exec -it ckan bash`
