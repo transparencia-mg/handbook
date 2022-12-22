@@ -565,6 +565,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#erro-instalacao-extencoes-versao-dev-210" class="md-nav__link">
+    Erro instalação extenções versão dev 2.10
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -651,6 +658,13 @@
         <li class="md-nav__item">
   <a href="#configuracoes-adicionais" class="md-nav__link">
     Configurações Adicionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erro-instalacao-extencoes-versao-dev-210" class="md-nav__link">
+    Erro instalação extenções versão dev 2.10
   </a>
   
 </li>
@@ -783,16 +797,16 @@ export VOL_CKAN_CONFIG=`docker volume inspect ckan-docker_ckan_config | jq -r -c
 
 export VOL_CKAN_STORAGE=`docker volume inspect ckan-docker_ckan_storage | jq -r -c &#39;.[] | .Mountpoint&#39;`
 </code></pre></div>
-<ul>
-<li>A configuração <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher">Datastore and datapusher</a> não funcionou.</li>
-</ul>
+<h2 id="erro-instalacao-extencoes-versao-dev-210">Erro instalação extenções versão dev 2.10<a class="headerlink" href="#erro-instalacao-extencoes-versao-dev-210" title="Permanent link">⚓︎</a></h2>
+<p>A configuração <a href="https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html#datastore-and-datapusher">Datastore and datapusher</a> não funcionou pois durante a tentativa de instalação de extensões <code>docker exec -it ckan bash</code> recebi o seguinte erro <code>OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH: unknown</code> que deverá ser investigado.</p>
+<p>Resumo: Instância instalada, mas ainda sem saber como instalar extensões.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 20, 2022 22:19:20</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 22, 2022 16:53:31</span>
       
         <br>
         Created:
