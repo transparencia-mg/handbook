@@ -3,7 +3,7 @@ tags:
   - Frictionless
 ---
 
-# Frictionless Data Community Call
+# Frictionless Data Community Call 22/12/2022
 
 Data: 22/12/2022
 
