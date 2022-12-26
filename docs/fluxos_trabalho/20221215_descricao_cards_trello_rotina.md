@@ -30,7 +30,7 @@ Abaixo segue o texto descritivo de cada atividade:
 O monitoramento de acessos ao Portal da Transparência é feito por meio da ferramenta [_“Google Analytics”,_](https://analytics.google.com/analytics/web/?authuser=1#/report-home/a64127876w99948559p103863874) capaz de identificar o número de acessos ao Portal, a quantidade de usuários novos ou recorrentes, bem como a localização geográfica desses, o sistema operacional e o navegador utilizados durante as consultas, dentre outros. As informações podem ser verificadas em períodos diários, semanais, mensais e/ou anuais.
 
 - **Instruções para realização da ação:**
-S:\SCT\Diretoria_Transparencia_Ativa_DTA\Portal_Transparencia\Indicadores_portal\passo_a_passo_google_analytics.docx
+https://github.com/transparencia-mg/instrucoes-google-analytics#automatiza%C3%A7%C3%A3o-classifica%C3%A7%C3%B5es-de-acesso-portal-da-transpar%C3%AAncia-mg
 
 - **Prazo para realização:**
    até o 5º dia útil do mês subsequente
