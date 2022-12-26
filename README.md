@@ -1,27 +1,25 @@
-Trabalho Stefanini - Portal Dados Abertos
+Handbook Diretoria Central de Transparência Ativa
 ===
 
-O objetivo deste repositório é [documentar](https://transparencia-mg.github.io/work-stefanini/) o trabalho realizado pela empresa Stefanini no [Portal de Dados Abertos do Governo do Estado de Minas Gerais](https://dados.mg.gov.br/).
+O objetivo deste repositório é [documentar](https://transparencia-mg.github.io/handbook/0.1/) alguns trabalhos/achados na Diretoria Central de Transparência Ativa - DCTA/CGE-MG
 
 ## Setup :open_book:
 
 O setup windows poderá ser realizado via:
 
 ```Python
-$ git clone https://github.com/transparencia-mg/work-stefanini.git
-$ cd work-stefanini  
+$ git clone https://github.com/transparencia-mg/handbook.git
+$ cd handbook  
 $ python -m venv venv
 $ source venv/Scripts/activate
 $ pip install -r requirements.txt
 ```
 
-Todo processo de setup windows também encontra-se documentado [nesta ata de reunião](https://transparencia-mg.github.io/work-stefanini/0.2/atas_de_reuniao/20221121_configuracoes_inicial_documentacao_windows/).
-
 O setup linux poderá ser realizado via:
 
 ```Python
-$ git clone https://github.com/transparencia-mg/work-stefanini.git
-$ cd work-stefanini  
+$ git clone https://github.com/transparencia-mg/handbook.git
+$ cd handbook  
 $ make setup
 $ source venv/bin/activate
 ```
@@ -43,11 +41,11 @@ $ git checkout gh-pages
 $ git pull origin gh-pages
 $ mike deploy --push --update-aliases <minor>.<major> latest
 ```
-Confira também [issue](https://github.com/transparencia-mg/work-stefanini/issues/17) utilizado para documentar processo de versionamento.
+Confira também [esta issue](https://github.com/transparencia-mg/work-stefanini/issues/17) utilizado para documentar processo de versionamento.
 
 Visualização local da documentação versionada poderá ser feita via comando `mike serve`
 
 ## Contribuições
 
 Encontrou algo errado ou gostaria de enviar alguma sugestão. 
-Abra um [Issue](https://github.com/transparencia-mg/work-stefanini/issues) para nós.
+Abra um [Issue](https://github.com/transparencia-mg/handbook/issues) para nós.
