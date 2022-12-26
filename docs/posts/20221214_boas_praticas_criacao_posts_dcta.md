@@ -1,4 +1,5 @@
 ---
+comments: true
 tags:
   - Fluxo de Trabalho DCTA
 ---
