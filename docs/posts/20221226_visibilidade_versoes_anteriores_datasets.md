@@ -2,6 +2,7 @@
 comments: true
 tags:
   - CKAN
+  - versionamento
 ---
 
 # Visibilidade de versões anteriores de conjuntos de dados

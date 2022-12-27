@@ -2,6 +2,8 @@
 comments: true
 tags:
   - CKAN
+  - licenças
+  - regras de negócio
 ---
 
 # Licenças em dados abertos: background e representação
