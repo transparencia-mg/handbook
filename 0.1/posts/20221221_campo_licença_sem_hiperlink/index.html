@@ -628,6 +628,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#contexto-atual" class="md-nav__link">
+    Contexto Atual
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -725,6 +732,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#contexto-atual" class="md-nav__link">
+    Contexto Atual
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -762,19 +776,19 @@
 <p>O campo de licenças é um metadado obrigatório:</p>
 <ul>
 <li>
-<p>para o Portal Federal de Dados Abertos, regulamentado no <a href="https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2">Decreto Federal 8777</a> e na <a href="https://wiki-dados.cgu.gov.br/GetFile.aspx?File=%2fComiteGestor%2fResolu%c3%a7%c3%b5es%2fresolucao-cginda-2-24-3-2017%2cpdf.pdf">resolução CGINDA 2 de 2017</a>:</p>
+<p>para o Portal Federal de Dados Abertos, regulamentado no <a href="https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2">Decreto Federal 8777</a> e na <a href="https://wiki-dados.cgu.gov.br/GetFile.aspx?File=%2fComiteGestor%2fResolu%c3%a7%c3%b5es%2fresolucao-cginda-2-24-3-2017%2cpdf.pdf">resolução CGINDA 2 de 2017</a>;</p>
 </li>
 <li>
-<p>para o <a href="https://create.frictionlessdata.io/">datapackage creator da Frictionless</a>, que contém uma lista predefinidas de possíveis licenças:</p>
+<p>nas <a href="https://specs.frictionlessdata.io/data-package/#licenses">especificações da Frictionless Data</a> e no <a href="https://create.frictionlessdata.io/">datapackage creator da Frictionless</a> - ferramenta derivada das <em>Frictionless Specs</em>, que contém uma lista predefinidas de possíveis licenças;</p>
 </li>
 </ul>
 <p><img alt="" src="../static/licences-datapackage-creator.png" /></p>
 <ul>
 <li>
-<p>está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: <a href="https://github.com/transparencia-mg/work-stefanini/issues/69">issue descritivo</a></p>
+<p>está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: <a href="https://github.com/transparencia-mg/work-stefanini/issues/69">issue descritivo</a>;</p>
 </li>
 <li>
-<p>e será incluído como metadado obrigatório no <a href="https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais">Manual de Dados Abertos de MG</a></p>
+<p>e será incluído como metadado obrigatório no <a href="https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais">Manual de Dados Abertos de MG</a>.</p>
 </li>
 </ul>
 <p>A discussão interna que fundamenta a escolha do tipo de licença está <a href="https://trello.com/c/OQVjhGeM/877-escolher-licen%C3%A7a-aberta-para-dados-de-interesse-coletivo-e-geral">neste card</a>, que foi originado da demanda registrada <a href="https://trello.com/c/auyl56pH/91-licenciamento-de-uso-de-dados-3-artefatos">nesse outro card</a>.</p>
@@ -788,24 +802,31 @@
     }
   ]
 </code></pre></div>
-Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos issues sobre extensão ckanext-scheming)<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> </p>
+Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos <a href="https://github.com/ckan/ckanext-scheming/issues">issues sobre a extensão ckanext-scheming</a> </p>
 <p>Assim, o hiperlink da versão 4.0 da licença CC-BY não está aparecendo na GUI (interface gráfica do usuário) do CKAN:</p>
 <p><img alt="" src="../static/licen%C3%A7a-sem-hiperlink.png" /></p>
 <p>Uma maneira transitória é fazer a atribuição da licença via GUI, para fazer demonstrar o hiperlink de forma correta e possibilitar ao usuário acessar a página que descreve as prerrogativas da licença:</p>
 <p><img alt="" src="../static/atrib-licenca-GUI.png" /></p>
 <p><img alt="" src="../static/licenca-com-hiperlink.png" /></p>
 <p>Entretanto, qualquer atualização via CLI (linha de comando) ou dataset-template do conjunto de dados no github vai sobrescrever a atribuição do hiperlink da licença via GUI e retornar somente o texto sem hiperlink, contendo o nome da licença atribuída para aquele conjunto.</p>
-<p>A solução definitiva para esse caso, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, é a adoção de extensões que fazem esse trabalho, como estamos estudando em:</p>
-<ol>
-<li><a href="https://github.com/frictionlessdata/frictionless-ckan-mapper">Frictionless CKAN Mapper</a></li>
-</ol>
-<p>1.</p>
-<p>1.</p>
+<p>A solução definitiva para esse caso, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, seria a adoção de extensões que fazem esse trabalho, como estamos estudando em <a href="https://github.com/frictionlessdata/frictionless-ckan-mapper">Frictionless CKAN Mapper</a>.</p>
+<h2 id="contexto-atual">Contexto Atual<a class="headerlink" href="#contexto-atual" title="Permanent link">⚓︎</a></h2>
+<p>Porém, uma característica da versão 2.10-dev (a mais atual no momento) do CKAN é a de que as licenças possuem uma listagem codificada diretamente no <strong>código-fonte</strong>, o que limita adaptações via instalações de extensões. Ao longo do trabalho com Stefanini, e após o release da nova versão do CKAN, clarificaremos este cenário de como aplicar as licenças da maneira mais prática possível, do ponto de vista do publicador, sem perder de vista a prerrogativa de reúso de 'dado aberto' que gostaríamos de preservar, como administradores de sistema. </p>
+<p>Nesse sentido, gostaríamos de estabelecer dois tipos básicos de licenças para todo e qualquer tipo de conjutno aberto no dados.mg.gov.br:</p>
+<ul>
+<li>
+<p>domínio público</p>
+</li>
+<li>
+<p>atribuição</p>
+</li>
+</ul>
+<p>Esse entendimento encontra respaldo na comunidade, já visto em cursos anteriores sobre o CKAN, ministrado pela OKFBr, e estudado pelo Augusto Hermann <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> <a href="https://herrmann.tech/pt/blog/2020/12/07/dados-abertos-a-retrospectiva-de-um-comite.html">neste post</a> como uma questão de atribuição escalar das licenças - podendo ser proposta, em âmbito estadual, por uma Resolução da CGE (como já rascunhado nos cards internos supracitados), ou elemento de um Decreto que verse sobre a Política de Dados Abertos. </p>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p>Nota&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Um dos criadores e desenvolvedores do Portal Federal de Dados Abertos&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -815,7 +836,7 @@ Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 26, 2022 14:27:35</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 27, 2022 00:08:52</span>
       
         <br>
         Created:
