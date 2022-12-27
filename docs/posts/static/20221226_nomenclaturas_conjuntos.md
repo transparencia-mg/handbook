@@ -19,7 +19,7 @@ Essa mudança [parece ser complexa](https://github.com/ckan/ckan/issues/1587), e
 
 Uma dessas alternativas é usar como nome do conjunto `{owner-org}-{dataset-name}`, mas fica a dúvida se isso deve estar registrado em todas as representações do conjunto ou somente no CKAN.
 
-Particularmente me incomoda ficar com nomes de pastas e URLs no github muito grandes 
+Não é prático ficar com nomes de pastas e URLs no github muito grandes 
 
 ```
 controladoria-geral-do-estado-cge-convenios-saida
@@ -27,6 +27,7 @@ controladoria-geral-do-estado-cge-convenios-saida
 ## Benchmarking
 
 No portal dados.gov.br, a nomenclatura de conjuntos com mesmo nome ficou ad-hoc (orcamento1, orcamento2) ou a sigla da organização está com o nome do conjunto na URL:
+
 - [Planos de Dados Abertos](
 https://dados.gov.br/dataset?q=plano+de+dados+abertos&sort=score+desc%2C+metadata_modified+desc)
 
