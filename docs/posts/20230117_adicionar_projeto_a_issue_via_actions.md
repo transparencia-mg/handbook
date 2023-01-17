@@ -43,7 +43,7 @@ Por fim, com intúito de padronizar, sugiro utilizarmos o nome `add_issues_to_pr
 
 ## Passos a serem seguidos
 
-- Incluir `ADD_TO_PROJECT_PAT` no repositório que se deseja automatizar (settings/secrets/actions).
+- Incluir secret `ADD_TO_PROJECT_PAT` no repositório que se deseja automatizar (settings/secrets/actions).
 - Incluir arquivo `.github/workflows/add_issues_to_projects.yml` no repositório que se deseja automatizar com o seguinte conteúdo:
 
 ```
@@ -63,5 +63,6 @@ jobs:
           project-url: https://github.com/orgs/transparencia-mg/projects/1
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
 ```
+
 - Criar um issue para testar automatização.
 - Deletar issue teste caso automatização funcione.
