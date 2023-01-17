@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.4.0
         with:
-          project-url: https://github.com/users/<user id>/projects/<project id>
+          project-url: https://github.com/orgs/transparencia-mg/projects/1
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
