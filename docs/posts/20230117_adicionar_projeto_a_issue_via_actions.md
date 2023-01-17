@@ -40,3 +40,28 @@ Ao que tudo indica, [não é possível este tipo de utilização](https://github
 ![](https://imgur.com/rX68hvW.png)
 
 Por fim, com intúito de padronizar, sugiro utilizarmos o nome `add_issues_to_projects.yml` para a actions que orquestratrá todo processo.
+
+## Passos a serem seguidos
+
+- Incluir `ADD_TO_PROJECT_PAT` no repositório que se deseja automatizar (settings/secrets/actions).
+- Incluir arquivo `.github/workflows/add_issues_to_projects.yml` no repositório que se deseja automatizar com o seguinte conteúdo:
+
+```
+name: Add issues to project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/orgs/transparencia-mg/projects/1
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+```
+- Criar um issue para testar automatização.
+- Deletar issue teste caso automatização funcione.
