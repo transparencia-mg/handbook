@@ -40,6 +40,7 @@ Ao que tudo indica, [não é possível este tipo de utilização](https://github
 ![](https://imgur.com/rX68hvW.png)
 
 Por fim, com intúito de padronizar, sugiro utilizarmos o nome `add_issues_to_projects.yml` para a actions que orquestratrá todo processo.
+O [issue 34](https://github.com/transparencia-mg/handbook/issues/34) do repositório handbook foi criado com intúito de utilizar este processo em todos os repositórios da organização [transparencia-mg](https://github.com/transparencia-mg).
 
 ## Passos a serem seguidos
 
