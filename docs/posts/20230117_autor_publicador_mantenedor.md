@@ -2,7 +2,7 @@
 comments: true
 tags:
   - CKAN
-  - licenças
+  - autoria
   - regras de negócio
 ---
 
