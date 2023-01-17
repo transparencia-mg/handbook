@@ -22,12 +22,14 @@ As informações sobre autores e responsáveis pelos dados publicados são metad
 
 - nas [especificações da Frictionless Data](https://specs.frictionlessdata.io/data-package/#contributors):
 
-```` "contributors": [{
+```` 
+"contributors": [{
   "title": "Joe Bloggs",
   "email": "joe@bloggs.com",
   "path": "http://www.bloggs.com",
   "role": "author"
 }]
+
 ````
 
 - está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: [ver critério 007](https://transparencia-mg.github.io/work-stefanini/0.6/estorias_de_usuarios/sprint_04/06_edicao_do_conjunto_de_dados/#criterios-de-aceite);
