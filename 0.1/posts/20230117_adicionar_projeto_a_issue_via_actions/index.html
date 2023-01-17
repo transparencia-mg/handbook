@@ -13,7 +13,7 @@
     
     
       
-        <title>Sistema de Comentários Handbook - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Adicionar Projeto a Issue via GitHub Actions - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sistema-de-comentarios-handbook" class="md-skip">
+        <a href="#adicionar-projeto-a-issue-via-github-actions" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sistema de Comentários Handbook
+              Adicionar Projeto a Issue via GitHub Actions
             
           </span>
         </div>
@@ -627,21 +627,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../20221226_sistema_de_comentarios/" class="md-nav__link">
         Sistema de Comentários Handbook
       </a>
-      
     </li>
   
 
@@ -665,11 +655,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../20230117_adicionar_projeto_a_issue_via_actions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Adicionar Projeto a Issue via GitHub Actions
       </a>
+      
     </li>
   
 
@@ -774,32 +774,60 @@
         <a href="../20221213_tags/#github" class="md-tag">GitHub</a>
       
     
+      
+      
+        <a href="../20221213_tags/#fluxo-de-trabalho-dcta" class="md-tag">Fluxo de Trabalho DCTA</a>
+      
+    
   </nav>
 
 
 
-  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20221226_sistema_de_comentarios.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/transparencia-mg/handbook/edit/main/docs/posts/20230117_adicionar_projeto_a_issue_via_actions.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="sistema-de-comentarios-handbook">Sistema de Comentários Handbook<a class="headerlink" href="#sistema-de-comentarios-handbook" title="Permanent link">⚓︎</a></h1>
-<p>Em 26/12/2022 incluímos mais uma funcionalidade na nossa documentação Handbook, o <a href="https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/?h=com">Sistema de Cometário</a>. 
-Este novo sistema utiliza a ferramenta <a href="https://giscus.app/">giscus</a> que integra as <a href="https://github.com/transparencia-mg/handbook/discussions">discussões do repositório</a> à qualquer documento que produzirmos, bastando incluir <code>comments: true</code> no início do documento em questão.
-A título de sugestão acredito que todos os documentos da pasta <code>posts</code> e <code>fluxos_trabalho</code> deverão ser criados com esta opção.
-Este sistema não lista todos os integrantes da DCTA ao utilizar a opção "@" durante a criação de um comentário em posts ou documentos de fluxo de trabalho. Sugiro copiar e colar o nome do usuário que se deseja chamar a atenção durante a criação de comentários.</p>
+<h1 id="adicionar-projeto-a-issue-via-github-actions">Adicionar Projeto a Issue via GitHub Actions<a class="headerlink" href="#adicionar-projeto-a-issue-via-github-actions" title="Permanent link">⚓︎</a></h1>
+<p>Como idéia para melhor organizar os issues criados dentro dos repositórios da organização <a href="https://github.com/transparencia-mg">transparencia-mg</a> pensamos em sempre vincular issues criados ao projeto <a href="https://github.com/orgs/transparencia-mg/projects/1">@work-dta</a>.
+Desta maneira periodicamente conseguiremos analisar o "estoque" de trabalho e realizar a priorização do mesmo.
+Isso exigi um nível de organização muito grande, pois além de abrir o issue descrevendo a ação a ser feita deveremos lembrar de realizar a inclusão do projeto em questão.
+A chance de erro material neste caso é grande.
+Para automatizar este processo pesquisei <a href="https://github.com/orgs/community/discussions/9687#discussioncomment-4702790">esta solução</a>, para criar uma GitHub Actions a ser acionada toda vez que um issue for criado:</p>
+<div class="highlight"><pre><span></span><code>name: Add issues to project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/users/&lt;user id&gt;/projects/&lt;project id&gt;
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+</code></pre></div>
+<p>Caso o repositório que se deseja automatizar não tenha a pasta <code>.github/workflows</code>, a mesma deverá ser criada para incluir o arquivo <code>yml</code> conforme sugerido acima.
+O repositório GitHub <a href="https://github.com/actions/add-to-project">add-to-project</a> demonstra alguns outros <a href="https://github.com/actions/add-to-project#examples">exemplos</a> de utilização, bem como explica os <a href="https://github.com/actions/add-to-project#inputs">inputs</a> obrigatórios a serem fornecidos, como o <code>github-token</code>. </p>
+<p>Incluí como configuração na organização <a href="https://github.com/transparencia-mg">transparencia-mg</a> <code>permitir acesso via access token pessoal (classic)</code> pois recebi o <a href="https://github.com/gabrielbdornas/notes/actions/runs/3939553780/jobs/6739545364">erro</a> <code>Error: Personal access tokens with fine grained access do not support the GraphQL API</code> ao tentar utilizar a funcionalidade com o <code>fine-grained Personal Access Tokens</code>.
+Ao que tudo indica, <a href="https://github.com/cli/cli/issues/6680">não é possível este tipo de utilização</a>.</p>
+<p><img alt="" src="https://imgur.com/rX68hvW.png" /></p>
+<p>Por fim, com intúito de padronizar, sugiro utilizarmos o nome <code>add_issues_to_projects.yml</code> para a actions que orquestratrá todo processo.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 26, 2022 14:47:06</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 14:14:02</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 26, 2022 14:47:06</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 14:14:02</span>
       
     
   </small>
@@ -876,7 +904,7 @@ Este sistema não lista todos os integrantes da DCTA ao utilizar a opção "@" d
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../20221222_frictionless_data_community_call/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Frictionless Data Community Call 22/12/2022" rel="prev">
+        <a href="../20221226_visibilidade_versoes_anteriores_datasets/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Visibilidade de versões anteriores de conjuntos de dados" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -885,20 +913,20 @@ Este sistema não lista todos os integrantes da DCTA ao utilizar a opção "@" d
               <span class="md-footer__direction">
                 Previous
               </span>
-              Frictionless Data Community Call 22/12/2022
+              Visibilidade de versões anteriores de conjuntos de dados
             </div>
           </div>
         </a>
       
       
         
-        <a href="../20221226_visibilidade_versoes_anteriores_datasets/" class="md-footer__link md-footer__link--next" aria-label="Next: Visibilidade de versões anteriores de conjuntos de dados" rel="next">
+        <a href="../static/20221226_nomenclaturas_conjuntos/" class="md-footer__link md-footer__link--next" aria-label="Next: Convenções sobre nomenclaturas: URLs dos conjuntos" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Visibilidade de versões anteriores de conjuntos de dados
+              Convenções sobre nomenclaturas: URLs dos conjuntos
             </div>
           </div>
           <div class="md-footer__button md-icon">
