@@ -878,13 +878,14 @@ O repositório GitHub <a href="https://github.com/actions/add-to-project">add-to
 <p>Incluí como configuração na organização <a href="https://github.com/transparencia-mg">transparencia-mg</a> <code>permitir acesso via access token pessoal (classic)</code> pois recebi o <a href="https://github.com/gabrielbdornas/notes/actions/runs/3939553780/jobs/6739545364">erro</a> <code>Error: Personal access tokens with fine grained access do not support the GraphQL API</code> ao tentar utilizar a funcionalidade com o <code>fine-grained Personal Access Tokens</code>.
 Ao que tudo indica, <a href="https://github.com/cli/cli/issues/6680">não é possível este tipo de utilização</a>.</p>
 <p><img alt="" src="https://imgur.com/rX68hvW.png" /></p>
-<p>Por fim, com intúito de padronizar, sugiro utilizarmos o nome <code>add_issues_to_projects.yml</code> para a actions que orquestratrá todo processo.</p>
+<p>Por fim, com intúito de padronizar, sugiro utilizarmos o nome <code>add_issues_to_projects.yml</code> para a actions que orquestratrá todo processo.
+O <a href="https://github.com/transparencia-mg/handbook/issues/34">issue 34</a> do repositório handbook foi criado com intúito de utilizar este processo em todos os repositórios da organização <a href="https://github.com/transparencia-mg">transparencia-mg</a>.</p>
 <h2 id="passos-a-serem-seguidos">Passos a serem seguidos<a class="headerlink" href="#passos-a-serem-seguidos" title="Permanent link">⚓︎</a></h2>
 <ul>
-<li>Incluir <code>ADD_TO_PROJECT_PAT</code> no repositório que se deseja automatizar (settings/secrets/actions).</li>
+<li>Incluir secret <code>ADD_TO_PROJECT_PAT</code> no repositório que se deseja automatizar (settings/secrets/actions).</li>
 <li>Incluir arquivo <code>.github/workflows/add_issues_to_projects.yml</code> no repositório que se deseja automatizar com o seguinte conteúdo:</li>
 </ul>
-<p><div class="highlight"><pre><span></span><code>name: Add issues to project
+<div class="highlight"><pre><span></span><code>name: Add issues to project
 
 on:
   issues:
@@ -900,15 +901,17 @@ jobs:
           project-url: https://github.com/orgs/transparencia-mg/projects/1
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
 </code></pre></div>
-- Criar um issue para testar automatização.
-- Deletar issue teste caso automatização funcione.</p>
+<ul>
+<li>Criar um issue para testar automatização.</li>
+<li>Deletar issue teste caso automatização funcione.</li>
+</ul>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 14:23:03</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 17:28:21</span>
       
         <br>
         Created:
