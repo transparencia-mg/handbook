@@ -720,6 +720,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#representacao" class="md-nav__link">
+    Representação
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -828,6 +835,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#representacao" class="md-nav__link">
+    Representação
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -886,34 +900,37 @@
 <p>nas <a href="https://specs.frictionlessdata.io/data-package/#contributors">especificações da Frictionless Data</a>:</p>
 </li>
 </ul>
-<p><code>"contributors": [{
-  "title": "Joe Bloggs",
-  "email": "joe@bloggs.com",
-  "path": "http://www.bloggs.com",
-  "role": "author"
+<div class="highlight"><pre><span></span><code>&quot;contributors&quot;: [{
+  &quot;title&quot;: &quot;Joe Bloggs&quot;,
+  &quot;email&quot;: &quot;joe@bloggs.com&quot;,
+  &quot;path&quot;: &quot;http://www.bloggs.com&quot;,
+  &quot;role&quot;: &quot;author&quot;
 }]
-<div class="highlight"><pre><span></span><code>- está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: [ver critério 007](https://transparencia-mg.github.io/work-stefanini/0.6/estorias_de_usuarios/sprint_04/06_edicao_do_conjunto_de_dados/#criterios-de-aceite);
-
-- e será incluído como metadado obrigatório no [Manual de Dados Abertos de MG](https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais).
-
-A discussão interna que fundamenta a obrigatoriedade desse metadado encontra-se [neste issue](https://github.com/transparencia-mg/issues-dadosmg-legado/issues/68).
-
-## Representação
-
-Como utilizamos as especificações da Frictionless para documentar nossos conjuntos, os campos de nome e email dos autores, publicadores e mantenedores são representados pelos valores da lista de dicionários conforme abaixo:
 </code></pre></div>
-  "contributors": [
+<ul>
+<li>
+<p>está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: <a href="https://transparencia-mg.github.io/work-stefanini/0.6/estorias_de_usuarios/sprint_04/06_edicao_do_conjunto_de_dados/#criterios-de-aceite">ver critério 007</a>;</p>
+</li>
+<li>
+<p>e será incluído como metadado obrigatório no <a href="https://transparencia-mg.github.io/manual-abertura/pages/002_metadados.html#metadados-obrigat%C3%B3rios-e-facultativos-no-portal-de-dados-abertos-de-minas-gerais">Manual de Dados Abertos de MG</a>.</p>
+</li>
+</ul>
+<p>A discussão interna que fundamenta a obrigatoriedade desse metadado encontra-se <a href="https://github.com/transparencia-mg/issues-dadosmg-legado/issues/68">neste issue</a>.</p>
+<h2 id="representacao">Representação<a class="headerlink" href="#representacao" title="Permanent link">⚓︎</a></h2>
+<p>Como utilizamos as especificações da Frictionless para documentar nossos conjuntos, os campos de nome e email dos autores, publicadores e mantenedores são representados pelos valores da lista de dicionários conforme abaixo:</p>
+<p><div class="highlight"><pre><span></span><code>  &quot;contributors&quot;: [
     {
-      "title": "Superintendência Central de Parcerias com o Terceiro Setor",
-      "role": "author",
-      "email": "oscip@planejamento.mg.gov.br"
+      &quot;title&quot;: &quot;Superintendência Central de Parcerias com o Terceiro Setor&quot;,
+      &quot;role&quot;: &quot;author&quot;,
+      &quot;email&quot;: &quot;oscip@planejamento.mg.gov.br&quot;
     },
     {
-      "title": "Diretoria Central de Transparência Ativa",
-      "role": "maintainer",
-      "email": "transparencia@cge.mg.gov.br"
+      &quot;title&quot;: &quot;Diretoria Central de Transparência Ativa&quot;,
+      &quot;role&quot;: &quot;maintainer&quot;,
+      &quot;email&quot;: &quot;transparencia@cge.mg.gov.br&quot;
     }
-  ]</code>
+  ]
+</code></pre></div>
 Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos <a href="https://github.com/ckan/ckanext-scheming/issues">issues sobre a extensão ckanext-scheming</a> .</p>
 <p>Assim, informações sobre <code>publisher</code> não são interpretadas pelos campos do CKAN, apenas autor e mantenedor, que têm os nomes/valores das propriedades <code>title</code> funcionando como hiperlinks para acessar o <code>email</code> informado via <code>datapackage.json</code>: </p>
 <p><img alt="" src="../static/autoria_CKAN.png" /></p>
@@ -926,7 +943,7 @@ Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 15:29:30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 17, 2023 15:37:05</span>
       
         <br>
         Created:
