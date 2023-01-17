@@ -8,11 +8,9 @@ tags:
 
 Data: 22/12/2022
 
-- [Vídeo do evento]().
+- [Vídeo do evento](https://frictionlessdata.io/blog/2023/01/06/datapackage-as-a-service/).
 
 - [Meeting Agenda](https://docs.google.com/document/d/1chRTxCTo-_HIfCdGv5ApmR2PObk_ISf1Vt-vRTBbMFM/edit).
-
-
 
 - Interesting Question: Do any of the mentioned services (flatgithub, datasette, …) handle data packages with multiple resources that have foreign keys?
   - Edigar: [postgREST](https://postgrest.org/en/stable/) would handle that, you can query related objects referenced by foreign keys.
