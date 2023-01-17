@@ -12,7 +12,21 @@ tags:
 
 O campo de licenças é um metadado obrigatório:
 
-- para o Portal Federal de Dados Abertos, regulamentado no [Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA 2 de 2017](https://wiki-dados.cgu.gov.br/GetFile.aspx?File=%2fComiteGestor%2fResolu%c3%a7%c3%b5es%2fresolucao-cginda-2-24-3-2017%2cpdf.pdf);
+- para o Portal Federal de Dados Abertos, regulamentado no [Decreto Federal 8777](https://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm#art2) e na [resolução CGINDA 2 de 2017](https://wiki-dados.cgu.gov.br/GetFile.aspx?File=%2fComiteGestor%2fResolu%c3%a7%c3%b5es%2fresolucao-cginda-2-24-3-2017%2cpdf.pdf)(ver 'Condições de uso dos dados disponibilizados', pág. 2/4):
+
+> Os dados e as informações publicados no Portal Brasileiro de Dados Abertos estão disponíveis
+> conforme as condições definidas neste documento, devendo o usuário verificar, no metadado
+> correspondente a cada conjunto de dados, as licenças sobre condições adicionais, que podem
+> ser atualizadas, corrigidas e/ou substituídas a qualquer tempo.
+> Antes da realização da escolha da licença mais adequada, deverá ser levado em consideração
+> se o dado possui direito autoral ou não.A base de dados deverá ser identificada como sendo
+> de domínio público nos seguintes casos: aquelas que, por critério de seleção, organização ou
+> disposição de seu conteúdo, não puderem ser consideradas criações intelectuais e os
+> cadastros e os atos oficiais que não gozam de proteção de direitos autorais.
+> Caso contrário, seu direito autoral existe e pertence à Administração, de maneira que cada
+> instituição deverá escolher uma licença que configure a base de dados como sendo dados
+> abertos, tais como: Creative Commons Zero, Public Domain Dedication and License (PDDL),
+> Creative Commons Atribuição 4.0 e Open Database License (OdbL).
 
 
 - nas [especificações da Frictionless Data](https://specs.frictionlessdata.io/data-package/#licenses) e no [datapackage creator da Frictionless](https://create.frictionlessdata.io/) - ferramenta derivada das _Frictionless Specs_, que contém uma lista predefinidas de possíveis licenças;
