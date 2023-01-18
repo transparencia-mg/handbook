@@ -995,18 +995,16 @@ temporal:
 <p>Além disso, o nome da propriedade em outro idioma que não seja o inglês faz perder a consistência com os demais metadados aderentes À especificação Frictionless.</p>
 <p>A Dublin Core, um padrão de metadados bem difundido e que é basilar para outros, tem o <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/accrualPeriodicity/">accrualPeriodicity</a> como propriedade para fazer representar a frequência de atualização.</p>
 <p>O fato de ser algo padronizado pela Dublin Core e <a href="https://www.w3.org/TR/vocab-dcat-2/#Property:dataset_frequency">utilizada no DCAT</a> pesa em seu favor, mas <code>accrualPeriodicity</code> não comunica seu significado com suficiência e os valores em inglês vão gerar dificuldades:</p>
-<blockquote>
-<p>Semiannual [freq:semiannual]
-Three times a year [freq:threeTimesAYear]
-Quarterly [freq:quarterly]
-Bimonthly [freq:bimonthly]
-Monthly [freq:monthly]
-Semimonthly [freq:semimonthly]
-Biweekly [freq:biweekly]</p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>Semiannual [freq:semiannual]
+&gt; Three times a year [freq:threeTimesAYear]
+&gt; Quarterly [freq:quarterly]
+&gt; Bimonthly [freq:bimonthly]
+&gt; Monthly [freq:monthly]
+&gt; Semimonthly [freq:semimonthly]
+&gt; Biweekly [freq:biweekly]
+</code></pre></div>
 <p>O ckanext-scheming parece ter um <a href="https://github.com/ckan/ckanext-scheming/blob/7d5d6cb91c3d82bd14982dd355c53206c839bbc6/ckanext/scheming/subfields.yaml#L96-L113">padrão para frequência de atualização</a>: </p>
-<blockquote>
-<p>field_name: frequency
+<div class="highlight"><pre><span></span><code>field_name: frequency
     label: Frequency
     preset: select
     choices:
@@ -1023,8 +1021,8 @@ Biweekly [freq:biweekly]</p>
     - label: Annual
       value: 1y
     - label: Decennial
-      value: 10y</p>
-</blockquote>
+      value: 10y
+</code></pre></div>
 <p>A princípio, um universo de valores possíveis mais restrito que o Dublin Core, mas parecendo abarcar quase todas as possibilidades de frequência de atualização dos atuais conjuntos publicados no PdA.</p>
 <h2 id="metadados-fora-de-padroes-das-especificacoes">Metadados fora de padrões das especificações<a class="headerlink" href="#metadados-fora-de-padroes-das-especificacoes" title="Permanent link">⚓︎</a></h2>
 <p>Como fazer representar chaves e valores dessas propriedades, ou metadados, extremamente úteis aos usuários, mas com tais dificuldades de transposição leitura humana a leitura por máquina (e vice-versa)?</p>
@@ -1037,7 +1035,7 @@ Biweekly [freq:biweekly]</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 14:42:13</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 14:53:14</span>
       
         <br>
         Created:
