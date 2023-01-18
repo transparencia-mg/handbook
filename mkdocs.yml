@@ -105,3 +105,5 @@ plugins:
       version_selector: true
   - tags:
       tags_file: posts/20221213_tags.md
+  - search:
+      lang: pt
