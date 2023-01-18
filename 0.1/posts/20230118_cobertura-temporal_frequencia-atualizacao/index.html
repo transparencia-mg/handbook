@@ -13,7 +13,7 @@
     
     
       
-        <title>Metadados de cobertura temporal e periodicidade de atualização - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Cobertura temporal e periodicidade de atualização - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#metadados-de-cobertura-temporal-e-periodicidade-de-atualizacao" class="md-skip">
+        <a href="#cobertura-temporal-e-periodicidade-de-atualizacao" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Metadados de cobertura temporal e periodicidade de atualização
+              Cobertura temporal e periodicidade de atualização
             
           </span>
         </div>
@@ -672,6 +672,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../20221226_nomenclaturas_conjuntos/" class="md-nav__link">
+        Convenções sobre nomenclaturas: URLs dos conjuntos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../20221226_sistema_de_comentarios/" class="md-nav__link">
         Sistema de Comentários Handbook
       </a>
@@ -715,7 +729,7 @@
   
     <li class="md-nav__item">
       <a href="../20230117_autor_publicador_mantenedor/" class="md-nav__link">
-        Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+        Autoria e contatos dos responsáveis pelos conjuntos de dados
       </a>
     </li>
   
@@ -738,12 +752,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Metadados de cobertura temporal e periodicidade de atualização
+          Cobertura temporal e periodicidade de atualização
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Metadados de cobertura temporal e periodicidade de atualização
+        Cobertura temporal e periodicidade de atualização
       </a>
       
         
@@ -806,59 +820,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
-      
-      
-      
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_5_14">
-          Static
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Static" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_14">
-          <span class="md-nav__icon md-icon"></span>
-          Static
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../static/20221226_nomenclaturas_conjuntos/" class="md-nav__link">
-        Convenções sobre nomenclaturas: URLs dos conjuntos
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -989,7 +950,7 @@
   </a>
 
 
-<h1 id="metadados-de-cobertura-temporal-e-periodicidade-de-atualizacao">Metadados de cobertura temporal e periodicidade de atualização<a class="headerlink" href="#metadados-de-cobertura-temporal-e-periodicidade-de-atualizacao" title="Permanent link">⚓︎</a></h1>
+<h1 id="cobertura-temporal-e-periodicidade-de-atualizacao">Cobertura temporal e periodicidade de atualização<a class="headerlink" href="#cobertura-temporal-e-periodicidade-de-atualizacao" title="Permanent link">⚓︎</a></h1>
 <p>É muito importante comunicar aos usuários dos conjuntos de dados publicados a qual período se referem os dados e a qual frequência temporal eles estão sendo atualizados. Dados de séries histórica podem gerar confusão no seu uso, se o recorte do período específico da publicação não estiver claro. Por outro lado, a frequência de tempo usada para sua atualização é importante mecanismo de verificação da regularidade de sua alimentação pelos custodiantes responsáveis (autor, publicador). Além disso, para usuários costumeiros, saber exatamente quando o dado será atualizado é útil para consulta.</p>
 <h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">⚓︎</a></h2>
 <p>As informações sobre cobertura temporal e periodicidade de atualização são metadados mencionados:</p>
@@ -1017,9 +978,9 @@
 <p>A Frictionless Standard tem um forma de representação das informações de início e fim da série temporal através da propriedade <a href="https://specs.frictionlessdata.io/data-package/#:~:text=Adherence%20to%20the%20specification%20does%20not%20imply%20that%20additional"><code>temporal</code></a>.</p>
 <p>O <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos <a href="https://github.com/ckan/ckanext-scheming/issues">issues sobre a extensão ckanext-scheming</a> . </p>
 <p>Assim, uma notação legível por máquina:</p>
-<p><img alt="" src="static/temporal_JSON.png" /></p>
+<p><img alt="" src="assets/images/temporal_JSON.png" /></p>
 <p>Não é adequadamente interpretada para ser legível por pessoas na interface gráfica do CKAN como 'fonte', autor', 'mantenedor' </p>
-<p><img alt="" src="../static/temporal_CKAN.png" /></p>
+<p><img alt="" src="assets/images/temporal_CKAN.png" /></p>
 <h4 id="sobre-a-frequencia-de-atualizacao-ou-accrualperiodicity">Sobre a frequência de atualização ou <code>accrualPeriodicity</code><a class="headerlink" href="#sobre-a-frequencia-de-atualizacao-ou-accrualperiodicity" title="Permanent link">⚓︎</a></h4>
 <p>Os nomes das propriedades do JSON e YAML <a href="https://github.com/transparencia-mg/crimes-violentos/blob/7db841f373444afe52925d690f483e47801f9988/datapackage.yaml#L19">podem conter espaço e acentos</a>, mas essa flexibilidade pode provocar incompatibilidade com ferramentas diversas:</p>
 <div class="highlight"><pre><span></span><code>licenses:
@@ -1074,7 +1035,7 @@ temporal:
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 14:53:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 15:09:16</span>
       
         <br>
         Created:
@@ -1155,7 +1116,7 @@ temporal:
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../20230117_autor_publicador_mantenedor/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação" rel="prev">
+        <a href="../20230117_autor_publicador_mantenedor/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Autoria e contatos dos responsáveis pelos conjuntos de dados" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1164,26 +1125,11 @@ temporal:
               <span class="md-footer__direction">
                 Previous
               </span>
-              Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+              Autoria e contatos dos responsáveis pelos conjuntos de dados
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../static/20221226_nomenclaturas_conjuntos/" class="md-footer__link md-footer__link--next" aria-label="Next: Convenções sobre nomenclaturas: URLs dos conjuntos" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Convenções sobre nomenclaturas: URLs dos conjuntos
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
       
     </nav>
   

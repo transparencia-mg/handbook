@@ -13,7 +13,7 @@
     
     
       
-        <title>Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Autoria e contatos dos responsáveis pelos conjuntos de dados - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#metadados-de-identificacao-de-responsaveis-pelos-conjuntos-de-dados-background-e-representacao" class="md-skip">
+        <a href="#autoria-e-contatos-dos-responsaveis-pelos-conjuntos-de-dados" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+              Autoria e contatos dos responsáveis pelos conjuntos de dados
             
           </span>
         </div>
@@ -672,6 +672,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../20221226_nomenclaturas_conjuntos/" class="md-nav__link">
+        Convenções sobre nomenclaturas: URLs dos conjuntos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../20221226_sistema_de_comentarios/" class="md-nav__link">
         Sistema de Comentários Handbook
       </a>
@@ -724,12 +738,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+          Autoria e contatos dos responsáveis pelos conjuntos de dados
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+        Autoria e contatos dos responsáveis pelos conjuntos de dados
       </a>
       
         
@@ -784,61 +798,8 @@
   
     <li class="md-nav__item">
       <a href="../20230118_cobertura-temporal_frequencia-atualizacao/" class="md-nav__link">
-        Metadados de cobertura temporal e periodicidade de atualização
+        Cobertura temporal e periodicidade de atualização
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
-      
-      
-      
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_5_14">
-          Static
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Static" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_14">
-          <span class="md-nav__icon md-icon"></span>
-          Static
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../static/20221226_nomenclaturas_conjuntos/" class="md-nav__link">
-        Convenções sobre nomenclaturas: URLs dos conjuntos
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -944,7 +905,7 @@
   </a>
 
 
-<h1 id="metadados-de-identificacao-de-responsaveis-pelos-conjuntos-de-dados-background-e-representacao">Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação<a class="headerlink" href="#metadados-de-identificacao-de-responsaveis-pelos-conjuntos-de-dados-background-e-representacao" title="Permanent link">⚓︎</a></h1>
+<h1 id="autoria-e-contatos-dos-responsaveis-pelos-conjuntos-de-dados">Autoria e contatos dos responsáveis pelos conjuntos de dados<a class="headerlink" href="#autoria-e-contatos-dos-responsaveis-pelos-conjuntos-de-dados" title="Permanent link">⚓︎</a></h1>
 <h2 id="contexto">Contexto<a class="headerlink" href="#contexto" title="Permanent link">⚓︎</a></h2>
 <p>Informações sobre os nomes e pontos de contatos de autores e responsásveis pelos conjuntos de dados publicados são essenciais para promover responsabilização e assessibilidade. Em eventuais dúvidas ou pedidos de contato, por exemplo, teremos de reencaminhar demandas via mecanismos de transparência passiva (i.e. que chegarem até nós pelo fale conosco, por issues ou pull requests, ou no email) para os contatos dos custodiantes responsáveis pelos dados. O formulário de solicitação de cadastro de usuário no PdA possui campos para colhermos o nome do servidor responsável pela publicação e os seus emails pessoal e do setor.</p>
 <h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">⚓︎</a></h2>
@@ -993,7 +954,7 @@
 </code></pre></div>
 Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos <a href="https://github.com/ckan/ckanext-scheming/issues">issues sobre a extensão ckanext-scheming</a> .</p>
 <p>Assim, informações sobre <code>publisher</code> não são interpretadas pelos campos do CKAN, apenas autor e mantenedor, que têm os nomes/valores das propriedades <code>title</code> funcionando como hiperlinks para acessar o <code>email</code> informado via <code>datapackage.json</code>: </p>
-<p><img alt="" src="../static/autoria_CKAN.png" /></p>
+<p><img alt="" src="assets/images/autoria_CKAN.png" /></p>
 <p>A solução para se fazer representar mais outro contribuidor, além de autor e mantenedor, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, seria a adoção de extensões que fazem esse trabalho, como estamos estudando em <a href="https://github.com/frictionlessdata/frictionless-ckan-mapper">Frictionless CKAN Mapper</a>.</p>
 <p>Entretanto, essa discussão carece de clarificar melhor a diferença dos papeis de autor, publicador e mantenedor. A princípio, qualquer base de dados no PdA seria mantida pela DCTA, o que fixaria esse metadado para todo e qualquer conjunto. </p>
 <p>Mas quanto a autor e publicador, seriam mesmo diferenciáveis? Haveria setores responsáveis distintos, pela produção dos dados e pela publicação, num nível mais aprofundado de diferenciação dessas funções dentro do órgão?</p>
@@ -1003,7 +964,7 @@ Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 12:42:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 15:09:16</span>
       
         <br>
         Created:
@@ -1100,13 +1061,13 @@ Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no 
       
       
         
-        <a href="../20230118_cobertura-temporal_frequencia-atualizacao/" class="md-footer__link md-footer__link--next" aria-label="Next: Metadados de cobertura temporal e periodicidade de atualização" rel="next">
+        <a href="../20230118_cobertura-temporal_frequencia-atualizacao/" class="md-footer__link md-footer__link--next" aria-label="Next: Cobertura temporal e periodicidade de atualização" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Metadados de cobertura temporal e periodicidade de atualização
+              Cobertura temporal e periodicidade de atualização
             </div>
           </div>
           <div class="md-footer__button md-icon">

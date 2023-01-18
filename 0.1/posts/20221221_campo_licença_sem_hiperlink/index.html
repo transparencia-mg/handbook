@@ -727,6 +727,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../20221226_nomenclaturas_conjuntos/" class="md-nav__link">
+        Convenções sobre nomenclaturas: URLs dos conjuntos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../20221226_sistema_de_comentarios/" class="md-nav__link">
         Sistema de Comentários Handbook
       </a>
@@ -770,7 +784,7 @@
   
     <li class="md-nav__item">
       <a href="../20230117_autor_publicador_mantenedor/" class="md-nav__link">
-        Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+        Autoria e contatos dos responsáveis pelos conjuntos de dados
       </a>
     </li>
   
@@ -784,61 +798,8 @@
   
     <li class="md-nav__item">
       <a href="../20230118_cobertura-temporal_frequencia-atualizacao/" class="md-nav__link">
-        Metadados de cobertura temporal e periodicidade de atualização
+        Cobertura temporal e periodicidade de atualização
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
-      
-      
-      
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_5_14">
-          Static
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Static" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_14">
-          <span class="md-nav__icon md-icon"></span>
-          Static
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../static/20221226_nomenclaturas_conjuntos/" class="md-nav__link">
-        Convenções sobre nomenclaturas: URLs dos conjuntos
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -968,7 +929,7 @@ Creative Commons Atribuição 4.0 e Open Database License (OdbL).</p>
 <ul>
 <li>nas <a href="https://specs.frictionlessdata.io/data-package/#licenses">especificações da Frictionless Data</a> e no <a href="https://create.frictionlessdata.io/">datapackage creator da Frictionless</a> - ferramenta derivada das <em>Frictionless Specs</em>, que contém uma lista predefinidas de possíveis licenças;</li>
 </ul>
-<p><img alt="" src="../static/licences-datapackage-creator.png" /></p>
+<p><img alt="" src="assets/images/licences-datapackage-creator.png" /></p>
 <ul>
 <li>
 <p>está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: <a href="https://github.com/transparencia-mg/work-stefanini/issues/69">issue descritivo</a>;</p>
@@ -990,10 +951,10 @@ Creative Commons Atribuição 4.0 e Open Database License (OdbL).</p>
 </code></pre></div>
 Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no CKAN, como se fosse um arquivo de dados, e nem todas os valores das propriedades nele descritas encontram correspondência (vide questões de trasnposição 'de-para' nos <a href="https://github.com/ckan/ckanext-scheming/issues">issues sobre a extensão ckanext-scheming</a> </p>
 <p>Assim, o hiperlink da versão 4.0 da licença CC-BY não está aparecendo na GUI (interface gráfica do usuário) do CKAN:</p>
-<p><img alt="" src="../static/licen%C3%A7a-sem-hiperlink.png" /></p>
+<p><img alt="" src="assets/images/licença-sem-hiperlink.png" /></p>
 <p>Uma maneira transitória é fazer a atribuição da licença via GUI, para fazer demonstrar o hiperlink de forma correta e possibilitar ao usuário acessar a página que descreve as prerrogativas da licença:</p>
-<p><img alt="" src="../static/atrib-licenca-GUI.png" /></p>
-<p><img alt="" src="../static/licenca-com-hiperlink.png" /></p>
+<p><img alt="" src="assets/images/atrib-licenca-GUI.png" /></p>
+<p><img alt="" src="assets/images/licenca-com-hiperlink.png" /></p>
 <p>Entretanto, qualquer atualização via CLI (linha de comando) ou dataset-template do conjunto de dados no github vai sobrescrever a atribuição do hiperlink da licença via GUI e retornar somente o texto sem hiperlink, contendo o nome da licença atribuída para aquele conjunto.</p>
 <p>A solução definitiva para esse caso, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, seria a adoção de extensões que fazem esse trabalho, como estamos estudando em <a href="https://github.com/frictionlessdata/frictionless-ckan-mapper">Frictionless CKAN Mapper</a>.</p>
 <h2 id="contexto-atual">Contexto Atual<a class="headerlink" href="#contexto-atual" title="Permanent link">⚓︎</a></h2>
@@ -1022,7 +983,7 @@ Entretanto, o <code>datapackage.json</code> é lido como um recurso qualquer no 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 12:42:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 18, 2023 15:09:16</span>
       
         <br>
         Created:
