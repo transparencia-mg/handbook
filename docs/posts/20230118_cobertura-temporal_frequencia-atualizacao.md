@@ -70,18 +70,21 @@ A Dublin Core, um padrão de metadados bem difundido e que é basilar para outro
 
 O fato de ser algo padronizado pela Dublin Core e [utilizada no DCAT](https://www.w3.org/TR/vocab-dcat-2/#Property:dataset_frequency) pesa em seu favor, mas `accrualPeriodicity` não comunica seu significado com suficiência e os valores em inglês vão gerar dificuldades:
 
-> Semiannual [freq:semiannual]
+````
+Semiannual [freq:semiannual]
 > Three times a year [freq:threeTimesAYear]
 > Quarterly [freq:quarterly]
 > Bimonthly [freq:bimonthly]
 > Monthly [freq:monthly]
 > Semimonthly [freq:semimonthly]
 > Biweekly [freq:biweekly]
+````
 
 O ckanext-scheming parece ter um [padrão para frequência de atualização](https://github.com/ckan/ckanext-scheming/blob/7d5d6cb91c3d82bd14982dd355c53206c839bbc6/ckanext/scheming/subfields.yaml#L96-L113
 ): 
 
- >  field_name: frequency
+````
+field_name: frequency
     label: Frequency
     preset: select
     choices:
@@ -99,6 +102,7 @@ O ckanext-scheming parece ter um [padrão para frequência de atualização](htt
       value: 1y
     - label: Decennial
       value: 10y
+````
 
 A princípio, um universo de valores possíveis mais restrito que o Dublin Core, mas parecendo abarcar quase todas as possibilidades de frequência de atualização dos atuais conjuntos publicados no PdA.
 
