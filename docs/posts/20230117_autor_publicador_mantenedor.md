@@ -2,6 +2,7 @@
 comments: true
 tags:
   - CKAN
+  - metadados
   - autoria
   - regras de negócio
 ---
