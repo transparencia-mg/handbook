@@ -32,7 +32,7 @@ O campo de licenças é um metadado obrigatório:
 
 - nas [especificações da Frictionless Data](https://specs.frictionlessdata.io/data-package/#licenses) e no [datapackage creator da Frictionless](https://create.frictionlessdata.io/) - ferramenta derivada das _Frictionless Specs_, que contém uma lista predefinidas de possíveis licenças;
 
-![](static/licences-datapackage-creator.png)
+![](assets/images/licences-datapackage-creator.png)
 
 - está sendo incluído como item nas especificações das nossas necessidades com a Stefanini: [issue descritivo](https://github.com/transparencia-mg/work-stefanini/issues/69);
 
@@ -57,13 +57,13 @@ Entretanto, o `datapackage.json` é lido como um recurso qualquer no CKAN, como 
 
 Assim, o hiperlink da versão 4.0 da licença CC-BY não está aparecendo na GUI (interface gráfica do usuário) do CKAN:
 
-![](static/licença-sem-hiperlink.png)
+![](assets/images/licença-sem-hiperlink.png)
 
 Uma maneira transitória é fazer a atribuição da licença via GUI, para fazer demonstrar o hiperlink de forma correta e possibilitar ao usuário acessar a página que descreve as prerrogativas da licença:
 
-![](static/atrib-licenca-GUI.png)
+![](assets/images/atrib-licenca-GUI.png)
 
-![](static/licenca-com-hiperlink.png)
+![](assets/images/licenca-com-hiperlink.png)
 
 Entretanto, qualquer atualização via CLI (linha de comando) ou dataset-template do conjunto de dados no github vai sobrescrever a atribuição do hiperlink da licença via GUI e retornar somente o texto sem hiperlink, contendo o nome da licença atribuída para aquele conjunto.
 

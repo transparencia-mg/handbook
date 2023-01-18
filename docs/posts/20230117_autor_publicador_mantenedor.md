@@ -7,7 +7,7 @@ tags:
   - regras de negócio
 ---
 
-# Metadados de identificação de responsáveis pelos conjuntos de dados: background e representação
+# Autoria e contatos dos responsáveis pelos conjuntos de dados
 
 ## Contexto
 
@@ -61,7 +61,7 @@ Entretanto, o `datapackage.json` é lido como um recurso qualquer no CKAN, como 
 
 Assim, informações sobre `publisher` não são interpretadas pelos campos do CKAN, apenas autor e mantenedor, que têm os nomes/valores das propriedades `title` funcionando como hiperlinks para acessar o `email` informado via `datapackage.json`: 
 
-![](static/autoria_CKAN.png)
+![](assets/images/autoria_CKAN.png)
 
 A solução para se fazer representar mais outro contribuidor, além de autor e mantenedor, dentre outros de falta de correspondência entre os metadados padrão Fricionless e padrão CKAN, seria a adoção de extensões que fazem esse trabalho, como estamos estudando em [Frictionless CKAN Mapper](https://github.com/frictionlessdata/frictionless-ckan-mapper).
 

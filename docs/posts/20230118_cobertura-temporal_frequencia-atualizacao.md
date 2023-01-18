@@ -8,7 +8,7 @@ tags:
   - regras de negócio
 ---
 
-# Metadados de cobertura temporal e periodicidade de atualização
+# Cobertura temporal e periodicidade de atualização
 
 É muito importante comunicar aos usuários dos conjuntos de dados publicados a qual período se referem os dados e a qual frequência temporal eles estão sendo atualizados. Dados de séries histórica podem gerar confusão no seu uso, se o recorte do período específico da publicação não estiver claro. Por outro lado, a frequência de tempo usada para sua atualização é importante mecanismo de verificação da regularidade de sua alimentação pelos custodiantes responsáveis (autor, publicador). Além disso, para usuários costumeiros, saber exatamente quando o dado será atualizado é útil para consulta.
 
@@ -42,11 +42,11 @@ O `datapackage.json` é lido como um recurso qualquer no CKAN, como se fosse um 
 
 Assim, uma notação legível por máquina:
 
-![](static/temporal_JSON.png)
+![](assets/images/temporal_JSON.png)
 
 Não é adequadamente interpretada para ser legível por pessoas na interface gráfica do CKAN como 'fonte', autor', 'mantenedor' 
 
-![](static/temporal_CKAN.png)
+![](assets/images/temporal_CKAN.png)
 
 
 #### Sobre a frequência de atualização ou `accrualPeriodicity`
