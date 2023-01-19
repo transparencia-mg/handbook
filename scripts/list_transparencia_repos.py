@@ -5,7 +5,7 @@ import json
 import os
   
 # Get transparencia-mg repos
-os.system('gh repo list transparencia-mg --json url > transparencia_repo.json')
+os.system('gh repo list transparencia-mg -L 200 --json url > transparencia_repo.json')
 
 # Opening JSON file
 f = open('transparencia_repo.json')
