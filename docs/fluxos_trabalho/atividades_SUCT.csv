@@ -11,7 +11,7 @@ Acesso à informação,"Orientação a interlocutores, órgãos e entidades"
 Acesso à informação,Procedimentos de encaminhamento e registro de documentos referentes a pedidos e recursos da LAI
 Acesso à informação,Redação e divulgação de comunicados
 Acesso à informação,"Revisão de documentos (pedido de esclarecimentos, nota técnica, ofício) referente a recursos da Lei de Acesso à Informação"
-Acesso à informação,
+Acesso à informação, Elaborar resposta dos pedidos de acesso à informação referente a área
 Acesso à informação,
 Acesso à informação,
 Ações de Administração de Recursos Financeiros,Elaborar a programação financeira da Unidade Gestora
@@ -213,13 +213,7 @@ Gestão e fiscalização de contratos,Gestão dos recursos financeiros necessár
 Gestão e fiscalização de contratos,Monitoramento e registro de entregas e prazos 
 Gestão e fiscalização de contratos,"Reuniões sobre processos, ajustes, fiscalizações ou metodologias em contratos"
 Outras atividades,Leitura de material técnico
-Gestão de Manutenção Corretiva,Abertura de chamado para manutenção corretiva
-Gestão de Manutenção Corretiva,Avaliação da resposta para correção da demanda
-Gestão de Manutenção Corretiva,Autorização para a manutenção corretiva
-Gestão de Manutenção Corretiva,Conferência da solução adotada para a manutenção corretiva
-Gestão de Manutenção Evolutiva,Construção da solução de manutenção evolutiva
-Gestão de Manutenção Evolutiva,Apresentação da solução de mautenção evolutiva
-Gestão de Manutenção Evolutiva,Revisão da solução de manutenção evolutiva
-Gestão de Manutenção Evolutiva,Autorização para manutenção evolutiva
-Gestão de Manutenção Evolutiva,Conferência da solução adotada para a manutenção evolutiva
-Gestão de Manutenção Evolutiva,Correções realizadas dentro do prazo previsto do contrato
+Gestão de Manutenção Corretiva, Acompanhamento da demanda para manutenção corretiva (abertura, apresentação, reuniões, especificação de requisitos e homologação)
+Gestão de Manutenção Evolutiva,Acompanhamento da demanda para manutenção evolutiva (abertura, apresentação, reuniões, especificação de requisitos e homologação)
+Atualização de Dados, Atualização das consultas do Portal de Transparência e Portal de Dados Abertos
+
