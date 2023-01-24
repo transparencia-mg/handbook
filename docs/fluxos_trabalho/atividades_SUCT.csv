@@ -2,7 +2,6 @@
 Grupo,Atividade
 Acompanhamento de representação institucional,Acompanhamento de representação institucional em evento digital
 Acompanhamento de representação institucional,Acompanhamento de representação institucional em evento presencial
-Ação de Relações Públicas,Desenvolvimento de atividades de relações públicas para manutenção e reputação institucionais
 Acesso à informação,Análise de recursos de acesso à informação
 Acesso à informação,Apoio a órgãos e entidades quanto ao atendimento da LAI
 Acesso à informação,"Elaboração e/ou ajustes de documentos (pedido de esclarecimentos, nota técnica, ofício) referente a recursos da Lei de Acesso à Informação"
@@ -12,8 +11,6 @@ Acesso à informação,Procedimentos de encaminhamento e registro de documentos 
 Acesso à informação,Redação e divulgação de comunicados
 Acesso à informação,"Revisão de documentos (pedido de esclarecimentos, nota técnica, ofício) referente a recursos da Lei de Acesso à Informação"
 Acesso à informação, Elaborar resposta dos pedidos de acesso à informação referente a área
-Acesso à informação,
-Acesso à informação,
 Ações de Administração de Recursos Financeiros,Elaborar a programação financeira da Unidade Gestora
 Ações de Administração de Recursos Financeiros,Elaborar proposta de ajuste da programação orçamentária
 Ações de Administração de Recursos Financeiros,"Planejar, executar e monitorar a gestão dos recursos financeiros necessários ao pagamento das despesas da Unidade"
@@ -23,17 +20,13 @@ Acompanhamento de serviços,Atualização de paínel gerencial sobre pesquisa de
 Acompanhamento de serviços,Interlocução com os Conselhos de Usuários de Serviços Públicos
 Acompanhamento e controle da execução físico-financeira do orçamento,Acompanhamento de itens executados pela Unidade
 Acordos Técnicos ,"Análise de equivalência entre sistemas, diretrizes, políticas etc."
-Acordos Técnicos ,Análise de viabilidade do acordo
-Acordos Técnicos ,Análise e execução de ações preparatórias para implementação do Acordo
-Acordos Técnicos ,Assinatura e publicação do Acordo
-Acordos Técnicos ,Negociação e desenvolvimento do acordo
-Acordos Técnicos ,"Planejamento e definição de Recursos e
-Pessoas"
-Acordos Técnicos ,Publicação e implementação do Acordo
+Acordos Técnicos ,Análise de viabilidade de instrumentos adminsitativos
+Acordos Técnicos ,Análise e execução de ações preparatórias para implementação de instrumentos adminsitativos
+Acordos Técnicos ,Assinatura e publicação de instrumentos adminsitativos
+Acordos Técnicos ,Negociação e desenvolvimento de instrumentos adminsitativos
+Acordos Técnicos ,"Planejamento e definição de Recursos e Pessoas"
+Acordos Técnicos ,Publicação e implementação de instrumentos adminsitativos
 Acordos Técnicos ,Realização de missão de cooperação técnica
-Administração dos Serviços de Transporte e Passagens de Viagens a Trabalho,Analisar a solicitação de autorização de viagens a serviço quanto à regular instrução dos requisitos necessários.
-Administração dos Serviços de Transporte e Passagens de Viagens a Trabalho,Providenciar documentos oficiais necessários a viagens
-Administração dos Serviços de Transporte e Passagens de Viagens a Trabalho,Realização de prestação de contas referentes a viagens
 Agenda de eventos institucionais,Atualização do repositório de informações sobre os eventos institucionais no Portal e na Intranet
 Atividades relacionadas a projeto,"Criação, atualização e gestão da modelagem de dados"
 Atividades relacionadas a projeto,Criação e sustentação de Application Programming Interface (API)
@@ -44,16 +37,15 @@ Atividades relacionadas a projeto,Migração de Dados
 Atividades relacionadas a projeto,"Suporte ao projeto - organizar wiki ou manuais, reuniões com os desenvolvedores etc"
 Atividades relacionadas a projeto,"Suporte ao projeto - trabalhos administrativos como responder e-mails, reuniões sobre o projeto e outras"
 Atividades relacionadas a projeto,"Suporte ao sistema desenvolvido  - apoio na solução de bugs, dar suporte para a área até o sistema entrar em produção pela 1ª vez, treinamentos, desenvolvimento entre reuniões e etc."
-Dicionários de dados,Atualização/elaboração dos dicionários
 Análise do desempenho de processo, Aplicação de metodologia de análise de processo
 Análise dos Indicadores de Qualidade de Serviços,Avaliação da metodologia de coleta e desempenho dos indicadores
 Análise dos Indicadores de Qualidade de Serviços,Avaliação da metodologia de coleta e desempenho dos indicadores da Pesquisa de Satisfação de Usuários
-Análise dos Indicadores de Qualidade de Serviços,Cálculo do Fator Q - qualidade
+Análise dos Indicadores de Qualidade de Serviços,Cálculo de Fator de qualidade
 Análise dos Indicadores de Qualidade de Serviços,Cálculo e publicação da programação das entrevistas da Pesquisa de Satisfação de Usuários
-Análise dos Indicadores de Qualidade de Serviços,Elaboração e publicação de relatórios com os resultados dos indicadores e do Fator Q
+Análise dos Indicadores de Qualidade de Serviços,Elaboração e publicação de relatórios com os resultados dos indicadores
 Análise dos Indicadores de Qualidade de Serviços,Estabelecimento de metodologia para definição da programação das entrevistas da Pesquisa de Satisfação de Usuários
 Análise e avaliação dos riscos de processos organizacionais,Avaliação dos riscos de processo organizacional quanto à probabilidade e ao impacto
-Análise e avaliação dos riscos de processos organizacionais,"Identificação de fator e subfator, ações preventivas e corretivas, para avaliação de riscos em processos organizacionais"
+Análise e avaliação dos riscos de processos organizacionais,"Identificação de fatores, ações preventivas e corretivas, para avaliação de riscos em processos organizacionais"
 Análise e avaliação dos riscos de processos organizacionais,"Identificação dos riscos de processo organizacional, suas causas e consequências"
 Análise e avaliação dos riscos de processos organizacionais,Levantamento preliminar e entendimento do contexto de processo para avaliação de riscos
 Análise e avaliação dos riscos de processos organizacionais,Validação da classificação de riscos do processo
@@ -68,12 +60,12 @@ Apoio ao gerenciamento de portfólio de projetos e à manutenção da governanç
 Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,"Consultorias, análises ou produção de documentos com vistas à instituição de iniciativas ou portfólios ou priorização de projetos"
 Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,"Manutenção, desenvolvimento ou melhoria de ferramentas com vistas ao suporte a iniciativas ou
 portfólios"
-Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,Monitoramento e controle do subconjunto de projetos estratégicos sob sua responsabilidade no período
+Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,Monitoramento e controle de projetos estratégicos sob sua responsabilidade
 Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,Promoção de ações para o desenvolvimento da cultura de gerenciamento de projetos
 Apoio ao gerenciamento de portfólio de projetos e à manutenção da governança da gestão de projetos,Suporte ao desenvolvimento e registro da composição das equipes de projetos estratégicos
 Articulação Institucional,Realização de alinhamento institucional junto às demais unidades
 Assessoramento,Assessoramento por áreas técnicas em reuniões 
-Assessoramento,Assessoramento e acompanhamento a gestores e outras autoridades da CGE quando em visita ou audiência pública
+Assessoramento,Assessoramento e acompanhamento a gestores e outras autoridades da CGE quando em missão, evento, visita ou audiência pública
 Assessoramento administrativo,"Resolução de questões administrativas rotineiras: organização de processos administrativos, mapeamento e distribuição para análise de demandas não institucionais (internas ou externas), aberturas de chamados, solicitações de férias de chefias, atendimento de solicitações gerais da chefia do gabinete"
 Assessoramento e articulação institucional,"Demandas de gestão e assessoramento, como apresentações, reportes, articulação institucional e informações não previstas em outras entregas"
 Assessoramento e articulação institucional,"Reportes, apresentações, levantamento de informações não enquadradas em outras entregas, relatórios e apresentações de resultado, saneamento da caixa do SEI!, redirecionamento de processos e coletas de assinaturas antes do encaminhamento"
@@ -83,14 +75,13 @@ Atendimento,Gerenciamento de demandas nos e-mails institucionais
 Atendimento,Prestação de informações a outras áreas da CGE
 Atendimento,Acompanhamento e encaminhamento de demandas de outros órgãos/entidades
 Atendimento  à imprensa ,"Apoio/atendimento à ASCOM da CGE, em demandas de imprensa e/ou eventos com a presença da mídia"
-Atendimento  à imprensa ,"Registro e acompanhamento, em sistema específico, de demandas respondidas à imprensa"
+Atendimento  à imprensa ,"Registro e acompanhamento de demandas respondidas à imprensa"
 Atendimento ao público externo,Atendimento de demandas recebidas pelo e-mail institucional da transparência
-Atendimento ao público externo,"Gerenciar sistema Fale Conosco, a fim de responder, com celeridade as demandas externas"
+Atendimento ao público externo,"Análise, elaboração e encaminhamento de respostas no Fale Conosco"
 Atendimento de demandas da ASJUR,Fornecimento de subsídios à ASJUR
 Atendimento de demandas da OGE,"Análise, elaboração e encaminhamento de respostas para demandas da OGE"
 Atividades Administrativas,Mapeamento de processos
 Audiências Públicas,Elaboração e organização de documentos relacionados a Audiências Públicas
-Audiências Públicas,Organização e conclusão da Audiência Pública
 Audiências Públicas,Promoção de atividades preparatórias de alinhamento da Audiência Pública
 Avaliação da maturidade em gestão de processos,Diagnóstico dos pontos a avançar na maturidade da gestão de processos
 Avaliação de desempenho individual, Procedimentos relativos à avaliação de desempenho individual
@@ -99,8 +90,6 @@ Capacitação,Desenvolvimento de material didático
 Capacitação,Desenvolvimento de metodologia avaliativa
 Capacitação,Devolução sobre desempenho alcançado em capacitação
 Capacitação,"Participação em ações de capacitação, incluindo curso, treinamento, seminário, oficina e outras formas de qualificação comprovadas"
-Capacitação,Participação em evento de capacitação
-Capacitação,Planejamento de Curso/Treinamento
 Capacitação,Procedimentos avaliativos
 Capacitação,"Procedimentos de organização e logística para capacitação - CGE eventos, reserva de sala virtual ou presencial e outros"
 Capacitação,"Registros de capacitação (nota, frequência, avaliação e/ou certificado)"
@@ -116,18 +105,15 @@ Comissão de Gestão da Informação - CGI CGE,"Gerenciar, coordenar, orientar, 
 "Comitês, comissões, grupos de trabalho",Gestão de Comissões/Grupos de Trabalho e Comitês
 "Comitês, comissões, grupos de trabalho","Participação em comissões, comitês ou grupos de trabalho"
 Comunicação,Entrevista à imprensa/prestação de informação em nome da CGE
-Comunicação, Material de comunicação para divulgação interna/externa
-Comunicação,Notas e informações sobre capacitações internas para publicação
-Comunicação, Produção do Informativo de Capacitação
+Comunicação, Produção de Notas e informações para divulgação interna/externa sobre capacitações 
 Comunicação Digital,Análise e monitoramento de indicadores e dados de acesso de páginas web
 Comunicação Digital,"Análise e proposição de inovações, soluções e atualizações de estrutura dos canais e ferramentas de comunicação digital"
-Comunicação Digital,Criação ou atualização de página web
+Comunicação Digital,Criação ou atualização de página web relacionada aos Portais 
 Comunicação Digital,"Implementação de inovações, soluções e atualizações de estrutura dos canais e ferramentas de comunicação digital"
 Contratação de estagiário,Participação em contratação de estagiário
 Coordenação de equipe,Proposta e alinhamento quanto ao PGDI
 Coordenação de equipe,Realização de reuniões internas para nivelamento das atividades no âmbito da unidade
-"Coordenação de equipe e questões
-administrativas","Alinhamento/avaliação de atividades da unidade, incluindo resolução de questões administrativas"
+"Coordenação de equipe e questões administrativas","Alinhamento/avaliação de atividades da unidade, incluindo resolução de questões administrativas"
 Definição das ações de tratamento dos riscos de processos organizacionais ,Elaboração/Validação de plano de ação para tratamento dos riscos do processo avaliado
 Definição das metas estratégicas,Consolidação das metas estratégicas do planejamento para o período
 Definição e validação dos indicadores estratégicos,Consolidação dos indicadores estratégicos do planejamento para o período
@@ -202,7 +188,7 @@ Gestão de acessos ao sistema e-SIC,"Avaliar respostas aos e-mails de alerta, vi
 Gestão de acessos ao sistema e-SIC,Atualizar cadastro de interlocutores - eliminar dados de interlocutores inativos e registrar novos interlocutores e/ou agentes com acesso ao e-SIC
 Gestão de acessos ao sistema e-SIC,Entrar em contato com auditores setoriais/seccionais de órgãos/entidades quando houver indícios de ausência de interlocutores ativos
 Gestão de demandas do SEI,Apoio a demandas de levantamento de dados
-Gestão de demandas do SEI,"Elaboração de ofícios, notas técnicas, despachos, memorandos e análises pertinentes às demandas recebidas pelo SEI da unidade"
+(repetindo linhas 53 a 57) Gestão de demandas do SEI,"Elaboração de ofícios, notas técnicas, despachos, memorandos e análises pertinentes às demandas recebidas pelo SEI da unidade"
 Gestão de demandas do SEI,"Gestão de acesso, criação, alteração e disponibilização de processos, unidades e documentos SEI"
 Gestão e fiscalização de contratos,Acompanhamento da aplicabilidade das obrigações contratuais
 Gestão e fiscalização de contratos,Análise dos serviços prestados frente às especificações e exigências contidas no Termo de Referência ou Projeto Básico
@@ -212,7 +198,7 @@ Gestão e fiscalização de contratos,Fiscalização de Contratos
 Gestão e fiscalização de contratos,Gestão dos recursos financeiros necessários ao pagamento de despesas do contrato
 Gestão e fiscalização de contratos,Monitoramento e registro de entregas e prazos 
 Gestão e fiscalização de contratos,"Reuniões sobre processos, ajustes, fiscalizações ou metodologias em contratos"
-Outras atividades,Leitura de material técnico
+(repetindo linha 8) Outras atividades,Leitura de material técnico
 Gestão de Manutenção Corretiva, Análise de viabilidade e pesquisa para abertura de demanda de manutenção corretiva
 Gestão de Manutenção Corretiva, Abertura da demanda para manutenção corretiva
 Gestão de Manutenção Corretiva, Reuniões para definição de como tratar a demanda de manutenção corretiva
@@ -223,5 +209,6 @@ Gestão de Manutenção Evolutiva, Abertura da demanda para manutenção evoluti
 Gestão de Manutenção Evolutiva, Reuniões/Apresentação da solução de manutenção evolutiva
 Gestão de Manutenção Evolutiva, Construção da especficação de requisitos da demanda de manutenção evolutiva
 Gestão de Manutenção Evolutiva, Homologação solução adotada para a manutenção evolutiva
-Atualização de Dados, Atualização das consultas do Portal de Transparência e Portal de Dados Abertos
-
+Gestão de conteúdo dos Portais, Publicação/Elaboração/ Atualização das consultas do Portal de Transparência
+Gestão de conteúdo dos Portais, Publicação/ Elaboração/ Atualização de dados do Portal de Dados Abertos
+Gestão de conteúdo dos Portais, Publicação/ Elaboração/ Atualização de metadados/dicionário de dados do Portal de Dados Abertos
