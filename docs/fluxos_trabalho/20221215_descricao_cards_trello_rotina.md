@@ -104,7 +104,7 @@ Informações de junho devem ser disponibilizadas pela SEF até 31/07 (caso seja
 
 **O documento para a verificação da consulta:  [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/campos-bo/blob/master/transfer%C3%AAncia%20de%20impostos/campos_bo_transferencia_impostos.md)**
 
-## Plano de Trabalho Individual(https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1)
+## [Plano de Trabalho Individual](https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1)
 
 O Plano Individual de Trabalho deve ser preenchido ao longo do mês contemplando as metas, atividades e comprovações quanto ao cumprimento dos itens pactuados. Ao final do mês estas informações serão repassadas ao sistema Ponto Digital otimizando seu preenchimento.
 
