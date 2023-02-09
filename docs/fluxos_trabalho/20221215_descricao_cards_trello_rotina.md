@@ -10,17 +10,26 @@ As atividades de rotina da DTA estão elencadas no board [DTA_work](https://trel
 
 Considerando a periodicidade de cada atividade, o card é enviado à lista Planejadas, para que a atividade seja executada. A listagem das atividades por periodicidade é:
 
-* Mensal: [Relatórios Google Analytics](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#relat%C3%B3rios-google-analytics), [Planilha de Remuneração](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#planilha-de-remunera%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Voos do Governador](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#voos-do-governador---atualiza%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios)
+* Semanal: Webnário
+
+* Mensal: [Relatórios Google Analytics](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#relat%C3%B3rios-google-analytics), [Planilha de Remuneração](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#planilha-de-remunera%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Voos do Governador](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#voos-do-governador---atualiza%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios), Plano de Trabalho Individual [https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1]
 
 * Bimestral: [PPAG - monitoramento](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---monitoramento-bimestral)
 
 * Trimestral: [Termos de Parceria e Contratos de Gestão](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#trimestral)
+
+* Semestral: [Cadastro de Servidores Civis Excluídos da Administração Pública Estadual - CEAPE]
 
 * Anual: [Remuneração - 13º salário](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#remunera%C3%A7%C3%A3o---13%C2%BA-sal%C3%A1rio-at%C3%A9-3001), [PPAG - carga inicial](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---carga-inicial), [Proposta orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#proposta-or%C3%A7ament%C3%A1ria), [Emenda Orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#emenda-or%C3%A7ament%C3%A1ria), [Consulta de Obras](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#consulta-de-obras)
 
 * Sob demanda: [Fale Conosco](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#fale-conosco), [Contratações por dispensa - Coronavírus](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#contrata%C3%A7%C3%B5es-por-dispensa---coronav%C3%ADrus), [Upload do arquivo de contratações emergenciais](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#upload-do-arquivo-de-contrata%C3%A7%C3%B5es-emergenciais), [Doações ao Estado](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#doa%C3%A7%C3%B5es-ao-estado)
 
 Abaixo segue o texto descritivo de cada atividade:
+
+## Semanal
+
+O Webnário possui como objetivo disseminar conhecimentos técnicos relativos à Transparência Ativa, perpassando pela ferramentas utilizadas pela Diretoria (Trello, Github, MkDocs), pelos portais administrados (Portal de Transparência e Portal de Dados Abertos), rotinas técincas da área, além de estudos quanto à inovações apresentando propostas de melhoria.
+Com esta iniciativa pretende-se manter o time atualizado e alinhado quanto às tecnologias implementadas até o momento além de termos a oportunidade de redefinir estratégias que minimizem os impactos e esforços de determinadas atividades.
 
 ## Mensal
 <a href="#top">(inicio)</a>
@@ -95,6 +104,11 @@ Informações de junho devem ser disponibilizadas pela SEF até 31/07 (caso seja
 
 **O documento para a verificação da consulta:  [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/campos-bo/blob/master/transfer%C3%AAncia%20de%20impostos/campos_bo_transferencia_impostos.md)**
 
+## Plano de Trabalho Individual
+[https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1]
+
+O Plano Individual de Trabalho deve ser preenchido ao longo do mês contemplando as metas, atividades e comprovações quanto ao cumprimento dos itens pactuados. Ao final do mês estas informações serão repassadas ao sistema Ponto Digital otimizando seu preenchimento.
+
 ## Bimestral
 <a href="#top">(inicio)</a>
 
@@ -166,6 +180,19 @@ Telefone: 3915-0693
 > email: gustavo.ribeiro@planejamento.mg.gov.br
 
 > telefone: 3915-0452
+
+## Semestral
+
+## [Cadastro de Servidores Civis Excluídos da Administração Pública Estadual - CEAPE]
+
+Os relatórios do Cadastro dos Servidores Excluídos da Administração Pública Estadual (CEAPE), com informações a respeito das penalidades expulsivas aplicadas a servidores públicos civis e militares do Poder Executivo do Estado de Minas Gerais envolvidos em práticas ilícitas devidamente comprovadas em processos disciplinares, são atualizados semestralmente, nos meses de janeiro e julho.
+
+Caso os arquivos não sejam disponibilizados a tempo, faz-se necessário encaminhar e-mail ao Núcleo de Gestão de Documentos e Processos Disciplinares da Corregedoria-Geral (atende.correicao@cge.mg.gov.br) solicitando os relatórios para atualização no Portal.
+
+Os dados são inseridos no Portal por meio do Jommla.
+
+As orientações sobre como proceder encontram-se disponíveis em: S:\SCT\Diretoria_Transparencia_Ativa_DTA\Portal_Transparencia\Conteudo
+
 
 ## Anual
 <a href="#top">(inicio)</a>
