@@ -6,7 +6,7 @@ tags:
 
 # Cards Rotina
 
-As atividades de rotina da DTA estão elencadas no board [DTA_word](https://trello.com/b/NvJ4SU6b/dtawork), na lista **Rotina**, em forma de cards.
+As atividades de rotina da DTA estão elencadas no board [DTA_work](https://trello.com/b/NvJ4SU6b/dtawork), na lista **Rotina**, em forma de cards.
 
 Considerando a periodicidade de cada atividade, o card é enviado à lista Planejadas, para que a atividade seja executada. A listagem das atividades por periodicidade é:
 
