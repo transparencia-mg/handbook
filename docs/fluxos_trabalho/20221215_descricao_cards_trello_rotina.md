@@ -12,13 +12,13 @@ Considerando a periodicidade de cada atividade, o card é enviado à lista Plane
 
 * Semanal: Webnário
 
-* Mensal: [Relatórios Google Analytics](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#relat%C3%B3rios-google-analytics), [Planilha de Remuneração](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#planilha-de-remunera%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Voos do Governador](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#voos-do-governador---atualiza%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios), Plano de Trabalho Individual [https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1]
+* Mensal: [Relatórios Google Analytics](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#relat%C3%B3rios-google-analytics), [Planilha de Remuneração](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#planilha-de-remunera%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Voos do Governador](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#voos-do-governador---atualiza%C3%A7%C3%A3o-at%C3%A9-%C3%BAltimo-dia-%C3%BAtil-do-m%C3%AAs), [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#transfer%C3%AAncia-de-impostos-a-munic%C3%ADpios), [Plano de Trabalho Individual](https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1)
 
 * Bimestral: [PPAG - monitoramento](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---monitoramento-bimestral)
 
 * Trimestral: [Termos de Parceria e Contratos de Gestão](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#trimestral)
 
-* Semestral: [Cadastro de Servidores Civis Excluídos da Administração Pública Estadual - CEAPE]
+* Semestral: Cadastro de Servidores Civis Excluídos da Administração Pública Estadual - CEAPE
 
 * Anual: [Remuneração - 13º salário](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#remunera%C3%A7%C3%A3o---13%C2%BA-sal%C3%A1rio-at%C3%A9-3001), [PPAG - carga inicial](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#ppag---carga-inicial), [Proposta orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#proposta-or%C3%A7ament%C3%A1ria), [Emenda Orçamentária](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#emenda-or%C3%A7ament%C3%A1ria), [Consulta de Obras](https://github.com/transparencia-mg/handbook/blob/master/descricao-cards-rotina.md#consulta-de-obras)
 
@@ -104,8 +104,7 @@ Informações de junho devem ser disponibilizadas pela SEF até 31/07 (caso seja
 
 **O documento para a verificação da consulta:  [Transferência de Impostos a Municípios](https://github.com/transparencia-mg/campos-bo/blob/master/transfer%C3%AAncia%20de%20impostos/campos_bo_transferencia_impostos.md)**
 
-## Plano de Trabalho Individual
-[https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1]
+## Plano de Trabalho Individual(https://drive.google.com/drive/folders/1OI2VH_MXkWIbf5rD1NxR9gDC7cYRSCW1)
 
 O Plano Individual de Trabalho deve ser preenchido ao longo do mês contemplando as metas, atividades e comprovações quanto ao cumprimento dos itens pactuados. Ao final do mês estas informações serão repassadas ao sistema Ponto Digital otimizando seu preenchimento.
 
