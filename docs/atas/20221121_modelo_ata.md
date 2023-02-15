@@ -21,10 +21,3 @@
 
 - Pendência 1
 - Pendência 2
-
-## Referências
-
-- [Link 1]()
-- [Link 2]()
-
-
