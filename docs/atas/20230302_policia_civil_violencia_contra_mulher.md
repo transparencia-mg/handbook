@@ -1,4 +1,4 @@
-# Modelo Ata Reunião
+# Violência Contra Mulher 02/03/2023
 
 **Data:** 02/03/2023
 
@@ -11,8 +11,7 @@
 
 ## Assuntos tratados
 
-- André questionou se dados de violência doméstica contém feminicídio? 
-    - pode ter ou pode não ter, porque a relação vítima/autor teria de estar caracterizada no reds.
+- André questionou se dados de violência doméstica contém feminicídio e Vinícius respondeu que pode ter ou pode não ter, porque a relação vítima/autor teria de estar caracterizada no reds.
 - O campo é obrigatório no reds.
 - Eventualmente, o delegado pode não ter qualificado como feminicídio (hipótese remota) - periodicidade mensal de atualização
 - Data do fato do mês anterior
