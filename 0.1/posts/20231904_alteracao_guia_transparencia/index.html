@@ -13,7 +13,7 @@
     
     
       
-        <title>Instalação e configuração - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Alteração dados do Guia de Transparência - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instalacao-e-configuracao" class="md-skip">
+        <a href="#alteracao-dados-do-guia-de-transparencia" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instalação e configuração
+              Alteração dados do Guia de Transparência
             
           </span>
         </div>
@@ -912,12 +912,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Instalação e configuração
+          Alteração dados do Guia de Transparência
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Instalação e configuração
+        Alteração dados do Guia de Transparência
       </a>
       
         
@@ -936,6 +936,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#1-clonar-repositorio" class="md-nav__link">
+    1- Clonar repositório
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-instalacao-e-configuracao" class="md-nav__link">
+    2 - Instalação e configuração
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ambiente-virtual-venv" class="md-nav__link">
     Ambiente virtual venv
   </a>
@@ -950,8 +964,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocs" class="md-nav__link">
-    MKdocs
+  <a href="#2-criar-nova-branch" class="md-nav__link">
+    2 - Criar nova branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-documento-mkdocs" class="md-nav__link">
+    Verificar documento - MKdocs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alteracoes" class="md-nav__link">
+    Alterações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publicar-guia-de-transparencia" class="md-nav__link">
+    Publicar Guia de Transparência
   </a>
   
 </li>
@@ -1082,6 +1117,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#1-clonar-repositorio" class="md-nav__link">
+    1- Clonar repositório
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-instalacao-e-configuracao" class="md-nav__link">
+    2 - Instalação e configuração
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ambiente-virtual-venv" class="md-nav__link">
     Ambiente virtual venv
   </a>
@@ -1096,8 +1145,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocs" class="md-nav__link">
-    MKdocs
+  <a href="#2-criar-nova-branch" class="md-nav__link">
+    2 - Criar nova branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificar-documento-mkdocs" class="md-nav__link">
+    Verificar documento - MKdocs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alteracoes" class="md-nav__link">
+    Alterações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publicar-guia-de-transparencia" class="md-nav__link">
+    Publicar Guia de Transparência
   </a>
   
 </li>
@@ -1134,12 +1204,24 @@
   </a>
 
 
-<h1 id="instalacao-e-configuracao">Instalação e configuração<a class="headerlink" href="#instalacao-e-configuracao" title="Permanent link">⚓︎</a></h1>
+<h1 id="alteracao-dados-do-guia-de-transparencia">Alteração dados do Guia de Transparência<a class="headerlink" href="#alteracao-dados-do-guia-de-transparencia" title="Permanent link">⚓︎</a></h1>
+<h3 id="1-clonar-repositorio">1- Clonar repositório<a class="headerlink" href="#1-clonar-repositorio" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>Clonar repositório localmente através do comando:</li>
+</ul>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/transparencia-mg/guia-transparencia-ativa.git
+</code></pre></div>
+<h3 id="2-instalacao-e-configuracao">2 - Instalação e configuração<a class="headerlink" href="#2-instalacao-e-configuracao" title="Permanent link">⚓︎</a></h3>
 <h3 id="ambiente-virtual-venv">Ambiente virtual <code>venv</code><a class="headerlink" href="#ambiente-virtual-venv" title="Permanent link">⚓︎</a></h3>
-<p>1- Se as dependências python <strong>não</strong> estiverem instaladas em um ambiente virtual <code>venv</code>, siga os passos:</p>
+<ul>
+<li>Se as dependências python <strong>não</strong> estiverem instaladas em um ambiente virtual <code>venv</code>, siga os passos:<br>
+Nota: Para identificar se as dependências estão instaladas deve existir uma pasta chama <em>venv</em> junto as demais pastas do repositório.</li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="w"> </span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
 </code></pre></div>
-<p>2- Caso as dependências python estejam instaladas, lembre-se de ativar:</p>
+<ul>
+<li>Caso as dependências python estejam instaladas, lembre-se de ativar:</li>
+</ul>
 <div class="highlight"><pre><span></span><code>.<span class="w"> </span>venv/Scripts/activate<span class="w"> </span><span class="c1"># windows</span>
 .<span class="w"> </span>venv/bin/activate<span class="w"> </span><span class="c1"># linux</span>
 </code></pre></div>
@@ -1147,43 +1229,59 @@
 <p>Verificar se a biblioteca que consta <em><code>requirements.txt</code></em> está instalada no ambiente:</p>
 <p><div class="highlight"><pre><span></span><code>pip<span class="w"> </span>list<span class="w"> </span><span class="c1"># verifica quais bibliotecas estão instaladas</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-<span class="w"> </span>r<span class="w"> </span>requirements.txt<span class="w">  </span><span class="c1"># instala a biblioteca necessária</span>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w">  </span><span class="c1"># instala a biblioteca necessária</span>
 </code></pre></div>
 <strong>Observação:</strong><br> Após instalação verificar se todas as bibliotecas foram instaladas</p>
-<h3 id="mkdocs">MKdocs<a class="headerlink" href="#mkdocs" title="Permanent link">⚓︎</a></h3>
-<p>Para verificar como documento está antes de realizar qual alteração.</p>
-<p><div class="highlight"><pre><span></span><code>mkdocks<span class="w"> </span>serve
+<h3 id="2-criar-nova-branch">2 - Criar nova branch<a class="headerlink" href="#2-criar-nova-branch" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>
+<p>Criar uma <em>branch</em> para fazer as alterações necessárias. <strong>A nova <em>branch</em> deve ser criada a partir da <em>branch Review</em>.</strong></p>
+</li>
+<li>
+<p>Criar <em>branch</em> a partir da linha de comando:</p>
+</li>
+</ul>
+<p>Acessar a <em>branch Review</em> : 
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>review
+</code></pre></div>
+<img alt="image" src="https://user-images.githubusercontent.com/53793354/233437565-78cc3625-47cd-4af3-9d29-7ce427d4f2a2.png" /></p>
+<p>Em seguida crie a nova branch:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>-<span class="w"> </span>b<span class="w"> </span>&lt;nome<span class="w"> </span>da<span class="w"> </span>branch&gt;
+</code></pre></div>
+<p><img alt="image" src="https://user-images.githubusercontent.com/53793354/233439007-bb3b909c-6321-4afe-bbe6-529fbe9aed84.png" /></p>
+<ul>
+<li>Criar <em>branch</em> a partir da web no github:</li>
+</ul>
+<p>Entre na <em>branch Review</em> e em seguida digite o nome da nova branch na caixa de pesquisa.</p>
+<p><img alt="branch" src="https://user-images.githubusercontent.com/53793354/233434091-cffb7c56-5a1c-43f1-8537-82dc28c326e5.gif" /></p>
+<h3 id="verificar-documento-mkdocs">Verificar documento - MKdocs<a class="headerlink" href="#verificar-documento-mkdocs" title="Permanent link">⚓︎</a></h3>
+<p>Para verificar qual a situação do documento é necessário usar o comando: </p>
+<p><div class="highlight"><pre><span></span><code>mkdocs<span class="w"> </span>serve
 </code></pre></div>
 <strong>Observação:</strong><br> Caso o comando retorne erro referente a biblioteca '<em>babel</em>' ver <a href="https://github.com/transparencia-mg/handbook/issues/66">#66</a></p>
-<h1 id="alteracao-do-guia-de-transparencia">Alteração do Guia de Transparência<a class="headerlink" href="#alteracao-do-guia-de-transparencia" title="Permanent link">⚓︎</a></h1>
-<p>1- Clonar repositório localmente</p>
-<p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/transparencia-mg/guia-transparencia-ativa.git
-</code></pre></div>
-2- Criar uma <em>branch</em> para iniciar as alterações necessárias. <strong>A nova <em>branch</em> deve ser criada a partir da <em>branch Review</em>.</strong></p>
+<p>Copie e cole no navegador a url apresentada:</p>
+<p><img alt="image" src="https://user-images.githubusercontent.com/53793354/233441870-0fcffa44-e22d-40f1-8336-77dcf7b6ce31.png" /></p>
+<p>Para retornar o uso da linha de comando digite: <em>ctrl +c</em></p>
+<h3 id="alteracoes">Alterações<a class="headerlink" href="#alteracoes" title="Permanent link">⚓︎</a></h3>
 <ul>
-<li>Criar <em>branch</em> a partir da linha de comando:</li>
+<li>Todas as alterações devem ser realizadas na pasta <em>docs</em>. Após todas as alterações e <em>commits</em> serem realizados será necessário a abertura do <em>Pull request</em>.</li>
 </ul>
-<p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>-<span class="w"> </span>b<span class="w"> </span>&lt;nome<span class="w"> </span>da<span class="w"> </span>branch&gt;
-</code></pre></div>
-- Criar <em>branch</em> a partir da web no github:</p>
-<p>Entre na <em>branch Review</em> e em seguida digite o nome da nova branch na caixa de pesquisa.</p>
-<h2 id="colocar-imagem">COLOCAR IMAGEM<a class="headerlink" href="#colocar-imagem" title="Permanent link">⚓︎</a></h2>
-<p>3- Verificar qual a versão do projeto através da <em>url</em>. Para isso é necessário usar o comando 'mkdocks serve' para gerar a URL.</p>
-<p>COLOCAR IMAGEM</p>
-<p>4- Após todas as alterações e <em>commits</em> serem realizados será necessário a abertura do <em>Pull request</em>.</p>
-<p><strong>Importante:</strong> <br>O <em>Pull request</em> deve fazer deve fazer referência a <em>branch Review</em> e não a <em>branch main</em></p>
-<h2 id="colocar-imagem_1">COLOCAR IMAGEM<a class="headerlink" href="#colocar-imagem_1" title="Permanent link">⚓︎</a></h2>
-<p>5- O responsável pela revisão irá realizar o merge do <em>pull request</em>. Após todas as alterações propostas serão migradas para a <em>branch Review</em>.</p>
-<h1 id="publicar-guia-de-transparencia">Publicar Guia de Transparência<a class="headerlink" href="#publicar-guia-de-transparencia" title="Permanent link">⚓︎</a></h1>
-<h1 id="erro-na-publicacao-do-documento">Erro na publicação do documento<a class="headerlink" href="#erro-na-publicacao-do-documento" title="Permanent link">⚓︎</a></h1>
-<p>Ver vídeo 31:34</p>
+<p><strong>Importante:</strong> <br>O <em>Pull request</em> deve fazer referência a <em>branch Review</em> e não a <em>branch main</em></p>
+<p><img alt="image" src="https://user-images.githubusercontent.com/53793354/233443519-ae6c9717-7fbc-4e41-89f9-9dd6b7ffbf7b.png" /></p>
+<ul>
+<li>O responsável pela revisão irá realizar o merge do <em>pull request</em>. Após o merge todas as alterações propostas serão migradas para a <em>branch Review</em>.</li>
+</ul>
+<h3 id="publicar-guia-de-transparencia">Publicar Guia de Transparência<a class="headerlink" href="#publicar-guia-de-transparencia" title="Permanent link">⚓︎</a></h3>
+<p>O passo a passo de todas as informações acima podem ser assistidas nos vídeos disponíveis em:</p>
+<p>https://youtu.be/p3IncxI16s0</p>
+<p>https://youtu.be/vRK_Pu8Txxc</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Ultima atualização:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 20, 2023 16:44:52</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 20, 2023 17:37:58</span>
       
         <br>
         Criado em:
