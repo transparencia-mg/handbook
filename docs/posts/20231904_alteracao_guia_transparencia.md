@@ -44,21 +44,40 @@ mkdocks serve
 
 # Alteração do Guia de Transparência
 
-1- Verificar a versão do projeto através da *url*. Para isso é necessário usar o comando 'mkdocks serve' para gerar a URL.
+1- Clonar repositório localmente
 
-COLOCAR IMAGEM
-
-2- Crie uma *branch* para iniciar as alterações necessárias. A nova *branch* deverá ser criada a partir da *branch Review*.
+```bash
+git clone https://github.com/transparencia-mg/guia-transparencia-ativa.git
+```
+2- Criar uma *branch* para iniciar as alterações necessárias. **A nova *branch* deve ser criada a partir da *branch Review*.**
 
   - Criar *branch* a partir da linha de comando:
 
 ```bash
-
+git checkout - b <nome da branch>
 ```
+- Criar *branch* a partir da web no github:
+
+Entre na *branch Review* e em seguida digite o nome da nova branch na caixa de pesquisa.
+
+COLOCAR IMAGEM
+--
+3- Verificar qual a versão do projeto através da *url*. Para isso é necessário usar o comando 'mkdocks serve' para gerar a URL.
+
+COLOCAR IMAGEM
+
+4- Após todas as alterações e *commits* serem realizados será necessário a abertura do *Pull request*.
+
+**Importante:** <br>O *Pull request* deve fazer deve fazer referência a *branch Review* e não a *branch main*
+
+COLOCAR IMAGEM
+--
+
+5- O responsável pela revisão irá realizar o merge do *pull request*. Após todas as alterações propostas serão migradas para a *branch Review*.
 
 # Publicar Guia de Transparência
 
-Ver vídeo 
+
 
 # Erro na publicação do documento
 
