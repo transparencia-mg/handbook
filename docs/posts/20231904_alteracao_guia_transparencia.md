@@ -4,17 +4,29 @@ tags:
   - Alteração Guia de Transparência Ativa
 ---
 
-# Instalação e configuração
+# Alteração dados do Guia de Transparência
+
+### 1- Clonar repositório
+
+- Clonar repositório localmente através do comando:
+
+```bash
+git clone https://github.com/transparencia-mg/guia-transparencia-ativa.git
+```
+
+
+### 2 - Instalação e configuração
 
 ### Ambiente virtual `venv`
 
-1- Se as dependências python **não** estiverem instaladas em um ambiente virtual `venv`, siga os passos:
+* Se as dependências python **não** estiverem instaladas em um ambiente virtual `venv`, siga os passos:<br>
+Nota: Para identificar se as dependências estão instaladas deve existir uma pasta chama *venv* junto as demais pastas do repositório.
 
 ```bash
  python -m venv venv
 ```
 
-2- Caso as dependências python estejam instaladas, lembre-se de ativar:
+* Caso as dependências python estejam instaladas, lembre-se de ativar:
 
 ```bash
 . venv/Scripts/activate # windows
@@ -28,57 +40,66 @@ Verificar se a biblioteca que consta *`requirements.txt`* está instalada no amb
 pip list # verifica quais bibliotecas estão instaladas
 ```
 ```bash
-pip install - r requirements.txt  # instala a biblioteca necessária
+pip install -r requirements.txt  # instala a biblioteca necessária
 ```
 **Observação:**<br> Após instalação verificar se todas as bibliotecas foram instaladas
 
-### MKdocs
+### 2 - Criar nova branch
 
-Para verificar como documento está antes de realizar qual alteração.
-
-```bash
-mkdocks serve
-```
-**Observação:**<br> Caso o comando retorne erro referente a biblioteca '*babel*' ver [#66](https://github.com/transparencia-mg/handbook/issues/66)
-
-
-# Alteração do Guia de Transparência
-
-1- Clonar repositório localmente
-
-```bash
-git clone https://github.com/transparencia-mg/guia-transparencia-ativa.git
-```
-2- Criar uma *branch* para iniciar as alterações necessárias. **A nova *branch* deve ser criada a partir da *branch Review*.**
+* Criar uma *branch* para fazer as alterações necessárias. **A nova *branch* deve ser criada a partir da *branch Review*.**
 
   - Criar *branch* a partir da linha de comando:
+
+Acessar a *branch Review* : 
+```bash
+git checkout review
+```
+![image](https://user-images.githubusercontent.com/53793354/233437565-78cc3625-47cd-4af3-9d29-7ce427d4f2a2.png)
+
+Em seguida crie a nova branch:
 
 ```bash
 git checkout - b <nome da branch>
 ```
+
+![image](https://user-images.githubusercontent.com/53793354/233439007-bb3b909c-6321-4afe-bbe6-529fbe9aed84.png)
+
 - Criar *branch* a partir da web no github:
 
 Entre na *branch Review* e em seguida digite o nome da nova branch na caixa de pesquisa.
 
-COLOCAR IMAGEM
---
-3- Verificar qual a versão do projeto através da *url*. Para isso é necessário usar o comando 'mkdocks serve' para gerar a URL.
+![branch](https://user-images.githubusercontent.com/53793354/233434091-cffb7c56-5a1c-43f1-8537-82dc28c326e5.gif)
 
-COLOCAR IMAGEM
+### Verificar documento - MKdocs
 
-4- Após todas as alterações e *commits* serem realizados será necessário a abertura do *Pull request*.
+Para verificar qual a situação do documento é necessário usar o comando: 
 
-**Importante:** <br>O *Pull request* deve fazer deve fazer referência a *branch Review* e não a *branch main*
+```bash
+mkdocs serve
+```
+**Observação:**<br> Caso o comando retorne erro referente a biblioteca '*babel*' ver [#66](https://github.com/transparencia-mg/handbook/issues/66)
 
-COLOCAR IMAGEM
---
+Copie e cole no navegador a url apresentada:
 
-5- O responsável pela revisão irá realizar o merge do *pull request*. Após todas as alterações propostas serão migradas para a *branch Review*.
+![image](https://user-images.githubusercontent.com/53793354/233441870-0fcffa44-e22d-40f1-8336-77dcf7b6ce31.png)
 
-# Publicar Guia de Transparência
+Para retornar o uso da linha de comando digite: *ctrl +c*
+
+### Alterações
+
+* Todas as alterações devem ser realizadas na pasta *docs*. Após todas as alterações e *commits* serem realizados será necessário a abertura do *Pull request*.
+
+**Importante:** <br>O *Pull request* deve fazer referência a *branch Review* e não a *branch main*
+
+![image](https://user-images.githubusercontent.com/53793354/233443519-ae6c9717-7fbc-4e41-89f9-9dd6b7ffbf7b.png)
+
+* O responsável pela revisão irá realizar o merge do *pull request*. Após o merge todas as alterações propostas serão migradas para a *branch Review*.
+
+### Publicar Guia de Transparência
 
 
+O passo a passo de todas as informações acima podem ser assistidas nos vídeos disponíveis em:
 
-# Erro na publicação do documento
+https://youtu.be/p3IncxI16s0
 
-Ver vídeo 31:34
+https://youtu.be/vRK_Pu8Txxc
