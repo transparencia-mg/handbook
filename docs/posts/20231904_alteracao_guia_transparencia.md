@@ -87,7 +87,14 @@ Para retornar o uso da linha de comando digite: *ctrl +c*
 
 ### Alterações
 
-* Todas as alterações devem ser realizadas na pasta *docs*. Após todas as alterações e *commits* serem realizados será necessário a abertura do *Pull request*.
+* Todas as alterações devem ser realizadas na pasta *docs*. 
+* Antes de realizar o commit é importante verificar se todas as alterações estão conforme o desejado, isso evita um retrabalho desnecessário caso tenha esquecido de algo. Utilize o comando:
+
+```bash
+mkdocs serve
+```
+
+* Após todas as alterações e *commits* serem realizados será necessário a abertura do *Pull request*.
 
 **Importante:** <br>O *Pull request* deve fazer referência a *branch Review* e não a *branch main*
 
