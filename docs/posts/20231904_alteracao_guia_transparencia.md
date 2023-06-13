@@ -42,7 +42,10 @@ pip list # verifica quais bibliotecas estão instaladas
 ```bash
 pip install -r requirements.txt  # instala a biblioteca necessária
 ```
-**Observação:**<br> Após instalação verificar se todas as bibliotecas foram instaladas
+**Observação:**<br>
+- Após instalação verificar se todas as bibliotecas foram instaladas
+- Verificar se a versão do *Babel* é a 2.11.0, caso não seja seguir os passos #66
+
 
 ### 2 - Criar nova branch
 
