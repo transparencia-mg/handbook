@@ -8,3 +8,6 @@ tags:
 
 - [Chamados DTIC](https://atendimento.cge.mg.gov.br/):
     - Acesso com mesmo usuário e senha da rede (computadores camg), ou seja utilizar masp como usuário.
+
+- [Chamados RH](https://atendimento.cge.mg.gov.br/):
+    - Acesso com mesmo usuário e senha da rede (computadores camg), ou seja utilizar masp como usuário.
