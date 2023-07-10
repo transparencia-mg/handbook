@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Treinamento Dados Aberto Antônio Marcel
 
 **Data:** 10/07/2023
