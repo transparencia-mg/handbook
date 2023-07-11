@@ -59,6 +59,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight
+  - md_in_html
   - toc:
       permalink: ⚓︎
   - pymdownx.superfences:
@@ -99,7 +100,7 @@ extra: # Footer
 
 plugins:
   - git-revision-date-localized:
-      enable_creation_date: true 
+      enable_creation_date: true
       type: datetime
       enable_creation_date: true
   - mike:
