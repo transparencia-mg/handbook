@@ -2,7 +2,7 @@
 comments: true
 tags:
   - CKAN
-  - Webmário
+  - Webnário
 ---
 
 # Apresentação Datapackage Manager for CKAN - dpckan
