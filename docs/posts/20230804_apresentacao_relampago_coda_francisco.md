@@ -35,6 +35,7 @@ Estas publicações estão em formato aberto, com documentação em texto simple
 Em resumo, propomos a utilização dos padrões de metadados Frictionless em um processo sucinto, quase como um código-fonte, o que nos ajuda a armazenar e revisar as informações adequadamente.
 **Os benefícios percebidos são economia de tempo em equipes cada vez mais sobrecarregadas, colaboração facilitada, permitir que as mudanças sejam compreendidas em contexto histórico, evitar a obsolescência da documentação e garantir o foco no trabalho de análise dos dados**[^4].
 
+
 [^1]: Revisão realizada com auxílio do [ChatGPT](https://chat.openai.com/).
 [^2]: Transcrição autogerada do vídeo do YouTube.
 [^3]: Podemos complementar esta brincadeira parafraseando [@mtholder](https://twitter.com/kcranstn/status/370914072511791104?s=20), para dizer que você, de 6 meses atrás, não está mais disponível.
