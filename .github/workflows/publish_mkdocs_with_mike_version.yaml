@@ -12,4 +12,4 @@ jobs:
   publish_mkdocs_wth_mike_version:
     uses: o-futuro-ja-comecou/github-actions-reutilizaveis/.github/workflows/publish_mkdocs_with_mike_version_reusable.yml@main
     with:
-        doc_version: 0.1
+        doc_version: '0.1'
