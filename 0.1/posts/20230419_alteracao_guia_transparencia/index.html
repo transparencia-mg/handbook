@@ -1055,8 +1055,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#publicar-guia-de-transparencia" class="md-nav__link">
-    Publicar Guia de Transparência
+  <a href="#publicar-nova-versao-do-guia-de-transparencia" class="md-nav__link">
+    Publicar nova versão do Guia de Transparência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atualizar-versao-ja-publicada-do-guia-de-transparencia" class="md-nav__link">
+    Atualizar versão já publicada do Guia de Transparência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-a-passo" class="md-nav__link">
+    Passo a passo
   </a>
   
 </li>
@@ -1278,8 +1292,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#publicar-guia-de-transparencia" class="md-nav__link">
-    Publicar Guia de Transparência
+  <a href="#publicar-nova-versao-do-guia-de-transparencia" class="md-nav__link">
+    Publicar nova versão do Guia de Transparência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atualizar-versao-ja-publicada-do-guia-de-transparencia" class="md-nav__link">
+    Atualizar versão já publicada do Guia de Transparência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passo-a-passo" class="md-nav__link">
+    Passo a passo
   </a>
   
 </li>
@@ -1390,17 +1418,29 @@ Nota: Para identificar se as dependências estão instaladas deve existir uma pa
 <ul>
 <li>O responsável pela revisão irá realizar o merge do <em>pull request</em>. Após o merge todas as alterações propostas serão migradas para a <em>branch Review</em>.</li>
 </ul>
-<h3 id="publicar-guia-de-transparencia">Publicar Guia de Transparência<a class="headerlink" href="#publicar-guia-de-transparencia" title="Permanent link">⚓︎</a></h3>
-<p>O passo a passo de todas as informações acima podem ser assistidas nos vídeos disponíveis em:</p>
+<h3 id="publicar-nova-versao-do-guia-de-transparencia">Publicar nova versão do Guia de Transparência<a class="headerlink" href="#publicar-nova-versao-do-guia-de-transparencia" title="Permanent link">⚓︎</a></h3>
+<p>1- Para fazer a publicação de uma nova versão basta alterar o arquivo <code>Makefile</code> com a versão desejada.</p>
+<p><img alt="image" src="https://github.com/transparencia-mg/handbook/assets/53793354/51f89928-f218-4b89-881c-0079027366a3" /></p>
+<p>2- Outra opção de publicação é rodar o comando <code>mike deploy --push --update-aliases [versão] latest</code>.</p>
+<p>Exemplo:
+Para publicar a versão 'v3' digite: <code>mike deploy --push --update-aliases v3 latest</code></p>
+<h3 id="atualizar-versao-ja-publicada-do-guia-de-transparencia">Atualizar versão já publicada do Guia de Transparência<a class="headerlink" href="#atualizar-versao-ja-publicada-do-guia-de-transparencia" title="Permanent link">⚓︎</a></h3>
+<p>Para atualizar a versão atualmente publicada bastará fazer um <code>push</code> para a branch <code>main</code>. </p>
+<p><strong>Nota</strong>: Caso ocorra algum erro na atualização utilize o comando: <code>make gh-deploy-mike</code>.</p>
+<p>Obs.: Lembrar de ativar ambiente virtual Python com todos os pacotes listados no arquivo <code>requirements.txt</code> instalados antes de rodar <code>make gh-deploy-mike</code> .</p>
+<h3 id="passo-a-passo">Passo a passo<a class="headerlink" href="#passo-a-passo" title="Permanent link">⚓︎</a></h3>
+<p>O passo a passo de todas as informações acima podem estão disponíveis em:</p>
 <p>https://youtu.be/p3IncxI16s0</p>
 <p>https://youtu.be/vRK_Pu8Txxc</p>
+<p>https://github.com/transparencia-mg/guia-transparencia-ativa/pull/23</p>
+<p>https://github.com/transparencia-mg/guia-transparencia-ativa/issues/22</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Ultima atualização:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 4, 2023 18:36:28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 9, 2023 12:21:39</span>
       
         <br>
         Criado em:
