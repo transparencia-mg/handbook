@@ -104,11 +104,34 @@ mkdocs serve
 
 * O responsável pela revisão irá realizar o merge do *pull request*. Após o merge todas as alterações propostas serão migradas para a *branch Review*.
 
-### Publicar Guia de Transparência
+### Publicar nova versão do Guia de Transparência
 
+1- Para fazer a publicação de uma nova versão basta alterar o arquivo `Makefile` com a versão desejada.
 
-O passo a passo de todas as informações acima podem ser assistidas nos vídeos disponíveis em:
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/51f89928-f218-4b89-881c-0079027366a3)
+
+2- Outra opção de publicação é rodar o comando `mike deploy --push --update-aliases [versão] latest`.
+
+Exemplo:
+Para publicar a versão 'v3' digite: `mike deploy --push --update-aliases v3 latest`
+
+### Atualizar versão já publicada do Guia de Transparência
+
+Para atualizar a versão atualmente publicada bastará fazer um `push` para a branch `main`. 
+
+**Nota**: Caso ocorra algum erro na atualização utilize o comando: `make gh-deploy-mike`.
+
+Obs.: Lembrar de ativar ambiente virtual Python com todos os pacotes listados no arquivo `requirements.txt` instalados antes de rodar `make gh-deploy-mike` .
+
+### Passo a passo
+
+O passo a passo de todas as informações acima podem estão disponíveis em:
 
 https://youtu.be/p3IncxI16s0
 
 https://youtu.be/vRK_Pu8Txxc
+
+https://github.com/transparencia-mg/guia-transparencia-ativa/pull/23
+
+https://github.com/transparencia-mg/guia-transparencia-ativa/issues/22
+
