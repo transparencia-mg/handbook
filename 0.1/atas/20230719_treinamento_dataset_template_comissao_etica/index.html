@@ -13,7 +13,7 @@
     
     
       
-        <title>Treinamento Dados Aberto - Novo Dataset Template - Diretoria Central de Transparência Ativa - Handbook</title>
+        <title>Treinamento Dados Abertos - Novo Dataset Template - Diretoria Central de Transparência Ativa - Handbook</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#treinamento-dados-aberto-novo-dataset-template" class="md-skip">
+        <a href="#treinamento-dados-abertos-novo-dataset-template" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Treinamento Dados Aberto - Novo Dataset Template
+              Treinamento Dados Abertos - Novo Dataset Template
             
           </span>
         </div>
@@ -522,12 +522,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Treinamento Dados Aberto - Novo Dataset Template
+          Treinamento Dados Abertos - Novo Dataset Template
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Treinamento Dados Aberto - Novo Dataset Template
+        Treinamento Dados Abertos - Novo Dataset Template
       </a>
       
         
@@ -570,6 +570,26 @@
   <a href="#assuntos-tratados" class="md-nav__link">
     Assuntos tratados
   </a>
+  
+    <nav class="md-nav" aria-label="Assuntos tratados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-execucao" class="md-nav__link">
+    Fluxo de execução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-do-projeto" class="md-nav__link">
+    Setup do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1226,6 +1246,26 @@
     Assuntos tratados
   </a>
   
+    <nav class="md-nav" aria-label="Assuntos tratados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-execucao" class="md-nav__link">
+    Fluxo de execução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-do-projeto" class="md-nav__link">
+    Setup do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1251,12 +1291,12 @@
   </a>
 
 
-<h1 id="treinamento-dados-aberto-novo-dataset-template">Treinamento Dados Aberto - Novo Dataset Template<a class="headerlink" href="#treinamento-dados-aberto-novo-dataset-template" title="Permanent link">⚓︎</a></h1>
+<h1 id="treinamento-dados-abertos-novo-dataset-template">Treinamento Dados Abertos - Novo Dataset Template<a class="headerlink" href="#treinamento-dados-abertos-novo-dataset-template" title="Permanent link">⚓︎</a></h1>
 <p><strong>Data:</strong> 18/07/2023</p>
 <h2 id="participantes">Participantes:<a class="headerlink" href="#participantes" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li>Gabriel Dornas</li>
-<li>Antônio Marcel</li>
+<li>Antonio Marcel</li>
 </ul>
 <h2 id="gravacao-do-encontro">Gravação do encontro<a class="headerlink" href="#gravacao-do-encontro" title="Permanent link">⚓︎</a></h2>
 <p><a href="https://youtu.be/VbsRpYB1G-U"><img alt="Watch the video" src="https://img.youtube.com/vi/Y1ZKHX0sAfg/maxresdefault.jpg" /></a></p>
@@ -1268,13 +1308,67 @@
 <li><a href="https://homologa.cge.mg.gov.br/dataset/lista-comissoes-treinadas-spci">Conjunto publicado em ambiente homologação</a>.</li>
 </ul>
 <h2 id="assuntos-tratados">Assuntos tratados<a class="headerlink" href="#assuntos-tratados" title="Permanent link">⚓︎</a></h2>
+<p>O new dataset template é um conjunto de automatizações desenvolvidas pela Diretoria Central de Transparência Ativa - DCTA/CGE para criação, documentação, validação e publicação (criação e atualização em instâncias do CKAN) de conjunto de dados ou datasets.</p>
+<h3 id="fluxo-de-execucao">Fluxo de execução<a class="headerlink" href="#fluxo-de-execucao" title="Permanent link">⚓︎</a></h3>
+<div class="mermaid">graph TD;
+    1(Início)--&gt;2;
+    2[Forcar dataset template]--&gt;3;
+    3[Cadastrar secrets]--&gt;4;
+    4[Configurar github pages]--&gt;5;
+    5[Incluir arquivo .xls na pasta upload]--&gt;6;
+    6[Script publica novo conjunto no CKAN]--&gt;7;
+    7(Fim)</div>
+<h3 id="setup-do-projeto">Setup do projeto<a class="headerlink" href="#setup-do-projeto" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>Realize o fork do projeto (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):</li>
+</ul>
+<p><img alt="Fork-do-Projeto" src="https://camo.githubusercontent.com/bcfa46bd43ef1711eaf0a4556fd63a1427e0cab05ac7e7df5f6e6f72ed803ea0/68747470733a2f2f696d6775722e636f6d2f754f5a6c6838612e706e67" /></p>
+<ul>
+<li>Selecione a organização a qual o novo conjunto de dados será criado e preencha o nome do novo repositório (o nome deverá ser o mesmo do conjunto que será criado na instância do CKAN).</li>
+</ul>
+<p><img alt="Organização" src="https://camo.githubusercontent.com/721c75279b5e41b149f86718da4329234dade6aa6a7c612f578002859082bb59/68747470733a2f2f696d6775722e636f6d2f6271536a7379512e706e67" /></p>
+<ul>
+<li>Cadastre Secrets para publicação em instância CKAN:</li>
+</ul>
+<p><img alt="Settings" src="https://camo.githubusercontent.com/9eaad8cc30f8a8c48d341d16e70c8a23a30177b33b7daeb6309ab815f7768ad4/68747470733a2f2f696d6775722e636f6d2f49334f465177752e706e67" />
+<img alt="Secrets" src="https://camo.githubusercontent.com/753262b182e18ce29efeaabc6ba284ef8c5bee754f77575e22123097095b7856/68747470733a2f2f696d6775722e636f6d2f61616e30484e642e706e67" />
+<img alt="New repository secret" src="https://camo.githubusercontent.com/e0e329e4ce1c5f80217bf9de4cdbed9387591dfc10f61fd806077ea9f61de87c/68747470733a2f2f696d6775722e636f6d2f586732544c43642e706e67" /></p>
+<ul>
+<li>
+<p>Deverão ser criadas três secrets:</p>
+<ul>
+<li>
+<p>OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após https://ckan-instance/organization/)</p>
+</li>
+<li>
+<p>CKAN_HOST: Instância CKAN desejada, exemplo: https://homologa.cge.mg.gov.br</p>
+</li>
+<li>
+<p>CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é gabrielbdornas este secret será CKAN_KEY_GABRIELBDORNAS. Para o andrelamor, o secret CKAN_KEY_ANDRELAMOR</p>
+<ul>
+<li>Necessário criar um novo API Token na instância CKAN desejada (copiar e colar o valor API TOKEN created da 4ª tela printada a seguir):</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="API Token 1" src="https://camo.githubusercontent.com/a96e640138cbea88e09971eb3d61328002fc6d972351fe8cd1b7d4b46f790d15/68747470733a2f2f696d6775722e636f6d2f447231567847382e706e67" /></p>
+<p><img alt="API Token 2" src="https://camo.githubusercontent.com/9a90d54821274b4353838472bb29a2966ae8f09aa8da7af76368e636d39e0f7d/68747470733a2f2f696d6775722e636f6d2f547055516f4c4d2e706e67" /></p>
+<p><img alt="API Token 3" src="https://camo.githubusercontent.com/0b27ba4afc4d3f0e0c73c648d345d4ebae7f3f44e290f69e5dff93897c51572a/68747470733a2f2f696d6775722e636f6d2f417744386867632e706e67" /></p>
+<p><img alt="API Token 4" src="https://camo.githubusercontent.com/d85d76be449c06c3eb75f35fbc9532c4ac1bfb97bed262ed2385fd8c3f9ecb2a/68747470733a2f2f696d6775722e636f6d2f347167443748532e706e67" /></p>
+<ul>
+<li>Configurar permissão para Actions ler e escrever no repositório:</li>
+</ul>
+<p>OBS.: Caso a permissão para Actions ler e escrever no repositório não esteja habilitada, esta configuração deverá ser feita também no nível da organização.</p>
+<p><img alt="Actions-Settings-1" src="https://camo.githubusercontent.com/9eaad8cc30f8a8c48d341d16e70c8a23a30177b33b7daeb6309ab815f7768ad4/68747470733a2f2f696d6775722e636f6d2f49334f465177752e706e67" /></p>
+<p><img alt="Actions-Settings-2" src="https://user-images.githubusercontent.com/49699290/254383904-7e5f739a-1b15-4bd1-a225-1cd75655d80b.png" /></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Ultima atualização:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 19, 2023 17:22:44</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 9, 2023 20:46:29</span>
       
         <br>
         Criado em:
