@@ -1,6 +1,6 @@
 # Atualização e validação no GitHub
 
-#### 2.1 Premissas
+## Premissas
 
 Sempre que os dados forem alterados as novas informações devem ser atualizadas no repositório do GitHub.
 
@@ -8,7 +8,7 @@ Sempre que os dados forem alterados as novas informações devem ser atualizadas
 2) A ordem das colunas não podem ser alteradas;
 3) O arquivo deve ser salvo no formato .xlxs.
 
-#### 2.2 Atualização
+## 1. Atualização
 
 - Clicar na pasta "dataset" para alterar os aquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKEGE.yaml
     
@@ -16,92 +16,61 @@ Sempre que os dados forem alterados as novas informações devem ser atualizadas
 
 - Clicar na pasta "upload" para os arquivos em excel (XLSX)
 
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/4a172a62-1d24-4192-9305-e8cfbe956984)
 
+As modificações automáticas só serão publicadas no CKAN se as alterações forem realizadas nestas pastas.
 
- As modificações automáticas só serão publicadas no CKAN se as alterações forem realizadas nestas pastas.
-
-
+### 1.1 Upload
 
 Após a atualização dos dados, acesse a sua conta do [Github](https://github.com/login) e em seguida acesse o repositório do conjunto de dados a ser alterado.
 
 - Na pasta **/upload/** clique em *Add file* (Adicionar arquivo) e em seguida clique em *upload files* (upload de arquivos*);
 
-![](static/upload.png)
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/59024edd-60e0-4857-9783-dae6eb93d2b0)
 
 - Arraste o arquivo ou clique em *choose your files* para selecionar o arquivo no computador local.
 
-![](static/arrastar.png)
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/0da232cc-69c1-4636-bf72-dcb0a868853f)
 
 - Após o arquivo ser carregado digite na área *Commit changes* uma mensagem curta e significativa que descreva a alteração feita no arquivo e clique no botão verde *Commit changes*                    
  ***Exemplo***: *Atualiza arquivo conforme a Deliberação XX.*
 
-![](static/commit.png)
-
-## 3. Validação
-
-Após realizar o *commit* do arquivo é necessário verificar se o mesmo foi validado, ou seja, se o arquivo está de acordo com as regras de validação estabelecidas.
-
-Caso **não seja realizado nenhuma alteração** do arquivo carregado o fluxo de validação não será iniciado, pois o sistema irá considerar a mesma *hash*.
-
-- Na página do [Repositório](https://github.com/transparencia-mg/acordo-judicial-reparacao-vale) clique em *Actions*. O campo *All workflows* irá apresentar todos os *commits* realizados no repositório.
-- Clique no *commit* desejado e verifique o fluxo de validação.
-
-![](static/actions.png)
-
-- Se o processo for exibido como concluído em todas as etapas, apenas verifique no Portal de Dados Abertos se os dados alterados realmente foram carregados.
-
-![](static/fluxo-validacao.png)
-
-- Se aparecer algum problema durante a validação, siga os passos abaixo:
-
-  - Clique em *validate* e no link que apresenta o erro de validação;
-  - Em seguida verifique qual o erro apresentado e faça as correções necessárias.
-
-![](static/erro.png)
-
----
-
-![](static/erro-link.png)
-
--------
-
-![](static/erro-frictionless.png)
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/0d2068c9-3c59-4306-bebf-49accf8ab0e9)
 
 
-* Faça novamente o *upload* do arquivo corrigido e repita os passos executados anteriormente.
+### 1.2 Alterações nos demais arquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKEGE.yaml
 
-## 4. Controle de Alterações (Changelog)
+Usaremos como exemplo o arquivo "Changelog".
 
-Um changelog é um arquivo que contém uma lista selecionada, ordenada cronologicamente, de mudanças significativas para cada versão de um projeto.
-
-Para facilitar que usuários e contribuidores vejam precisamente quais mudanças significativas foram realizadas entre cada versão publicada de um projeto é necessário que todas as alterações relevenantes sejam documentadas.
-
-* Acesse o arquivo [CHANGELOG.md](https://github.com/transparencia-mg/acordo-judicial-reparacao-vale-projetos/blob/main/CHANGELOG.md);
+* Acesse o arquivo [CHANGELOG.md]() dentro da pasta dataset;
 * Clique em *Edit this file*;
-* Indique o número correspondente e a data em que o arquivo .xlsx foi atualizado;
-  - [x.x.x] - AAAA-MM-DD e
-  - Descrição da alteração.
-
+  
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/a48d687a-87c5-4e31-ab19-2f1b090b7bbf)
 
 * Após as informações serem inseridas digite na área *Commit changes* uma mensagem curta e significativa que descreva a alteração feita no arquivo e clique no botão verde *Commit changes*.
 
 ***Nota***: Para acrescentar um link em algum texto coloque entre colchetes o  [TEXTO] e o link entre parênteses(LINK).
   * **Exemplo**: '[texto] (link)', não deve haver espaço entre o último colchete eo primeiro parêntese.
 
-![](static/controle-alteracoes.gif)
 
+## 2. Validação
 
-## 5. Acrescentar novos projetos
+Após realizar o *commit* do arquivo é necessário verificar se o mesmo foi validado, ou seja, se o arquivo está de acordo com as regras de validação estabelecidas.
 
-Caso alguma deliberação crie ou altere o código ou descrição de algum projeto é necessário que essa alteração seja refletida no *enum* da tabela correspondente dentro do arquivo *Schema*. Os valores dentro do *enum*  devem corresponder exatamente a um valor na tabela matriz.
+Caso **não seja realizado nenhuma alteração** do arquivo carregado o fluxo de validação não será iniciado, pois o sistema irá considerar a mesma *hash*.
 
-**Exemplo**:
-O *enum* da tabela codigo_projeto é representado pelos códigos dos projetos. Caso o arquivo .xlsx contenha algum código de projeto não listado no *enum* da tabela ocorrerá erro no momento da validação.
+- Na página do Repositório clique em *Actions*. 
 
-* Clique em *Schema >> [schema_v1.yaml](https://github.com/transparencia-mg/acordo-judicial-reparacao-vale-projetos/blob/main/schemas/schema_v1.yaml)*;
-* Para editar os dados clique em *Edit this file* e localize a tabela que deseja alterar;
-* Insira a alteração obedecendo a mesma formatação utilizada;
-* Após as informações serem inseridas digite na área *Commit changes* uma mensagem curta e significativa que descreva a alteração feita no arquivo e clique no botão verde *Commit changes*.
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/08db381f-5954-40ef-b526-ba87f21fc14d)
 
+- Se o processo for exibido como concluído em todas as etapas, apenas verifique no Portal de Dados Abertos se os dados alterados realmente foram carregados.
 
-![](static/altera-schema.gif)
+- Se aparecer algum problema durante a validação, siga os passos abaixo:
+
+  - Clique em *validate* e no link que apresenta o erro de validação;
+  - Em seguida verifique qual o erro apresentado e faça as correções necessárias.
+
+![image](https://github.com/transparencia-mg/handbook/assets/53793354/78fe8ce3-0ce1-41c6-8603-09c7c776fb61)
+
+* Faça novamente o *upload* do arquivo corrigido e repita os passos executados anteriormente.
+
