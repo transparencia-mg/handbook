@@ -6,15 +6,15 @@ Sempre que os dados forem alterados as novas informações devem ser atualizadas
 
 1) O nome da planilha não deve ser alterado;
 2) A ordem das colunas não podem ser alteradas;
-3) O arquivo deve ser salvo no formato .xlxs.
+3) O arquivo deve ser salvo no formato .xlxs
 
 ## 1. Atualização
 
-- Clicar na pasta "dataset" para alterar os aquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKEGE.yaml
+- Clicar na pasta "dataset" para alterar os aquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKAGE.yaml
     
-  **NÃO ALTERAR/EDITAR DATAPACKEGE.json, apenas mexer no DATAPACKEGE.yaml.**
+  **NÃO ALTERAR/EDITAR DATAPACKAGE.json, apenas mexer no DATAPACKAGE.yaml.**
 
-- Clicar na pasta "upload" para os arquivos em excel (XLSX)
+- Clicar na pasta "upload" para os arquivos em excel (.xlxs)
 
 ![image](https://github.com/transparencia-mg/handbook/assets/53793354/4a172a62-1d24-4192-9305-e8cfbe956984)
 
@@ -38,7 +38,7 @@ Após a atualização dos dados, acesse a sua conta do [Github](https://github.c
 ![image](https://github.com/transparencia-mg/handbook/assets/53793354/0d2068c9-3c59-4306-bebf-49accf8ab0e9)
 
 
-### 1.2 Alterações nos demais arquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKEGE.yaml
+### 1.2 Alterações nos demais arquivos: README, CHANGELOG, CONTRIBUTING, DATAPACKAGE.yaml
 
 Usaremos como exemplo o arquivo "Changelog".
 
