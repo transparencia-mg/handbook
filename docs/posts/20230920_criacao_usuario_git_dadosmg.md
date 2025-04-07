@@ -6,7 +6,7 @@ Para o envio do conjunto de dados para o Portal de Dados Abertos do Estado de Mi
 ## Github
 
   - Acesse o Github através desse [link](https://github.com/signup?source=login) e siga os passos para a criação de uma conta.
-  - O nome do usuário deverá conter apenas letras e não poderá conter caracteres especiais e números.
+  - O nome do usuário deverá conter **apenas letras e não poderá conter caracteres especiais e números**.
   - Após criação do usuário, informe a equipe da DTA os usuários criados para que possamos vinculá-los ao repositório do Github.
 
 ## Portal de Dados Abertos
